@@ -1,22 +1,7 @@
 import Anthropic from '@anthropic-ai/sdk'
 import { writeFileSync } from 'fs'
 import { join } from 'path'
-
-interface NewsItem {
-  id: string
-  topic: 'AI' | 'Stock' | 'Election'
-  title: string
-  summary: string
-  source: string
-  url: string
-  publishedAt: string
-  imageUrl: string | null
-}
-
-interface NewsData {
-  lastUpdated: string
-  news: NewsItem[]
-}
+import { NewsItem, NewsData } from '../lib/types'
 
 const TOPICS = ['AI', 'Stock', 'Election'] as const
 const MAX_NEWS_PER_TOPIC = 4
@@ -119,7 +104,7 @@ Current Time: ${now.toISOString()}`
           return null
         }
 
-        return {
+        const newsItem: NewsItem = {
           id: `${topic.toLowerCase()}-${Date.now()}-${index}`,
           topic: topic as 'AI' | 'Stock' | 'Election',
           title: article.title,
@@ -127,10 +112,10 @@ Current Time: ${now.toISOString()}`
           source: article.source,
           url: article.url || 'https://example.com',
           publishedAt: publishedDate.toISOString(),
-          imageUrl: null,
         }
+        return newsItem
       })
-      .filter((item): item is NewsItem => item !== null) as NewsItem[] // Remove null items and assert type
+      .filter((item): item is NewsItem => item !== null)
 
     console.log(`✅ Successfully fetched ${newsItems.length} articles for ${topic} (within last 48 hours)`)
 
@@ -144,18 +129,16 @@ Current Time: ${now.toISOString()}`
     console.error(`❌ Error fetching news for ${topic}:`, error)
 
     // Return fallback news item
-    return [
-      {
-        id: `${topic.toLowerCase()}-fallback-${Date.now()}`,
-        topic: topic as 'AI' | 'Stock' | 'Election',
-        title: `${topic} News Update`,
-        summary: `Unable to fetch latest ${topic} news at this time. Our automated system encountered an issue. Please check back later for updates.`,
-        source: 'System',
-        url: 'https://example.com',
-        publishedAt: new Date().toISOString(),
-        imageUrl: null,
-      },
-    ]
+    const fallbackItem: NewsItem = {
+      id: `${topic.toLowerCase()}-fallback-${Date.now()}`,
+      topic: topic as 'AI' | 'Stock' | 'Election',
+      title: `${topic} News Update`,
+      summary: `Unable to fetch latest ${topic} news at this time. Our automated system encountered an issue. Please check back later for updates.`,
+      source: 'System',
+      url: 'https://example.com',
+      publishedAt: new Date().toISOString(),
+    }
+    return [fallbackItem]
   }
 }
 
