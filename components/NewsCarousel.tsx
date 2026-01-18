@@ -75,9 +75,9 @@ export default function NewsCarousel({ newsItems }: NewsCarouselProps) {
   }
 
   return (
-    <div className="relative w-full max-w-2xl mx-auto px-4">
+    <div className="relative w-full max-w-2xl mx-auto h-full flex flex-col">
       {/* Card Container */}
-      <div className="relative h-[500px] sm:h-[550px] flex items-center justify-center overflow-hidden">
+      <div className="relative flex-1 flex items-center justify-center overflow-hidden min-h-0">
         <AnimatePresence initial={false} custom={direction} mode="wait">
           <motion.div
             key={currentIndex}
@@ -95,19 +95,19 @@ export default function NewsCarousel({ newsItems }: NewsCarouselProps) {
             dragConstraints={{ left: 0, right: 0 }}
             dragElastic={0.2}
             onDragEnd={handleDragEnd}
-            className="absolute cursor-grab active:cursor-grabbing"
+            className="cursor-grab active:cursor-grabbing max-h-full overflow-auto"
           >
             <NewsCard news={newsItems[currentIndex]} />
           </motion.div>
         </AnimatePresence>
       </div>
 
-      {/* Navigation Arrows */}
+      {/* Navigation Arrows - Hidden on mobile, visible on tablet+ */}
       {newsItems.length > 1 && (
         <>
           <button
             onClick={() => paginate(-1)}
-            className="absolute left-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white p-3 rounded-full shadow-lg transition-all z-10 focus:outline-none focus:ring-2 focus:ring-gray-400"
+            className="hidden sm:block absolute -left-16 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white p-3 rounded-full shadow-lg transition-all z-10 focus:outline-none focus:ring-2 focus:ring-gray-400"
             aria-label="Previous card"
           >
             <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -116,7 +116,7 @@ export default function NewsCarousel({ newsItems }: NewsCarouselProps) {
           </button>
           <button
             onClick={() => paginate(1)}
-            className="absolute right-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white p-3 rounded-full shadow-lg transition-all z-10 focus:outline-none focus:ring-2 focus:ring-gray-400"
+            className="hidden sm:block absolute -right-16 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white p-3 rounded-full shadow-lg transition-all z-10 focus:outline-none focus:ring-2 focus:ring-gray-400"
             aria-label="Next card"
           >
             <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -128,7 +128,7 @@ export default function NewsCarousel({ newsItems }: NewsCarouselProps) {
 
       {/* Dots Indicator */}
       {newsItems.length > 1 && (
-        <div className="flex justify-center gap-2 mt-6">
+        <div className="flex justify-center gap-2 mt-4 flex-shrink-0">
           {newsItems.map((_, index) => (
             <button
               key={index}
@@ -139,8 +139,8 @@ export default function NewsCarousel({ newsItems }: NewsCarouselProps) {
               className={cn(
                 'w-2 h-2 rounded-full transition-all duration-200',
                 index === currentIndex
-                  ? 'bg-gray-900 w-8'
-                  : 'bg-gray-300 hover:bg-gray-400'
+                  ? 'bg-white w-8'
+                  : 'bg-gray-500 hover:bg-gray-400'
               )}
               aria-label={`Go to card ${index + 1}`}
             />
@@ -149,7 +149,7 @@ export default function NewsCarousel({ newsItems }: NewsCarouselProps) {
       )}
 
       {/* Swipe Hint */}
-      <p className="text-center text-sm text-gray-400 mt-4 sm:hidden">
+      <p className="text-center text-xs text-gray-400 mt-2 sm:hidden flex-shrink-0">
         👈 Swipe to navigate 👉
       </p>
     </div>

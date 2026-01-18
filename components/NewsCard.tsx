@@ -54,31 +54,31 @@ export default function NewsCard({ news }: NewsCardProps) {
 
       {/* Footer */}
       <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-        <a
-          href={news.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={cn(
-            'inline-flex items-center gap-2 font-medium transition-colors',
-            colors.text,
-            'hover:underline'
-          )}
-        >
-          Read More
-          <svg
-            className="w-4 h-4"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
+        {news.url && news.url !== 'https://example.com' ? (
+          <a
+            href={news.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 font-semibold text-gray-700 hover:text-gray-900 transition-colors hover:underline"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M9 5l7 7-7 7"
-            />
-          </svg>
-        </a>
+            Read More
+            <svg
+              className="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </a>
+        ) : (
+          <span className="text-sm text-gray-400 italic">No link available</span>
+        )}
         <span className="text-sm text-gray-500 font-medium">
           {news.source}
         </span>
