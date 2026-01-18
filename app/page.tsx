@@ -55,40 +55,31 @@ export default function Home() {
     <>
       <ThreeBackground />
 
-      <main className="relative min-h-screen">
-        <div className="container mx-auto px-4 py-8 sm:py-12">
+      <main className="relative h-screen overflow-hidden flex flex-col">
+        <div className="container mx-auto px-4 flex-1 flex flex-col py-4 sm:py-6">
           {/* Header */}
-          <header className="text-center mb-12">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 tracking-tight">
-              One Page News
-            </h1>
-            <p className="text-gray-300 text-lg sm:text-xl max-w-2xl mx-auto">
+          <header className="text-center mb-4 flex-shrink-0">
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-white tracking-tight">
               Stay updated with the latest in AI, Stock Market & Elections
-            </p>
-            {newsData?.lastUpdated && (
-              <p className="text-sm text-gray-400 mt-3">
-                Last updated: {new Date(newsData.lastUpdated).toLocaleString('en-US', {
-                  dateStyle: 'medium',
-                  timeStyle: 'short',
-                })}
-              </p>
-            )}
+            </h1>
           </header>
 
           {/* Topic Filter */}
           {!loading && !error && (
-            <TopicFilter
-              selectedTopic={selectedTopic}
-              onSelectTopic={setSelectedTopic}
-            />
+            <div className="flex-shrink-0 mb-4">
+              <TopicFilter
+                selectedTopic={selectedTopic}
+                onSelectTopic={setSelectedTopic}
+              />
+            </div>
           )}
 
-          {/* Content */}
-          <div className="mt-8">
+          {/* Content - Takes remaining space */}
+          <div className="flex-1 flex items-center justify-center overflow-hidden">
             {loading ? (
               <LoadingState />
             ) : error ? (
-              <div className="flex flex-col items-center justify-center min-h-[400px] gap-4">
+              <div className="flex flex-col items-center justify-center gap-4">
                 <div className="text-red-400 text-6xl">⚠️</div>
                 <p className="text-red-300 font-medium text-lg">{error}</p>
                 <button
@@ -104,8 +95,16 @@ export default function Home() {
           </div>
 
           {/* Footer */}
-          <footer className="text-center mt-16 pb-8">
-            <p className="text-gray-500 text-sm">
+          <footer className="text-center flex-shrink-0 py-3">
+            {newsData?.lastUpdated && (
+              <p className="text-xs text-gray-400 mb-1">
+                Last updated: {new Date(newsData.lastUpdated).toLocaleString('en-US', {
+                  dateStyle: 'short',
+                  timeStyle: 'short',
+                })} IST
+              </p>
+            )}
+            <p className="text-gray-500 text-xs">
               News updated daily at 7:00 AM IST
             </p>
           </footer>

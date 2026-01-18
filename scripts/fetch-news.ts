@@ -28,8 +28,9 @@ CRITICAL REQUIREMENTS - READ CAREFULLY:
 3. DO NOT include any news older than 48 hours (before ${twoDaysAgo})
 4. Prioritize breaking news and stories from TODAY (${today}) over yesterday
 5. Use REAL current events happening NOW, not old historical events
+6. ONLY include news from ENGLISH LANGUAGE sources (US, UK, international English publications)
 
-Find the top ${MAX_NEWS_PER_TOPIC} most recent and important news articles about "${topic}" from the LAST 48 HOURS ONLY.
+Find the top ${MAX_NEWS_PER_TOPIC} most recent and important news articles about "${topic}" from the LAST 48 HOURS ONLY from ENGLISH LANGUAGE news sources.
 
 For each news article, provide:
 1. Title (concise, under 100 characters)
@@ -56,7 +57,8 @@ STRICT VALIDATION RULES:
 - Use actual publication dates from real articles
 - Dates MUST be in ISO 8601 format (YYYY-MM-DDTHH:mm:ssZ)
 - Prioritize breaking news from TODAY over yesterday's news
-- Only credible news sources (Reuters, AP, Bloomberg, TechCrunch, etc.)
+- Only credible ENGLISH LANGUAGE news sources (Reuters, AP, Bloomberg, TechCrunch, BBC, CNN, etc.)
+- NO non-English language sources or publications
 - Return valid JSON only, no additional text or explanations
 
 Topic: ${topic}
