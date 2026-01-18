@@ -2,7 +2,7 @@
 
 import { NewsItem } from '@/lib/types'
 import { TOPIC_COLORS } from '@/lib/constants'
-import { formatTimeAgo, cn } from '@/lib/utils'
+import { formatTimeAgo, cn, getNewsAgeBadge } from '@/lib/utils'
 
 interface NewsCardProps {
   news: NewsItem
@@ -10,20 +10,33 @@ interface NewsCardProps {
 
 export default function NewsCard({ news }: NewsCardProps) {
   const colors = TOPIC_COLORS[news.topic]
+  const ageBadge = getNewsAgeBadge(news.publishedAt)
 
   return (
     <article className="bg-white rounded-2xl shadow-lg p-6 sm:p-8 max-w-md w-full mx-auto border border-gray-100 hover:shadow-xl transition-shadow duration-300">
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
-        <span
-          className={cn(
-            'px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide',
-            colors.bg,
-            colors.text
+        <div className="flex items-center gap-2">
+          <span
+            className={cn(
+              'px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide',
+              colors.bg,
+              colors.text
+            )}
+          >
+            {news.topic}
+          </span>
+          {ageBadge && (
+            <span
+              className={cn(
+                'px-2 py-1 rounded-full text-xs font-bold uppercase tracking-wide text-white animate-pulse',
+                ageBadge.color
+              )}
+            >
+              {ageBadge.text}
+            </span>
           )}
-        >
-          {news.topic}
-        </span>
+        </div>
         <time className="text-xs text-gray-500" dateTime={news.publishedAt}>
           {formatTimeAgo(news.publishedAt)}
         </time>
