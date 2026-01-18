@@ -1,34 +1,34 @@
 {
-  "lastUpdated": "2026-01-18T01:30:00Z",
+  "lastUpdated": "2026-01-18T12:24:57.316Z",
   "news": [
     {
-      "id": "sample-ai-1",
+      "id": "ai-fallback-1768739091118",
       "topic": "AI",
-      "title": "Sample AI News - Placeholder",
-      "summary": "This is a sample news item. The actual news will be fetched and updated daily at 7:00 AM IST via GitHub Actions using Claude API. Stay tuned for real updates!",
-      "source": "Sample Source",
+      "title": "AI News Update",
+      "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-01-18T00:00:00Z",
+      "publishedAt": "2026-01-18T12:24:51.118Z",
       "imageUrl": null
     },
     {
-      "id": "sample-stock-1",
+      "id": "stock-fallback-1768739093217",
       "topic": "Stock",
-      "title": "Sample Stock Market News - Placeholder",
-      "summary": "This is a sample stock market news item. Real stock market news will be automatically fetched and updated every morning. Check back tomorrow for actual news!",
-      "source": "Sample Source",
+      "title": "Stock News Update",
+      "summary": "Unable to fetch latest Stock news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-01-18T00:00:00Z",
+      "publishedAt": "2026-01-18T12:24:53.217Z",
       "imageUrl": null
     },
     {
-      "id": "sample-election-1",
+      "id": "election-fallback-1768739095316",
       "topic": "Election",
-      "title": "Sample Election News - Placeholder",
-      "summary": "This is a sample election news item. Real election updates will be fetched daily. The GitHub Actions workflow will update this content automatically.",
-      "source": "Sample Source",
+      "title": "Election News Update",
+      "summary": "Unable to fetch latest Election news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-01-18T00:00:00Z",
+      "publishedAt": "2026-01-18T12:24:55.316Z",
       "imageUrl": null
     }
   ]
