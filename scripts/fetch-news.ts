@@ -29,14 +29,29 @@ async function fetchNewsForTopic(
   console.log(`\n📰 Fetching news for topic: ${topic}`)
 
   try {
-    const prompt = `You are a news aggregator. Find the top ${MAX_NEWS_PER_TOPIC} most recent and important news articles about "${topic}" from today or yesterday.
+    // Get current date info for the prompt
+    const now = new Date()
+    const today = now.toISOString().split('T')[0]
+    const yesterday = new Date(now.getTime() - 24 * 60 * 60 * 1000).toISOString().split('T')[0]
+    const twoDaysAgo = new Date(now.getTime() - 48 * 60 * 60 * 1000).toISOString().split('T')[0]
+
+    const prompt = `You are a real-time news aggregator. TODAY'S DATE is ${today}.
+
+CRITICAL REQUIREMENTS - READ CAREFULLY:
+1. Find ONLY news published in the LAST 48 HOURS (from ${twoDaysAgo} onwards to ${today})
+2. News MUST be from ${today} (today) OR ${yesterday} (yesterday) ONLY
+3. DO NOT include any news older than 48 hours (before ${twoDaysAgo})
+4. Prioritize breaking news and stories from TODAY (${today}) over yesterday
+5. Use REAL current events happening NOW, not old historical events
+
+Find the top ${MAX_NEWS_PER_TOPIC} most recent and important news articles about "${topic}" from the LAST 48 HOURS ONLY.
 
 For each news article, provide:
 1. Title (concise, under 100 characters)
 2. Summary (EXACTLY ${MAX_SUMMARY_WORDS} words or less, no exceptions)
-3. Source (publication name)
+3. Source (publication name - real news outlet)
 4. URL (if available, otherwise use a placeholder)
-5. Published date/time (use ISO 8601 format, estimate if needed)
+5. Published date/time (MUST be ${today} or ${yesterday} - use actual article date)
 
 Format your response as a JSON array with this exact structure:
 [
@@ -45,18 +60,22 @@ Format your response as a JSON array with this exact structure:
     "summary": "Brief summary here in ${MAX_SUMMARY_WORDS} words or less",
     "source": "Source Name",
     "url": "https://example.com/article",
-    "publishedAt": "2026-01-18T10:30:00Z"
+    "publishedAt": "2026-01-18T14:30:00Z"
   }
 ]
 
-Important:
+STRICT VALIDATION RULES:
 - Summaries MUST be ${MAX_SUMMARY_WORDS} words or less
-- Only include real, recent news from credible sources
-- Use actual URLs when possible
-- Ensure dates are recent (today or yesterday)
-- Return valid JSON only, no additional text
+- ONLY include news from ${today} or ${yesterday} (last 48 hours max)
+- Absolutely NO news from ${twoDaysAgo} or earlier
+- Use actual publication dates from real articles
+- Dates MUST be in ISO 8601 format (YYYY-MM-DDTHH:mm:ssZ)
+- Prioritize breaking news from TODAY over yesterday's news
+- Only credible news sources (Reuters, AP, Bloomberg, TechCrunch, etc.)
+- Return valid JSON only, no additional text or explanations
 
-Topic: ${topic}`
+Topic: ${topic}
+Current Time: ${now.toISOString()}`
 
     const message = await client.messages.create({
       model: 'claude-3-haiku-20240307', // Using Haiku for cost efficiency (~10x cheaper than Sonnet)
@@ -86,19 +105,41 @@ Topic: ${topic}`
       throw new Error('Response is not an array')
     }
 
-    // Convert to NewsItem format
-    const newsItems: NewsItem[] = articles.slice(0, MAX_NEWS_PER_TOPIC).map((article, index) => ({
-      id: `${topic.toLowerCase()}-${Date.now()}-${index}`,
-      topic: topic as 'AI' | 'Stock' | 'Election',
-      title: article.title,
-      summary: article.summary,
-      source: article.source,
-      url: article.url || 'https://example.com',
-      publishedAt: article.publishedAt || new Date().toISOString(),
-      imageUrl: null,
-    }))
+    // Convert to NewsItem format and validate dates
+    const now = new Date()
+    const fortyEightHoursAgo = new Date(now.getTime() - 48 * 60 * 60 * 1000)
 
-    console.log(`✅ Successfully fetched ${newsItems.length} articles for ${topic}`)
+    const newsItems: NewsItem[] = articles
+      .slice(0, MAX_NEWS_PER_TOPIC)
+      .map((article, index) => {
+        const publishedDate = article.publishedAt ? new Date(article.publishedAt) : new Date()
+
+        // Validate date is within last 48 hours
+        if (publishedDate < fortyEightHoursAgo) {
+          console.warn(`⚠️ Skipping old article (${publishedDate.toISOString()}): ${article.title}`)
+          return null
+        }
+
+        return {
+          id: `${topic.toLowerCase()}-${Date.now()}-${index}`,
+          topic: topic as 'AI' | 'Stock' | 'Election',
+          title: article.title,
+          summary: article.summary,
+          source: article.source,
+          url: article.url || 'https://example.com',
+          publishedAt: publishedDate.toISOString(),
+          imageUrl: null,
+        }
+      })
+      .filter((item): item is NewsItem => item !== null) // Remove null items
+
+    console.log(`✅ Successfully fetched ${newsItems.length} articles for ${topic} (within last 48 hours)`)
+
+    // If no valid recent articles, throw error to trigger fallback
+    if (newsItems.length === 0) {
+      throw new Error('No recent articles found within last 48 hours')
+    }
+
     return newsItems
   } catch (error) {
     console.error(`❌ Error fetching news for ${topic}:`, error)
