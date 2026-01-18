@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -6,8 +6,6 @@ export const metadata: Metadata = {
   description: "Stay updated with the latest news on AI, Stock Market, and Elections. Mobile-friendly news cards with daily updates.",
   keywords: ["news", "AI", "stock market", "elections", "daily updates"],
   authors: [{ name: "One Page News App" }],
-  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
-  themeColor: "#3B82F6",
   manifest: "/manifest.json",
   openGraph: {
     title: "One Page News App",
@@ -19,6 +17,13 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: "#3B82F6",
 };
 
 export default function RootLayout({
