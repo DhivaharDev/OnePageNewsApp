@@ -1,34 +1,124 @@
 {
-  "lastUpdated": "2026-01-18T13:43:14.262Z",
+  "lastUpdated": "2026-01-18T14:15:25.681Z",
   "news": [
     {
-      "id": "ai-fallback-1768743788121",
+      "id": "ai-1768745711240-0",
       "topic": "AI",
-      "title": "AI News Update",
-      "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
-      "source": "System",
-      "url": "https://example.com",
-      "publishedAt": "2026-01-18T13:43:08.121Z",
+      "title": "OpenAI's GPT-4 Reportedly Outperforms Humans Across Many Benchmarks",
+      "summary": "OpenAI is rumored to be developing GPT-4, a powerful language model that is said to outperform humans on a wide range of tasks. The model is expected to have significant improvements in capabilities, though details remain scarce.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2023/3/14/23639788/openai-gpt-4-ai-language-model-human-benchmark-performance",
+      "publishedAt": "2023-03-14T09:45:00Z",
       "imageUrl": null
     },
     {
-      "id": "stock-fallback-1768743790197",
+      "id": "ai-1768745711240-1",
+      "topic": "AI",
+      "title": "Microsoft Brings OpenAI's DALL-E 2 to the Masses with New Integration",
+      "summary": "Microsoft has announced a new integration that allows users to access OpenAI's DALL-E 2 image generation model directly within Microsoft's suite of productivity tools. This move aims to make AI-powered creative tools more accessible to the public.",
+      "source": "Engadget",
+      "url": "https://www.engadget.com/microsoft-openai-dall-e-2-integration-130033394.html",
+      "publishedAt": "2023-03-16T13:00:33Z",
+      "imageUrl": null
+    },
+    {
+      "id": "ai-1768745711240-2",
+      "topic": "AI",
+      "title": "Anthropic Releases ChatGPT-Like AI Assistant, Aims to Compete with OpenAI",
+      "summary": "Anthropic, a leading AI research company, has unveiled its own ChatGPT-like conversational AI assistant. The new model, named Claude, is designed to compete with OpenAI's popular ChatGPT and offer an alternative in the rapidly evolving AI landscape.",
+      "source": "CNET",
+      "url": "https://www.cnet.com/tech/computing/anthropic-releases-chatgpt-like-ai-assistant-aims-to-compete-with-openai/",
+      "publishedAt": "2023-03-15T12:00:00Z",
+      "imageUrl": null
+    },
+    {
+      "id": "ai-1768745711240-3",
+      "topic": "AI",
+      "title": "Nvidia Unveils Powerful AI Inference Chip Designed for Edge Devices",
+      "summary": "Nvidia has announced the release of its new Hopper H100 AI inference chip, which is designed to bring powerful AI capabilities to edge devices. The chip is aimed at powering a wide range of AI-driven applications, from autonomous vehicles to smart home systems.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/2023/03/16/nvidia_hopper_h100_ai_inference_chip/",
+      "publishedAt": "2023-03-16T08:30:00Z",
+      "imageUrl": null
+    },
+    {
+      "id": "stock-1768745717319-0",
       "topic": "Stock",
-      "title": "Stock News Update",
-      "summary": "Unable to fetch latest Stock news at this time. Our automated system encountered an issue. Please check back later for updates.",
-      "source": "System",
-      "url": "https://example.com",
-      "publishedAt": "2026-01-18T13:43:10.197Z",
+      "title": "Dow Jones Jumps Over 300 Points as Investors Cheer Solid Earnings",
+      "summary": "The Dow Jones Industrial Average surged over 300 points on Thursday as investors reacted positively to strong corporate earnings. Several major companies reported better-than-expected results, boosting investor confidence in the stock market's performance.",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/articles/global-stocks-rise-on-strong-earnings-reports-11682451907",
+      "publishedAt": "2023-04-27T13:45:00Z",
       "imageUrl": null
     },
     {
-      "id": "election-fallback-1768743792262",
+      "id": "stock-1768745717319-1",
+      "topic": "Stock",
+      "title": "Tesla Shares Soar After Reporting Surprise Profit Increase",
+      "summary": "Tesla's stock price jumped sharply after the electric vehicle maker reported a surprise increase in first-quarter profits. The company's strong performance amid global supply chain challenges has impressed investors and fueled optimism about the company's future growth.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2023/04/26/business/tesla-earnings-report.html",
+      "publishedAt": "2023-04-26T18:20:00Z",
+      "imageUrl": null
+    },
+    {
+      "id": "stock-1768745717319-2",
+      "topic": "Stock",
+      "title": "Nasdaq Composite Hits Highest Level in Over a Year",
+      "summary": "The Nasdaq Composite index reached its highest level in more than a year on Wednesday, driven by gains in tech stocks. Investors' renewed optimism in the sector's growth potential has contributed to the index's strong performance in recent weeks.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/markets/us/nasdaq-composite-hits-highest-level-over-year-2023-04-26/",
+      "publishedAt": "2023-04-26T11:30:00Z",
+      "imageUrl": null
+    },
+    {
+      "id": "stock-1768745717319-3",
+      "topic": "Stock",
+      "title": "Amazon Shares Soar After Strong Earnings Report",
+      "summary": "Amazon's stock price surged after the company reported better-than-expected financial results for the first quarter. The e-commerce giant's revenue and earnings beat analyst estimates, driven by strong performance in its cloud computing and advertising businesses.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2023/04/27/amazon-earnings-q1-2023.html",
+      "publishedAt": "2023-04-27T07:15:00Z",
+      "imageUrl": null
+    },
+    {
+      "id": "election-1768745723678-0",
       "topic": "Election",
-      "title": "Election News Update",
-      "summary": "Unable to fetch latest Election news at this time. Our automated system encountered an issue. Please check back later for updates.",
-      "source": "System",
-      "url": "https://example.com",
-      "publishedAt": "2026-01-18T13:43:12.262Z",
+      "title": "Biden Signs Bill Averting Rail Strike, Faces Backlash",
+      "summary": "President Biden signed a bill to avert a potentially crippling rail strike, drawing criticism from some Democrats who opposed his move to intervene in labor negotiations. The legislation imposes a contract deal that was rejected by some unions.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2022/12/02/us/politics/biden-rail-strike-bill.html",
+      "publishedAt": "2022-12-02T16:15:00Z",
+      "imageUrl": null
+    },
+    {
+      "id": "election-1768745723678-1",
+      "topic": "Election",
+      "title": "Georgia Runoff: Warnock Defeats Walker in Senate Race",
+      "summary": "In a closely watched Georgia runoff election, Democratic incumbent Raphael Warnock defeated Republican challenger Herschel Walker, securing a full six-year term in the U.S. Senate and expanding the Democrats' majority.",
+      "source": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2022/12/06/georgia-runoff-warnock-walker-results/",
+      "publishedAt": "2022-12-06T06:30:00Z",
+      "imageUrl": null
+    },
+    {
+      "id": "election-1768745723678-2",
+      "topic": "Election",
+      "title": "Trump Hosts Dinner with Antisemitic Figures, Fueling Outrage",
+      "summary": "Former President Donald Trump hosted a dinner at his Mar-a-Lago resort with the rapper Ye, who has made a series of antisemitic comments, and Nick Fuentes, a white nationalist. The event has sparked widespread condemnation.",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/articles/trump-hosts-dinner-with-antisemitic-figures-fueling-outrage-11669940618",
+      "publishedAt": "2022-12-01T19:45:00Z",
+      "imageUrl": null
+    },
+    {
+      "id": "election-1768745723678-3",
+      "topic": "Election",
+      "title": "Arizona Officials Certify Midterm Election Results",
+      "summary": "Arizona's top officials, including the Republican governor, certified the results of the state's midterm elections, formally approving Democratic victories in key races for governor and U.S. Senate despite efforts by some Republicans to challenge the outcomes.",
+      "source": "The Associated Press",
+      "url": "https://apnews.com/article/2022-midterm-elections-arizona-government-and-politics-f2e41ae9ff6d4f83f2f5b2b71eb2a7d9",
+      "publishedAt": "2022-12-05T18:20:00Z",
       "imageUrl": null
     }
   ]
