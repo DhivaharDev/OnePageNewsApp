@@ -108,7 +108,7 @@ Current Time: ${now.toISOString()}`
     // Convert to NewsItem format and validate dates
     const fortyEightHoursAgo = new Date(now.getTime() - 48 * 60 * 60 * 1000)
 
-    const newsItems: NewsItem[] = articles
+    const newsItems = articles
       .slice(0, MAX_NEWS_PER_TOPIC)
       .map((article, index) => {
         const publishedDate = article.publishedAt ? new Date(article.publishedAt) : new Date()
@@ -130,7 +130,7 @@ Current Time: ${now.toISOString()}`
           imageUrl: null,
         }
       })
-      .filter((item): item is NewsItem => item !== null) // Remove null items
+      .filter((item): item is NewsItem => item !== null) as NewsItem[] // Remove null items and assert type
 
     console.log(`✅ Successfully fetched ${newsItems.length} articles for ${topic} (within last 48 hours)`)
 
