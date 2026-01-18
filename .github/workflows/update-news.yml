@@ -48,7 +48,29 @@ jobs:
           git config --local user.name "GitHub Actions Bot"
           git add public/news-data.json
           git commit -m "🗞️ Update news data - $(date +'%Y-%m-%d %H:%M IST')"
-          git push
+
+          # Pull latest changes and rebase our commit on top
+          git pull --rebase origin main
+
+          # Push with retry logic (in case of race conditions)
+          max_attempts=3
+          attempt=1
+          while [ $attempt -le $max_attempts ]; do
+            echo "Push attempt $attempt of $max_attempts..."
+            if git push origin main; then
+              echo "✅ Successfully pushed changes"
+              break
+            else
+              if [ $attempt -eq $max_attempts ]; then
+                echo "❌ Failed to push after $max_attempts attempts"
+                exit 1
+              fi
+              echo "⚠️ Push failed, pulling latest changes and retrying..."
+              git pull --rebase origin main
+              attempt=$((attempt + 1))
+              sleep 2
+            fi
+          done
 
       - name: No changes detected
         if: steps.git-check.outputs.changed != 'true'

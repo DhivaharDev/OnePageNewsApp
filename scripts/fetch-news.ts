@@ -59,7 +59,7 @@ Important:
 Topic: ${topic}`
 
     const message = await client.messages.create({
-      model: 'claude-3-5-haiku-20241022', // Using Haiku for cost efficiency (~10x cheaper than Sonnet)
+      model: 'claude-3-haiku-20240307', // Using Haiku for cost efficiency (~10x cheaper than Sonnet)
       max_tokens: 2048,
       messages: [
         {

@@ -27,16 +27,16 @@ export default function TopicFilter({
             onClick={() => onSelectTopic(topic)}
             className={cn(
               'px-6 py-2.5 rounded-full font-semibold text-sm uppercase tracking-wide transition-all duration-200',
-              'focus:outline-none focus:ring-2 focus:ring-offset-2',
+              'focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800',
               isSelected
                 ? topic === 'All'
-                  ? 'bg-gray-900 text-white focus:ring-gray-900'
+                  ? 'bg-white text-gray-900 focus:ring-white'
                   : cn(
                       colors?.text.replace('text-', 'bg-').replace('-700', '-500'),
                       'text-white',
                       `focus:ring-${topic.toLowerCase()}-500`
                     )
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
             )}
             aria-pressed={isSelected}
           >

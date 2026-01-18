@@ -34,11 +34,11 @@ function ParticleField() {
     <Points ref={ref} positions={particlesPosition} stride={3} frustumCulled={false}>
       <PointMaterial
         transparent
-        color="#3B82F6"
-        size={0.05}
+        color="#60A5FA"
+        size={0.08}
         sizeAttenuation={true}
         depthWrite={false}
-        opacity={0.4}
+        opacity={0.6}
         blending={THREE.AdditiveBlending}
       />
     </Points>
@@ -47,7 +47,7 @@ function ParticleField() {
 
 export default function ThreeBackground() {
   return (
-    <div className="fixed inset-0 -z-10 bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50">
+    <div className="fixed inset-0 -z-10 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
       <Canvas
         camera={{ position: [0, 0, 5], fov: 75 }}
         style={{ background: 'transparent' }}
