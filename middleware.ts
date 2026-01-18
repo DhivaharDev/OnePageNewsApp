@@ -53,9 +53,28 @@ function isBlockedUserAgent(userAgent: string | null): boolean {
   return BLOCKED_USER_AGENTS.some((pattern) => pattern.test(userAgent))
 }
 
+function getClientIP(request: NextRequest): string {
+  // Try to get IP from various headers (for Next.js 15 compatibility)
+  const forwardedFor = request.headers.get('x-forwarded-for')
+  const realIP = request.headers.get('x-real-ip')
+
+  // x-forwarded-for can contain multiple IPs, take the first one
+  if (forwardedFor) {
+    const ips = forwardedFor.split(',').map(ip => ip.trim())
+    return ips[0] || 'unknown'
+  }
+
+  // Fall back to x-real-ip
+  if (realIP) {
+    return realIP
+  }
+
+  return 'unknown'
+}
+
 function getRateLimitKey(request: NextRequest): string {
   // Use IP address as identifier
-  const ip = request.ip || request.headers.get('x-forwarded-for') || 'unknown'
+  const ip = getClientIP(request)
   return `ratelimit:${ip}`
 }
 
@@ -100,7 +119,7 @@ function checkRateLimit(request: NextRequest): {
     entry.blocked = true
     entry.blockedUntil = now + RATE_LIMIT_CONFIG.blockDuration
 
-    console.warn(`[DDoS Protection] IP blocked: ${request.ip} - Exceeded rate limit`)
+    console.warn(`[DDoS Protection] IP blocked: ${getClientIP(request)} - Exceeded rate limit`)
 
     return {
       allowed: false,
