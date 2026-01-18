@@ -106,7 +106,6 @@ Current Time: ${now.toISOString()}`
     }
 
     // Convert to NewsItem format and validate dates
-    const now = new Date()
     const fortyEightHoursAgo = new Date(now.getTime() - 48 * 60 * 60 * 1000)
 
     const newsItems: NewsItem[] = articles
