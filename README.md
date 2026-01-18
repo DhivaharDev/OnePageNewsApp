@@ -14,7 +14,7 @@ A high-performance, mobile-friendly Single Page Application (SPA) for viewing th
 - 📱 **Mobile-First**: Fully responsive with touch-optimized swipe gestures
 - 🎭 **3D Background**: Subtle Three.js particle animation
 - 🔄 **Auto-Updates**: Daily news fetch at 7:00 AM IST via GitHub Actions
-- 🤖 **AI-Powered**: Claude API for intelligent news summarization
+- 🤖 **AI-Powered**: Claude Haiku for intelligent news summarization (cost-optimized)
 - 🛡️ **DDoS Protection**: Built-in rate limiting and bot detection
 - ⚡ **High Performance**: Lighthouse score > 90
 - 🔒 **Secure**: CSP headers, XSS protection, secure headers
@@ -187,15 +187,15 @@ X-RateLimit-Reset: 2026-01-18T10:30:00Z
 | Service | Tier | Cost |
 |---------|------|------|
 | Vercel Hosting | Hobby (Free) | $0 |
-| Claude API | ~90 requests/month | ~$1-3 |
+| Claude API (Haiku) | ~90 requests/month | ~$0.20-0.50 |
 | GitHub Actions | Free tier | $0 |
-| **Total** | | **$1-3/month** |
+| **Total** | | **$0.20-0.50/month** |
 
 ### Free Tier Limits
 
 - **Vercel Hobby**: 100GB bandwidth, unlimited sites
 - **GitHub Actions**: 2,000 minutes/month (we use ~30 mins)
-- **Claude API**: Pay as you go (~$0.015 per request)
+- **Claude API (Haiku)**: ~$0.25 per 1M input tokens, ~$1.25 per 1M output tokens (~$0.005 per request)
 
 ### Cost Optimization Tips
 
