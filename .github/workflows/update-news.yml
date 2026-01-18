@@ -1,0 +1,69 @@
+name: Update Daily News
+
+on:
+  # Schedule to run at 7:00 AM IST (1:30 AM UTC)
+  # IST is UTC+5:30, so 7:00 AM IST = 1:30 AM UTC
+  schedule:
+    - cron: '30 1 * * *'  # Daily at 1:30 AM UTC (7:00 AM IST)
+
+  # Allow manual triggering for testing
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Required to push changes
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch latest news with Claude API
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run fetch-news
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code public/news-data.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add public/news-data.json
+          git commit -m "🗞️ Update news data - $(date +'%Y-%m-%d %H:%M IST')"
+          git push
+
+      - name: No changes detected
+        if: steps.git-check.outputs.changed != 'true'
+        run: echo "ℹ️ No changes in news data, skipping commit"
+
+      - name: Workflow summary
+        run: |
+          echo "## 📰 News Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Execution Time:** $(date +'%Y-%m-%d %H:%M:%S IST')" >> $GITHUB_STEP_SUMMARY
+          echo "- **Status:** ${{ steps.git-check.outputs.changed == 'true' && '✅ Updated' || 'ℹ️ No changes' }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f public/news-data.json ]; then
+            echo "### Latest News Count" >> $GITHUB_STEP_SUMMARY
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            node -e "const data=require('./public/news-data.json'); console.log('Total articles:', data.news.length); data.news.forEach(n => console.log('-', n.topic + ':', n.title.substring(0,50) + '...'))" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi

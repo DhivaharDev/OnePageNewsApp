@@ -1,0 +1,35 @@
+{
+  "lastUpdated": "2026-01-18T01:30:00Z",
+  "news": [
+    {
+      "id": "sample-ai-1",
+      "topic": "AI",
+      "title": "Sample AI News - Placeholder",
+      "summary": "This is a sample news item. The actual news will be fetched and updated daily at 7:00 AM IST via GitHub Actions using Claude API. Stay tuned for real updates!",
+      "source": "Sample Source",
+      "url": "https://example.com",
+      "publishedAt": "2026-01-18T00:00:00Z",
+      "imageUrl": null
+    },
+    {
+      "id": "sample-stock-1",
+      "topic": "Stock",
+      "title": "Sample Stock Market News - Placeholder",
+      "summary": "This is a sample stock market news item. Real stock market news will be automatically fetched and updated every morning. Check back tomorrow for actual news!",
+      "source": "Sample Source",
+      "url": "https://example.com",
+      "publishedAt": "2026-01-18T00:00:00Z",
+      "imageUrl": null
+    },
+    {
+      "id": "sample-election-1",
+      "topic": "Election",
+      "title": "Sample Election News - Placeholder",
+      "summary": "This is a sample election news item. Real election updates will be fetched daily. The GitHub Actions workflow will update this content automatically.",
+      "source": "Sample Source",
+      "url": "https://example.com",
+      "publishedAt": "2026-01-18T00:00:00Z",
+      "imageUrl": null
+    }
+  ]
+}
