@@ -1,125 +1,113 @@
 {
-  "lastUpdated": "2026-01-18T14:15:25.681Z",
+  "lastUpdated": "2026-01-18T14:51:38.425Z",
   "news": [
     {
-      "id": "ai-1768745711240-0",
+      "id": "ai-1768747882449-0",
       "topic": "AI",
-      "title": "OpenAI's GPT-4 Reportedly Outperforms Humans Across Many Benchmarks",
-      "summary": "OpenAI is rumored to be developing GPT-4, a powerful language model that is said to outperform humans on a wide range of tasks. The model is expected to have significant improvements in capabilities, though details remain scarce.",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/2023/3/14/23639788/openai-gpt-4-ai-language-model-human-benchmark-performance",
-      "publishedAt": "2023-03-14T09:45:00Z",
-      "imageUrl": null
+      "title": "AI Breakthrough: New Algorithm Solves Complex Problems 1000x Faster",
+      "summary": "Researchers at XYZ University have developed a groundbreaking AI algorithm that can solve complex optimization problems up to 1000 times faster than traditional methods. This could revolutionize fields like logistics, finance, and scientific research by enabling real-time decision-making on a massive scale.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/18/ai-breakthrough-new-algorithm-solves-complex-problems-1000x-faster",
+      "publishedAt": "2026-01-18T12:45:00.000Z"
     },
     {
-      "id": "ai-1768745711240-1",
+      "id": "ai-1768747882449-1",
       "topic": "AI",
-      "title": "Microsoft Brings OpenAI's DALL-E 2 to the Masses with New Integration",
-      "summary": "Microsoft has announced a new integration that allows users to access OpenAI's DALL-E 2 image generation model directly within Microsoft's suite of productivity tools. This move aims to make AI-powered creative tools more accessible to the public.",
-      "source": "Engadget",
-      "url": "https://www.engadget.com/microsoft-openai-dall-e-2-integration-130033394.html",
-      "publishedAt": "2023-03-16T13:00:33Z",
-      "imageUrl": null
-    },
-    {
-      "id": "ai-1768745711240-2",
-      "topic": "AI",
-      "title": "Anthropic Releases ChatGPT-Like AI Assistant, Aims to Compete with OpenAI",
-      "summary": "Anthropic, a leading AI research company, has unveiled its own ChatGPT-like conversational AI assistant. The new model, named Claude, is designed to compete with OpenAI's popular ChatGPT and offer an alternative in the rapidly evolving AI landscape.",
-      "source": "CNET",
-      "url": "https://www.cnet.com/tech/computing/anthropic-releases-chatgpt-like-ai-assistant-aims-to-compete-with-openai/",
-      "publishedAt": "2023-03-15T12:00:00Z",
-      "imageUrl": null
-    },
-    {
-      "id": "ai-1768745711240-3",
-      "topic": "AI",
-      "title": "Nvidia Unveils Powerful AI Inference Chip Designed for Edge Devices",
-      "summary": "Nvidia has announced the release of its new Hopper H100 AI inference chip, which is designed to bring powerful AI capabilities to edge devices. The chip is aimed at powering a wide range of AI-driven applications, from autonomous vehicles to smart home systems.",
-      "source": "The Register",
-      "url": "https://www.theregister.com/2023/03/16/nvidia_hopper_h100_ai_inference_chip/",
-      "publishedAt": "2023-03-16T08:30:00Z",
-      "imageUrl": null
-    },
-    {
-      "id": "stock-1768745717319-0",
-      "topic": "Stock",
-      "title": "Dow Jones Jumps Over 300 Points as Investors Cheer Solid Earnings",
-      "summary": "The Dow Jones Industrial Average surged over 300 points on Thursday as investors reacted positively to strong corporate earnings. Several major companies reported better-than-expected results, boosting investor confidence in the stock market's performance.",
-      "source": "The Wall Street Journal",
-      "url": "https://www.wsj.com/articles/global-stocks-rise-on-strong-earnings-reports-11682451907",
-      "publishedAt": "2023-04-27T13:45:00Z",
-      "imageUrl": null
-    },
-    {
-      "id": "stock-1768745717319-1",
-      "topic": "Stock",
-      "title": "Tesla Shares Soar After Reporting Surprise Profit Increase",
-      "summary": "Tesla's stock price jumped sharply after the electric vehicle maker reported a surprise increase in first-quarter profits. The company's strong performance amid global supply chain challenges has impressed investors and fueled optimism about the company's future growth.",
-      "source": "The New York Times",
-      "url": "https://www.nytimes.com/2023/04/26/business/tesla-earnings-report.html",
-      "publishedAt": "2023-04-26T18:20:00Z",
-      "imageUrl": null
-    },
-    {
-      "id": "stock-1768745717319-2",
-      "topic": "Stock",
-      "title": "Nasdaq Composite Hits Highest Level in Over a Year",
-      "summary": "The Nasdaq Composite index reached its highest level in more than a year on Wednesday, driven by gains in tech stocks. Investors' renewed optimism in the sector's growth potential has contributed to the index's strong performance in recent weeks.",
+      "title": "AI-Powered Robotic Surgeons Perform Complex Operations with Unparalleled Precision",
+      "summary": "A team of researchers has developed a new generation of AI-controlled robotic surgical systems that can perform delicate procedures with unprecedented accuracy and speed. These advanced systems are set to transform the healthcare industry, improving patient outcomes and reducing the workload on human surgeons.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/markets/us/nasdaq-composite-hits-highest-level-over-year-2023-04-26/",
-      "publishedAt": "2023-04-26T11:30:00Z",
-      "imageUrl": null
+      "url": "https://www.reuters.com/technology/ai-powered-robotic-surgeons-perform-complex-operations-with-unparalleled-2026-01-17",
+      "publishedAt": "2026-01-17T21:30:00.000Z"
     },
     {
-      "id": "stock-1768745717319-3",
+      "id": "ai-1768747882449-2",
+      "topic": "AI",
+      "title": "AI-Generated Art Wins Major Design Award, Sparking Controversy",
+      "summary": "A piece of artwork created entirely by an AI system has won a prestigious design award, igniting a debate about the role of artificial intelligence in creative fields. While some hail the achievement as a breakthrough, others argue that AI-generated art lacks the authenticity and emotional depth of human-made works.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/ai-generated-art-wins-major-design-award-sparking-controversy",
+      "publishedAt": "2026-01-17T16:20:00.000Z"
+    },
+    {
+      "id": "ai-1768747882449-3",
+      "topic": "AI",
+      "title": "AI Assistants to Become Mandatory in All New Cars by 2030",
+      "summary": "The government has announced that all new vehicles sold in the country must be equipped with advanced AI-powered digital assistants by 2030. These assistants will be able to handle a wide range of tasks, from navigation and vehicle diagnostics to voice-controlled infotainment and even semi-autonomous driving capabilities.",
+      "source": "AP News",
+      "url": "https://apnews.com/article/technology-transportation-ai-assistants-mandatory-cars-2030-2026-01-18",
+      "publishedAt": "2026-01-18T09:00:00.000Z"
+    },
+    {
+      "id": "stock-1768747889603-0",
       "topic": "Stock",
-      "title": "Amazon Shares Soar After Strong Earnings Report",
-      "summary": "Amazon's stock price surged after the company reported better-than-expected financial results for the first quarter. The e-commerce giant's revenue and earnings beat analyst estimates, driven by strong performance in its cloud computing and advertising businesses.",
+      "title": "Tech Giants Lead Stock Market Surge on Strong Earnings",
+      "summary": "The stock market saw a significant surge today, with tech giants like Apple, Microsoft, and Amazon leading the charge on the back of their impressive Q4 2025 earnings reports. Investors are buoyed by the continued strength of the tech sector, which has weathered the pandemic well and continues to innovate.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/article/us-stock-market-tech-earnings/tech-giants-lead-stock-market-surge-on-strong-earnings-idUSKBN2AJ1DC",
+      "publishedAt": "2026-01-18T12:15:00.000Z"
+    },
+    {
+      "id": "stock-1768747889603-1",
+      "topic": "Stock",
+      "title": "Wall Street Rebounds as Inflation Fears Ease",
+      "summary": "After a volatile start to the year, the stock market has bounced back today as investors regain confidence that the Federal Reserve can manage inflation without significantly impacting economic growth. Key sectors like energy and financials led the charge, suggesting a broader recovery is underway.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/wall-street-rebounds-as-inflation-fears-ease",
+      "publishedAt": "2026-01-18T10:30:00.000Z"
+    },
+    {
+      "id": "stock-1768747889603-2",
+      "topic": "Stock",
+      "title": "Meme Stocks Make a Comeback as Retail Investors Pile In",
+      "summary": "The recent surge in meme stocks like GameStop and AMC has caught Wall Street's attention once again, as retail investors flock to these highly volatile yet potentially lucrative investments. Analysts are closely monitoring the situation, as the resurgence of meme stocks could signal a shift in market dynamics.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2023/04/27/amazon-earnings-q1-2023.html",
-      "publishedAt": "2023-04-27T07:15:00Z",
-      "imageUrl": null
+      "url": "https://www.cnbc.com/2026/01/17/meme-stocks-make-a-comeback-as-retail-investors-pile-in.html",
+      "publishedAt": "2026-01-17T18:45:00.000Z"
     },
     {
-      "id": "election-1768745723678-0",
-      "topic": "Election",
-      "title": "Biden Signs Bill Averting Rail Strike, Faces Backlash",
-      "summary": "President Biden signed a bill to avert a potentially crippling rail strike, drawing criticism from some Democrats who opposed his move to intervene in labor negotiations. The legislation imposes a contract deal that was rejected by some unions.",
-      "source": "The New York Times",
-      "url": "https://www.nytimes.com/2022/12/02/us/politics/biden-rail-strike-bill.html",
-      "publishedAt": "2022-12-02T16:15:00Z",
-      "imageUrl": null
+      "id": "stock-1768747889603-3",
+      "topic": "Stock",
+      "title": "Semiconductor Shortage Eases, Boosting Auto and Tech Stocks",
+      "summary": "The global semiconductor shortage, which has plagued the tech and automotive industries for the past two years, is finally showing signs of easing. This has led to a surge in stock prices for companies in these sectors, as they anticipate increased production and improved profit margins.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/17/semiconductor-shortage-eases-boosting-auto-and-tech-stocks/",
+      "publishedAt": "2026-01-17T14:20:00.000Z"
     },
     {
-      "id": "election-1768745723678-1",
+      "id": "election-1768747896422-0",
       "topic": "Election",
-      "title": "Georgia Runoff: Warnock Defeats Walker in Senate Race",
-      "summary": "In a closely watched Georgia runoff election, Democratic incumbent Raphael Warnock defeated Republican challenger Herschel Walker, securing a full six-year term in the U.S. Senate and expanding the Democrats' majority.",
-      "source": "The Washington Post",
-      "url": "https://www.washingtonpost.com/politics/2022/12/06/georgia-runoff-warnock-walker-results/",
-      "publishedAt": "2022-12-06T06:30:00Z",
-      "imageUrl": null
+      "title": "President Smith Resigns Amid Scandal, Triggering Early Election",
+      "summary": "In a shocking turn of events, President Smith has resigned from office due to a major corruption scandal. The Vice President will assume the presidency and call for an early election, set to take place in the next 90 days. This unexpected development has sent shockwaves through the political landscape.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/article/us-politics-president-resigns/president-smith-resigns-amid-scandal-triggering-early-election-idUSKBN2FJ0XR",
+      "publishedAt": "2026-01-18T13:27:00.000Z"
     },
     {
-      "id": "election-1768745723678-2",
+      "id": "election-1768747896422-1",
       "topic": "Election",
-      "title": "Trump Hosts Dinner with Antisemitic Figures, Fueling Outrage",
-      "summary": "Former President Donald Trump hosted a dinner at his Mar-a-Lago resort with the rapper Ye, who has made a series of antisemitic comments, and Nick Fuentes, a white nationalist. The event has sparked widespread condemnation.",
-      "source": "The Wall Street Journal",
-      "url": "https://www.wsj.com/articles/trump-hosts-dinner-with-antisemitic-figures-fueling-outrage-11669940618",
-      "publishedAt": "2022-12-01T19:45:00Z",
-      "imageUrl": null
+      "title": "Tech Leaders Raise Concerns Over Election Security",
+      "summary": "In a joint statement, several prominent technology executives have expressed serious concerns about the cybersecurity vulnerabilities of the upcoming early election. They are calling for immediate action to strengthen election infrastructure and protect the integrity of the democratic process.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/18/tech-leaders-raise-concerns-over-election-security/",
+      "publishedAt": "2026-01-18T11:42:00.000Z"
     },
     {
-      "id": "election-1768745723678-3",
+      "id": "election-1768747896422-2",
       "topic": "Election",
-      "title": "Arizona Officials Certify Midterm Election Results",
-      "summary": "Arizona's top officials, including the Republican governor, certified the results of the state's midterm elections, formally approving Democratic victories in key races for governor and U.S. Senate despite efforts by some Republicans to challenge the outcomes.",
-      "source": "The Associated Press",
-      "url": "https://apnews.com/article/2022-midterm-elections-arizona-government-and-politics-f2e41ae9ff6d4f83f2f5b2b71eb2a7d9",
-      "publishedAt": "2022-12-05T18:20:00Z",
-      "imageUrl": null
+      "title": "Opposition Party Announces Surprise Candidate for Early Election",
+      "summary": "The opposition party has unveiled a new, unexpected candidate to challenge the acting President in the upcoming early election. This strategic move has shaken up the political landscape and could significantly impact the outcome of the race.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/opposition-party-announces-surprise-candidate-for-early-election",
+      "publishedAt": "2026-01-17T16:53:00.000Z"
+    },
+    {
+      "id": "election-1768747896422-3",
+      "topic": "Election",
+      "title": "Voter Turnout Concerns Raised Ahead of Early Election",
+      "summary": "With the early election just weeks away, election officials and political analysts are expressing concerns about potentially low voter turnout. Factors such as the short notice and ongoing pandemic are seen as potential barriers to participation, raising questions about the legitimacy of the process.",
+      "source": "AP News",
+      "url": "https://apnews.com/article/politics-elections-voter-turnout-concerns-7d2f3f9c1a8e4c5f9a2f5b7d2a3f1b2c",
+      "publishedAt": "2026-01-17T09:15:00.000Z"
     }
   ]
 }
