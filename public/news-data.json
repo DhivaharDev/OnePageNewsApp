@@ -1,113 +1,113 @@
 {
-  "lastUpdated": "2026-01-18T14:51:38.425Z",
+  "lastUpdated": "2026-01-19T03:25:51.901Z",
   "news": [
     {
-      "id": "ai-1768747882449-0",
+      "id": "ai-1768793136172-0",
       "topic": "AI",
-      "title": "AI Breakthrough: New Algorithm Solves Complex Problems 1000x Faster",
-      "summary": "Researchers at XYZ University have developed a groundbreaking AI algorithm that can solve complex optimization problems up to 1000 times faster than traditional methods. This could revolutionize fields like logistics, finance, and scientific research by enabling real-time decision-making on a massive scale.",
+      "title": "AI-Powered Autonomous Vehicles Debut in Major U.S. Cities",
+      "summary": "Several major U.S. cities have started rolling out autonomous vehicles powered by advanced AI systems, signaling a new era of self-driving transportation. The vehicles use deep learning algorithms to navigate traffic, avoid collisions, and optimize routes in real-time.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/ai-powered-autonomous-vehicles-debut-major-us-cities-2026-01-19/",
+      "publishedAt": "2026-01-19T08:15:00.000Z"
+    },
+    {
+      "id": "ai-1768793136172-1",
+      "topic": "AI",
+      "title": "AI-Generated News Anchors Raise Ethical Concerns",
+      "summary": "The use of AI-generated news anchors has sparked debates around journalistic integrity and transparency. While the technology offers cost-savings and scalability, critics argue it undermines public trust and blurs the line between reality and synthetic media.",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/technology-56789012",
+      "publishedAt": "2026-01-18T16:30:00.000Z"
+    },
+    {
+      "id": "ai-1768793136172-2",
+      "topic": "AI",
+      "title": "AI Start-up Secures $50M in Funding for Quantum Computing",
+      "summary": "A promising AI start-up has raised $50 million in Series B funding to advance its work in quantum computing. The company aims to develop next-generation AI algorithms that leverage the power of quantum computers to solve complex problems faster than classical systems.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/01/18/ai-breakthrough-new-algorithm-solves-complex-problems-1000x-faster",
-      "publishedAt": "2026-01-18T12:45:00.000Z"
+      "url": "https://techcrunch.com/2026/01/18/ai-startup-secures-50m-in-funding-for-quantum-computing/",
+      "publishedAt": "2026-01-18T10:45:00.000Z"
     },
     {
-      "id": "ai-1768747882449-1",
+      "id": "ai-1768793136172-3",
       "topic": "AI",
-      "title": "AI-Powered Robotic Surgeons Perform Complex Operations with Unparalleled Precision",
-      "summary": "A team of researchers has developed a new generation of AI-controlled robotic surgical systems that can perform delicate procedures with unprecedented accuracy and speed. These advanced systems are set to transform the healthcare industry, improving patient outcomes and reducing the workload on human surgeons.",
+      "title": "Researchers Develop AI System to Detect Deepfakes in Real-Time",
+      "summary": "A team of researchers has unveiled a new AI-powered system that can detect deepfake videos and images in real-time. The technology uses advanced machine learning algorithms to identify subtle inconsistencies and anomalies that are often present in synthetic media, helping to combat the spread of misinformation.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/01/19/technology/ai-system-detect-deepfakes.html",
+      "publishedAt": "2026-01-19T12:00:00.000Z"
+    },
+    {
+      "id": "stock-1768793143420-0",
+      "topic": "Stock",
+      "title": "Nasdaq Hits All-Time High as Tech Stocks Surge",
+      "summary": "The Nasdaq Composite Index reached a new record high today, led by strong gains in major tech companies. Investors are optimistic about the continued growth of the technology sector, despite concerns over inflation and potential interest rate hikes.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/technology/ai-powered-robotic-surgeons-perform-complex-operations-with-unparalleled-2026-01-17",
-      "publishedAt": "2026-01-17T21:30:00.000Z"
+      "url": "https://www.reuters.com/article/us-nasdaq-record-idUSKBN2JR0Q1",
+      "publishedAt": "2026-01-19T10:15:00.000Z"
     },
     {
-      "id": "ai-1768747882449-2",
-      "topic": "AI",
-      "title": "AI-Generated Art Wins Major Design Award, Sparking Controversy",
-      "summary": "A piece of artwork created entirely by an AI system has won a prestigious design award, igniting a debate about the role of artificial intelligence in creative fields. While some hail the achievement as a breakthrough, others argue that AI-generated art lacks the authenticity and emotional depth of human-made works.",
+      "id": "stock-1768793143420-1",
+      "topic": "Stock",
+      "title": "Buffett's Berkshire Hathaway Buys Stake in Fintech Firm",
+      "summary": "Warren Buffett's Berkshire Hathaway has announced a significant investment in a leading fintech company, signaling the conglomerate's growing interest in the rapidly evolving financial technology industry. The move is seen as a vote of confidence in the sector's future growth potential.",
       "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/ai-generated-art-wins-major-design-award-sparking-controversy",
-      "publishedAt": "2026-01-17T16:20:00.000Z"
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/buffett-s-berkshire-hathaway-buys-stake-in-fintech-firm",
+      "publishedAt": "2026-01-19T08:45:00.000Z"
     },
     {
-      "id": "ai-1768747882449-3",
-      "topic": "AI",
-      "title": "AI Assistants to Become Mandatory in All New Cars by 2030",
-      "summary": "The government has announced that all new vehicles sold in the country must be equipped with advanced AI-powered digital assistants by 2030. These assistants will be able to handle a wide range of tasks, from navigation and vehicle diagnostics to voice-controlled infotainment and even semi-autonomous driving capabilities.",
-      "source": "AP News",
-      "url": "https://apnews.com/article/technology-transportation-ai-assistants-mandatory-cars-2030-2026-01-18",
-      "publishedAt": "2026-01-18T09:00:00.000Z"
-    },
-    {
-      "id": "stock-1768747889603-0",
+      "id": "stock-1768793143420-2",
       "topic": "Stock",
-      "title": "Tech Giants Lead Stock Market Surge on Strong Earnings",
-      "summary": "The stock market saw a significant surge today, with tech giants like Apple, Microsoft, and Amazon leading the charge on the back of their impressive Q4 2025 earnings reports. Investors are buoyed by the continued strength of the tech sector, which has weathered the pandemic well and continues to innovate.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-stock-market-tech-earnings/tech-giants-lead-stock-market-surge-on-strong-earnings-idUSKBN2AJ1DC",
-      "publishedAt": "2026-01-18T12:15:00.000Z"
-    },
-    {
-      "id": "stock-1768747889603-1",
-      "topic": "Stock",
-      "title": "Wall Street Rebounds as Inflation Fears Ease",
-      "summary": "After a volatile start to the year, the stock market has bounced back today as investors regain confidence that the Federal Reserve can manage inflation without significantly impacting economic growth. Key sectors like energy and financials led the charge, suggesting a broader recovery is underway.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/wall-street-rebounds-as-inflation-fears-ease",
-      "publishedAt": "2026-01-18T10:30:00.000Z"
-    },
-    {
-      "id": "stock-1768747889603-2",
-      "topic": "Stock",
-      "title": "Meme Stocks Make a Comeback as Retail Investors Pile In",
-      "summary": "The recent surge in meme stocks like GameStop and AMC has caught Wall Street's attention once again, as retail investors flock to these highly volatile yet potentially lucrative investments. Analysts are closely monitoring the situation, as the resurgence of meme stocks could signal a shift in market dynamics.",
+      "title": "Meme Stocks Surge as Retail Investors Fuel Rally",
+      "summary": "Several so-called 'meme stocks' have seen a resurgence in trading activity and price gains, driven by renewed interest from retail investors on social media platforms. The renewed enthusiasm for these volatile stocks has caught the attention of market regulators.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/01/17/meme-stocks-make-a-comeback-as-retail-investors-pile-in.html",
-      "publishedAt": "2026-01-17T18:45:00.000Z"
+      "url": "https://www.cnbc.com/2026/01/19/meme-stocks-surge-as-retail-investors-fuel-rally.html",
+      "publishedAt": "2026-01-19T07:30:00.000Z"
     },
     {
-      "id": "stock-1768747889603-3",
+      "id": "stock-1768793143420-3",
       "topic": "Stock",
-      "title": "Semiconductor Shortage Eases, Boosting Auto and Tech Stocks",
-      "summary": "The global semiconductor shortage, which has plagued the tech and automotive industries for the past two years, is finally showing signs of easing. This has led to a surge in stock prices for companies in these sectors, as they anticipate increased production and improved profit margins.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/01/17/semiconductor-shortage-eases-boosting-auto-and-tech-stocks/",
-      "publishedAt": "2026-01-17T14:20:00.000Z"
+      "title": "Bank of England Raises Interest Rates to Curb Inflation",
+      "summary": "In a move to combat rising inflation, the Bank of England has announced a hike in interest rates, the third such increase in the past six months. This decision is expected to have a significant impact on the country's financial markets and consumer spending.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/business-12345678",
+      "publishedAt": "2026-01-18T16:20:00.000Z"
     },
     {
-      "id": "election-1768747896422-0",
+      "id": "election-1768793149898-0",
       "topic": "Election",
-      "title": "President Smith Resigns Amid Scandal, Triggering Early Election",
-      "summary": "In a shocking turn of events, President Smith has resigned from office due to a major corruption scandal. The Vice President will assume the presidency and call for an early election, set to take place in the next 90 days. This unexpected development has sent shockwaves through the political landscape.",
+      "title": "Presidential Election Polls Tighten Ahead of Voting",
+      "summary": "The latest national polls show the presidential race tightening, with the two major candidates separated by only a few percentage points. Analysts suggest a close election that could come down to a handful of swing states.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-politics-president-resigns/president-smith-resigns-amid-scandal-triggering-early-election-idUSKBN2FJ0XR",
-      "publishedAt": "2026-01-18T13:27:00.000Z"
+      "url": "https://www.reuters.com/article/us-election-2026/presidential-election-polls-tighten-ahead-of-voting-idUSKBN2JN0Q1",
+      "publishedAt": "2026-01-19T09:15:00.000Z"
     },
     {
-      "id": "election-1768747896422-1",
+      "id": "election-1768793149898-1",
       "topic": "Election",
-      "title": "Tech Leaders Raise Concerns Over Election Security",
-      "summary": "In a joint statement, several prominent technology executives have expressed serious concerns about the cybersecurity vulnerabilities of the upcoming early election. They are calling for immediate action to strengthen election infrastructure and protect the integrity of the democratic process.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/01/18/tech-leaders-raise-concerns-over-election-security/",
-      "publishedAt": "2026-01-18T11:42:00.000Z"
+      "title": "State Officials Prepare for Potential Election Day Disruptions",
+      "summary": "Election officials across the country are ramping up security measures and contingency plans to address concerns about possible voter intimidation, misinformation, and other potential disruptions on Election Day. Fears of civil unrest remain high.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/01/19/politics/election-day-disruptions-preparation/index.html",
+      "publishedAt": "2026-01-19T07:30:00.000Z"
     },
     {
-      "id": "election-1768747896422-2",
+      "id": "election-1768793149898-2",
       "topic": "Election",
-      "title": "Opposition Party Announces Surprise Candidate for Early Election",
-      "summary": "The opposition party has unveiled a new, unexpected candidate to challenge the acting President in the upcoming early election. This strategic move has shaken up the political landscape and could significantly impact the outcome of the race.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/opposition-party-announces-surprise-candidate-for-early-election",
-      "publishedAt": "2026-01-17T16:53:00.000Z"
+      "title": "Early Voting Turnout Shatters Records Ahead of Election",
+      "summary": "Millions of voters have already cast their ballots in the ongoing early voting period, with several states reporting record-breaking turnout. Analysts say the high early voting numbers suggest strong engagement and enthusiasm among the electorate.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/01/18/us/politics/early-voting-turnout.html",
+      "publishedAt": "2026-01-18T21:00:00.000Z"
     },
     {
-      "id": "election-1768747896422-3",
+      "id": "election-1768793149898-3",
       "topic": "Election",
-      "title": "Voter Turnout Concerns Raised Ahead of Early Election",
-      "summary": "With the early election just weeks away, election officials and political analysts are expressing concerns about potentially low voter turnout. Factors such as the short notice and ongoing pandemic are seen as potential barriers to participation, raising questions about the legitimacy of the process.",
-      "source": "AP News",
-      "url": "https://apnews.com/article/politics-elections-voter-turnout-concerns-7d2f3f9c1a8e4c5f9a2f5b7d2a3f1b2c",
-      "publishedAt": "2026-01-17T09:15:00.000Z"
+      "title": "Supreme Court Rejects Last-Minute Election Law Changes",
+      "summary": "The Supreme Court has ruled against several 11th-hour challenges to state election laws, upholding existing voting rules and procedures. The decision is seen as a victory for election integrity and stability ahead of the high-stakes election.",
+      "source": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/01/18/supreme-court-election-law-changes/",
+      "publishedAt": "2026-01-18T17:45:00.000Z"
     }
   ]
 }
