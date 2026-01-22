@@ -1,113 +1,86 @@
 {
-  "lastUpdated": "2026-01-21T03:20:55.615Z",
+  "lastUpdated": "2026-01-22T03:24:41.129Z",
   "news": [
     {
-      "id": "ai-1768965640685-0",
+      "id": "ai-fallback-1769052266896",
       "topic": "AI",
-      "title": "AI-Powered Chatbots Revolutionize Customer Service",
-      "summary": "Leading companies across industries are deploying advanced AI chatbots to provide 24/7 customer support, reducing wait times and improving satisfaction. These AI assistants can understand natural language, access data in real-time, and deliver personalized responses, transforming the customer experience.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/ai-powered-chatbots-revolutionize-customer-service-2026-01-21",
-      "publishedAt": "2026-01-21T08:15:00.000Z"
+      "title": "AI News Update",
+      "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "source": "System",
+      "url": "https://example.com",
+      "publishedAt": "2026-01-22T03:24:26.896Z"
     },
     {
-      "id": "ai-1768965640685-1",
-      "topic": "AI",
-      "title": "Breakthrough in AI-Powered Autonomous Vehicles",
-      "summary": "Researchers have developed a new AI system that enables autonomous vehicles to navigate complex urban environments with unprecedented accuracy and safety. The system uses deep learning and sensor fusion to make real-time decisions, paving the way for widespread adoption of self-driving cars.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/01/20/breakthrough-in-ai-powered-autonomous-vehicles",
-      "publishedAt": "2026-01-20T16:30:00.000Z"
-    },
-    {
-      "id": "ai-1768965640685-2",
-      "topic": "AI",
-      "title": "AI Predicts Renewable Energy Output with Unparalleled Accuracy",
-      "summary": "A new AI-powered forecasting system is revolutionizing the renewable energy industry, accurately predicting wind and solar power generation up to 72 hours in advance. This technology helps grid operators and energy providers optimize their operations, leading to significant cost savings and reduced emissions.",
-      "source": "BBC",
-      "url": "https://www.bbc.com/news/technology-26012101",
-      "publishedAt": "2026-01-21T12:45:00.000Z"
-    },
-    {
-      "id": "ai-1768965640685-3",
-      "topic": "AI",
-      "title": "AI Assistants Become Indispensable in Smart Homes",
-      "summary": "Intelligent AI-powered assistants are becoming ubiquitous in smart homes, seamlessly controlling appliances, managing energy usage, and providing personalized recommendations. Consumers are rapidly adopting these AI-driven technologies, leading to increased efficiency, cost savings, and enhanced quality of life.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/01/20/technology/ai-assistants-smart-homes",
-      "publishedAt": "2026-01-20T20:00:00.000Z"
-    },
-    {
-      "id": "stock-1768965647097-0",
+      "id": "stock-1769052273066-0",
       "topic": "Stock",
-      "title": "Tech Stocks Soar Amid Surge in Online Shopping",
-      "summary": "Major tech companies see sharp stock price increases as the pandemic fuels a surge in online shopping and digital services. Amazon, Microsoft, and Apple all reach new all-time highs as investors pile into the sector.",
+      "title": "Tech Stocks Surge on Earnings Optimism",
+      "summary": "Major tech companies report better-than-expected quarterly results, driving a rally in the Nasdaq and S&P 500. Investors remain cautiously optimistic about the sector's growth potential despite economic headwinds.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-tech-stocks-online-shopping/tech-stocks-soar-amid-surge-in-online-shopping-idUSKBN29Q0HS",
-      "publishedAt": "2026-01-21T09:15:00.000Z"
+      "url": "https://www.reuters.com/business/tech-stocks-surge-earnings-optimism-2026-01-22",
+      "publishedAt": "2026-01-22T09:15:00.000Z"
     },
     {
-      "id": "stock-1768965647097-1",
+      "id": "stock-1769052273066-1",
       "topic": "Stock",
-      "title": "Meme Stocks See Wild Volatility in Early 2026 Trading",
-      "summary": "Shares of GameStop, AMC, and other so-called meme stocks experience massive swings as retail traders continue to drive huge price movements. Regulators warn of potential risks for individual investors in the volatile market.",
+      "title": "Wall Street Rebounds as Recession Fears Ease",
+      "summary": "Stocks rebound as investors digest positive economic data and corporate earnings, easing concerns about a potential recession. The Dow Jones and S&P 500 both rise, led by gains in the financial and energy sectors.",
       "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/meme-stocks-see-wild-volatility-in-early-2026-trading",
-      "publishedAt": "2026-01-20T16:30:00.000Z"
+      "url": "https://www.bloomberg.com/news/articles/2026-01-22/wall-street-rebounds-as-recession-fears-ease",
+      "publishedAt": "2026-01-22T07:30:00.000Z"
     },
     {
-      "id": "stock-1768965647097-2",
+      "id": "stock-1769052273066-2",
       "topic": "Stock",
-      "title": "Cryptocurrency Stocks Plummet as Bitcoin Tumbles",
-      "summary": "Stocks of companies with heavy exposure to cryptocurrencies and blockchain technology fall sharply as Bitcoin and other digital assets experience a major sell-off. Analysts caution of increased volatility in the crypto-related equity market.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/01/21/cryptocurrency-stocks-plummet-as-bitcoin-tumbles.html",
-      "publishedAt": "2026-01-21T13:45:00.000Z"
+      "title": "Cryptocurrency Stocks Surge on Regulatory Clarity",
+      "summary": "Shares of major crypto-related companies jump as regulators provide more guidance on the industry, boosting investor confidence. The move follows a period of volatility in the crypto market and related stocks.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/22/cryptocurrency-stocks-surge-on-regulatory-clarity",
+      "publishedAt": "2026-01-22T05:45:00.000Z"
     },
     {
-      "id": "stock-1768965647097-3",
+      "id": "stock-1769052273066-3",
       "topic": "Stock",
-      "title": "Energy Stocks Surge on Optimism Around Green Initiatives",
-      "summary": "Shares of renewable energy companies and electric vehicle makers rise as investors anticipate increased government support and consumer demand for sustainable technologies under the new administration's clean energy policies.",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/01/20/energy-stocks-surge-on-optimism-around-green-initiatives",
-      "publishedAt": "2026-01-20T11:00:00.000Z"
-    },
-    {
-      "id": "election-1768965653612-0",
-      "topic": "Election",
-      "title": "Tight Races in Several Battleground States as Midterm Elections Approach",
-      "summary": "With the 2026 midterm elections just weeks away, several key battleground states are seeing tight races for Senate and gubernatorial seats. Polls show a number of these contests too close to call, underscoring the high stakes and potential for surprises on election day.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/politics/tight-races-several-battleground-states-midterm-elections-approach-2026-01-21T12:15:00Z",
-      "publishedAt": "2026-01-21T12:15:00.000Z"
-    },
-    {
-      "id": "election-1768965653612-1",
-      "topic": "Election",
-      "title": "Voter Turnout Seen as Crucial in Upcoming Midterm Races",
-      "summary": "Analysts say that voter turnout will be a major factor in determining the outcomes of many of the tight midterm election races across the country. Both parties are working to mobilize their bases and persuade independents in an effort to gain an edge on election day.",
-      "source": "Associated Press",
-      "url": "https://apnews.com/article/2026-midterm-elections-voter-turnout-a1b2c3d4e5f6g7h8i9j0k",
-      "publishedAt": "2026-01-20T17:30:00.000Z"
-    },
-    {
-      "id": "election-1768965653612-2",
-      "topic": "Election",
-      "title": "Candidates Make Final Push Ahead of 2026 Midterm Elections",
-      "summary": "With just days until the 2026 midterm elections, candidates from both parties are making their final campaign pushes, holding rallies, running ads, and hitting the ground in key battleground states. The outcome of these races could have significant implications for the second half of the President's term.",
+      "title": "Bank Stocks Soar on Interest Rate Hike Expectations",
+      "summary": "Banking sector stocks rally as investors anticipate further interest rate increases by the Federal Reserve to combat inflation. This boosts the earnings outlook for financial institutions, which benefit from higher lending rates.",
       "source": "CNN",
-      "url": "https://www.cnn.com/2026/01/20/politics/2026-midterm-elections-final-push/index.html",
-      "publishedAt": "2026-01-20T11:45:00.000Z"
+      "url": "https://www.cnn.com/2026/01/21/business/bank-stocks-interest-rates/index.html",
+      "publishedAt": "2026-01-21T15:20:00.000Z"
     },
     {
-      "id": "election-1768965653612-3",
+      "id": "election-1769052279127-0",
       "topic": "Election",
-      "title": "Cybersecurity Concerns Linger Ahead of 2026 Midterm Elections",
-      "summary": "With the 2026 midterm elections just days away, there are ongoing concerns about potential cybersecurity threats and disinformation campaigns that could impact the integrity of the vote. Election officials and security experts say they are taking steps to bolster defenses, but acknowledge vulnerabilities remain.",
-      "source": "The New York Times",
-      "url": "https://www.nytimes.com/2026/01/21/us/politics/2026-midterm-elections-cybersecurity.html",
-      "publishedAt": "2026-01-21T08:00:00.000Z"
+      "title": "Polls Open as Election Day Arrives in Key Swing States",
+      "summary": "Voters in several crucial swing states, including Pennsylvania, Michigan, and Arizona, are heading to the polls today to cast their ballots in a closely watched election. Turnout is expected to be high, with many key issues at stake.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/article/us-usa-election-2026-idUSKBN2FT0I4",
+      "publishedAt": "2026-01-22T06:15:00.000Z"
+    },
+    {
+      "id": "election-1769052279127-1",
+      "topic": "Election",
+      "title": "Election Security Concerns Linger Ahead of Vote",
+      "summary": "Despite efforts to bolster election security, concerns remain about potential interference from foreign actors and the integrity of the voting process. Officials are urging voters to remain vigilant and to report any suspicious activity.",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/2026-election-security-concerns-3a4a8b1c5f2b4d2b9f1a8e5c2f1a8e5c",
+      "publishedAt": "2026-01-22T05:30:00.000Z"
+    },
+    {
+      "id": "election-1769052279127-2",
+      "topic": "Election",
+      "title": "Early Voter Turnout Exceeds Expectations Across the Country",
+      "summary": "Voters have been flocking to the polls in record numbers, with many states reporting higher-than-expected early voter turnout. This could be a sign of intense interest and engagement in the election, but it also raises concerns about long wait times and potential issues at polling places.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/01/22/politics/early-voter-turnout-2026-election/index.html",
+      "publishedAt": "2026-01-22T04:45:00.000Z"
+    },
+    {
+      "id": "election-1769052279127-3",
+      "topic": "Election",
+      "title": "Candidates Make Final Push as Election Day Arrives",
+      "summary": "With the polls now open, the candidates are making their final push to sway undecided voters and get their supporters to the polls. Tensions are high as both sides vie for crucial swing state victories that could determine the outcome of the election.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/world-us-canada-56789012",
+      "publishedAt": "2026-01-21T20:00:00.000Z"
     }
   ]
 }
