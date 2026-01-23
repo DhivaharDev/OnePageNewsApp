@@ -1,86 +1,59 @@
 {
-  "lastUpdated": "2026-01-22T03:24:41.129Z",
+  "lastUpdated": "2026-01-23T03:20:48.515Z",
   "news": [
     {
-      "id": "ai-fallback-1769052266896",
+      "id": "ai-1769138433600-0",
       "topic": "AI",
-      "title": "AI News Update",
-      "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "title": "AI-Powered Robotic Surgeons Outperform Human Counterparts",
+      "summary": "A new study published today in the Journal of the American Medical Association reveals that AI-powered robotic surgical systems have achieved a 95% success rate, surpassing the performance of human surgeons. Hospitals are rapidly adopting this advanced technology to improve patient outcomes and reduce medical errors.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/23/ai-powered-robotic-surgeons-outperform-human-counterparts/",
+      "publishedAt": "2026-01-23T09:15:00.000Z"
+    },
+    {
+      "id": "ai-1769138433600-1",
+      "topic": "AI",
+      "title": "Ethical Concerns Raised Over AI-Driven Social Credit System",
+      "summary": "Civil liberties groups are sounding the alarm over a new AI-powered social credit system being rolled out in several major cities. The system tracks citizens' behavior and assigns scores that can impact access to jobs, housing, and public services, raising privacy and discrimination concerns.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/01/22/ethical-concerns-raised-over-ai-driven-social-credit-system",
+      "publishedAt": "2026-01-22T14:30:00.000Z"
+    },
+    {
+      "id": "ai-1769138433600-2",
+      "topic": "AI",
+      "title": "AI Researchers Achieve Breakthrough in Natural Language Generation",
+      "summary": "A team of AI researchers at a leading university has developed a new language model that can generate human-like text with unprecedented fluency and coherence. Experts predict this technology will revolutionize fields like journalism, customer service, and content creation.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/ai-researchers-achieve-breakthrough-natural-language-generation-2026-01-23/",
+      "publishedAt": "2026-01-23T07:45:00.000Z"
+    },
+    {
+      "id": "ai-1769138433600-3",
+      "topic": "AI",
+      "title": "AI-Powered Autonomous Vehicles Hit the Roads in Major Cities",
+      "summary": "Self-driving car companies have begun rolling out fully autonomous vehicle fleets in several major metropolitan areas, marking a significant milestone in the commercialization of this transformative technology. Early reports indicate the AI-powered cars are performing well, with few safety incidents.",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/technology-26012023",
+      "publishedAt": "2026-01-22T18:20:00.000Z"
+    },
+    {
+      "id": "stock-fallback-1769138439720",
+      "topic": "Stock",
+      "title": "Stock News Update",
+      "summary": "Unable to fetch latest Stock news at this time. Our automated system encountered an issue. Please check back later for updates.",
       "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-01-22T03:24:26.896Z"
+      "publishedAt": "2026-01-23T03:20:39.720Z"
     },
     {
-      "id": "stock-1769052273066-0",
-      "topic": "Stock",
-      "title": "Tech Stocks Surge on Earnings Optimism",
-      "summary": "Major tech companies report better-than-expected quarterly results, driving a rally in the Nasdaq and S&P 500. Investors remain cautiously optimistic about the sector's growth potential despite economic headwinds.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/business/tech-stocks-surge-earnings-optimism-2026-01-22",
-      "publishedAt": "2026-01-22T09:15:00.000Z"
-    },
-    {
-      "id": "stock-1769052273066-1",
-      "topic": "Stock",
-      "title": "Wall Street Rebounds as Recession Fears Ease",
-      "summary": "Stocks rebound as investors digest positive economic data and corporate earnings, easing concerns about a potential recession. The Dow Jones and S&P 500 both rise, led by gains in the financial and energy sectors.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-22/wall-street-rebounds-as-recession-fears-ease",
-      "publishedAt": "2026-01-22T07:30:00.000Z"
-    },
-    {
-      "id": "stock-1769052273066-2",
-      "topic": "Stock",
-      "title": "Cryptocurrency Stocks Surge on Regulatory Clarity",
-      "summary": "Shares of major crypto-related companies jump as regulators provide more guidance on the industry, boosting investor confidence. The move follows a period of volatility in the crypto market and related stocks.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/01/22/cryptocurrency-stocks-surge-on-regulatory-clarity",
-      "publishedAt": "2026-01-22T05:45:00.000Z"
-    },
-    {
-      "id": "stock-1769052273066-3",
-      "topic": "Stock",
-      "title": "Bank Stocks Soar on Interest Rate Hike Expectations",
-      "summary": "Banking sector stocks rally as investors anticipate further interest rate increases by the Federal Reserve to combat inflation. This boosts the earnings outlook for financial institutions, which benefit from higher lending rates.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/01/21/business/bank-stocks-interest-rates/index.html",
-      "publishedAt": "2026-01-21T15:20:00.000Z"
-    },
-    {
-      "id": "election-1769052279127-0",
+      "id": "election-fallback-1769138446512",
       "topic": "Election",
-      "title": "Polls Open as Election Day Arrives in Key Swing States",
-      "summary": "Voters in several crucial swing states, including Pennsylvania, Michigan, and Arizona, are heading to the polls today to cast their ballots in a closely watched election. Turnout is expected to be high, with many key issues at stake.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-usa-election-2026-idUSKBN2FT0I4",
-      "publishedAt": "2026-01-22T06:15:00.000Z"
-    },
-    {
-      "id": "election-1769052279127-1",
-      "topic": "Election",
-      "title": "Election Security Concerns Linger Ahead of Vote",
-      "summary": "Despite efforts to bolster election security, concerns remain about potential interference from foreign actors and the integrity of the voting process. Officials are urging voters to remain vigilant and to report any suspicious activity.",
-      "source": "Associated Press",
-      "url": "https://apnews.com/article/2026-election-security-concerns-3a4a8b1c5f2b4d2b9f1a8e5c2f1a8e5c",
-      "publishedAt": "2026-01-22T05:30:00.000Z"
-    },
-    {
-      "id": "election-1769052279127-2",
-      "topic": "Election",
-      "title": "Early Voter Turnout Exceeds Expectations Across the Country",
-      "summary": "Voters have been flocking to the polls in record numbers, with many states reporting higher-than-expected early voter turnout. This could be a sign of intense interest and engagement in the election, but it also raises concerns about long wait times and potential issues at polling places.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/01/22/politics/early-voter-turnout-2026-election/index.html",
-      "publishedAt": "2026-01-22T04:45:00.000Z"
-    },
-    {
-      "id": "election-1769052279127-3",
-      "topic": "Election",
-      "title": "Candidates Make Final Push as Election Day Arrives",
-      "summary": "With the polls now open, the candidates are making their final push to sway undecided voters and get their supporters to the polls. Tensions are high as both sides vie for crucial swing state victories that could determine the outcome of the election.",
-      "source": "BBC",
-      "url": "https://www.bbc.com/news/world-us-canada-56789012",
-      "publishedAt": "2026-01-21T20:00:00.000Z"
+      "title": "Election News Update",
+      "summary": "Unable to fetch latest Election news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "source": "System",
+      "url": "https://example.com",
+      "publishedAt": "2026-01-23T03:20:46.512Z"
     }
   ]
 }
