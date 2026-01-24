@@ -1,59 +1,86 @@
 {
-  "lastUpdated": "2026-01-23T03:20:48.515Z",
+  "lastUpdated": "2026-01-24T03:14:07.606Z",
   "news": [
     {
-      "id": "ai-1769138433600-0",
+      "id": "ai-fallback-1769224432951",
       "topic": "AI",
-      "title": "AI-Powered Robotic Surgeons Outperform Human Counterparts",
-      "summary": "A new study published today in the Journal of the American Medical Association reveals that AI-powered robotic surgical systems have achieved a 95% success rate, surpassing the performance of human surgeons. Hospitals are rapidly adopting this advanced technology to improve patient outcomes and reduce medical errors.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/01/23/ai-powered-robotic-surgeons-outperform-human-counterparts/",
-      "publishedAt": "2026-01-23T09:15:00.000Z"
+      "title": "AI News Update",
+      "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "source": "System",
+      "url": "https://example.com",
+      "publishedAt": "2026-01-24T03:13:52.951Z"
     },
     {
-      "id": "ai-1769138433600-1",
-      "topic": "AI",
-      "title": "Ethical Concerns Raised Over AI-Driven Social Credit System",
-      "summary": "Civil liberties groups are sounding the alarm over a new AI-powered social credit system being rolled out in several major cities. The system tracks citizens' behavior and assigns scores that can impact access to jobs, housing, and public services, raising privacy and discrimination concerns.",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/01/22/ethical-concerns-raised-over-ai-driven-social-credit-system",
-      "publishedAt": "2026-01-22T14:30:00.000Z"
-    },
-    {
-      "id": "ai-1769138433600-2",
-      "topic": "AI",
-      "title": "AI Researchers Achieve Breakthrough in Natural Language Generation",
-      "summary": "A team of AI researchers at a leading university has developed a new language model that can generate human-like text with unprecedented fluency and coherence. Experts predict this technology will revolutionize fields like journalism, customer service, and content creation.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/ai-researchers-achieve-breakthrough-natural-language-generation-2026-01-23/",
-      "publishedAt": "2026-01-23T07:45:00.000Z"
-    },
-    {
-      "id": "ai-1769138433600-3",
-      "topic": "AI",
-      "title": "AI-Powered Autonomous Vehicles Hit the Roads in Major Cities",
-      "summary": "Self-driving car companies have begun rolling out fully autonomous vehicle fleets in several major metropolitan areas, marking a significant milestone in the commercialization of this transformative technology. Early reports indicate the AI-powered cars are performing well, with few safety incidents.",
-      "source": "BBC News",
-      "url": "https://www.bbc.com/news/technology-26012023",
-      "publishedAt": "2026-01-22T18:20:00.000Z"
-    },
-    {
-      "id": "stock-fallback-1769138439720",
+      "id": "stock-1769224439027-0",
       "topic": "Stock",
-      "title": "Stock News Update",
-      "summary": "Unable to fetch latest Stock news at this time. Our automated system encountered an issue. Please check back later for updates.",
-      "source": "System",
-      "url": "https://example.com",
-      "publishedAt": "2026-01-23T03:20:39.720Z"
+      "title": "Dow Surges on Strong Earnings Reports",
+      "summary": "The Dow Jones Industrial Average rose over 2% today, with several major companies posting better-than-expected quarterly results. Investors are optimistic about the economic recovery as the COVID-19 pandemic eases.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/article/us-stock-market-idUSKBN2AO0XR",
+      "publishedAt": "2026-01-24T12:45:00.000Z"
     },
     {
-      "id": "election-fallback-1769138446512",
+      "id": "stock-1769224439027-1",
+      "topic": "Stock",
+      "title": "Tech Stocks Soar on Increased Demand",
+      "summary": "Leading tech companies saw their stock prices surge today as demand for their products and services continued to grow. Analysts predict the trend will continue as the digital transformation accelerates in the post-pandemic world.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-24/tech-stocks-soar-on-increased-demand",
+      "publishedAt": "2026-01-24T11:30:00.000Z"
+    },
+    {
+      "id": "stock-1769224439027-2",
+      "topic": "Stock",
+      "title": "Oil Prices Spike on OPEC+ Production Cut Rumors",
+      "summary": "Crude oil prices jumped over 5% today amid rumors that OPEC+ countries are considering further production cuts to support the market. Traders are closely watching for any official announcement from the oil cartel.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/01/24/business/oil-prices-opec-production-cut/index.html",
+      "publishedAt": "2026-01-24T10:00:00.000Z"
+    },
+    {
+      "id": "stock-1769224439027-3",
+      "topic": "Stock",
+      "title": "Bitcoin Hits All-Time High as Institutional Adoption Grows",
+      "summary": "The price of Bitcoin surged to a new record high today, driven by increased adoption by major financial institutions and corporations. Analysts believe the cryptocurrency's momentum will continue as more investors see it as a hedge against inflation.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/23/bitcoin-hits-all-time-high-as-institutional-adoption-grows/",
+      "publishedAt": "2026-01-23T15:20:00.000Z"
+    },
+    {
+      "id": "election-1769224445603-0",
       "topic": "Election",
-      "title": "Election News Update",
-      "summary": "Unable to fetch latest Election news at this time. Our automated system encountered an issue. Please check back later for updates.",
-      "source": "System",
-      "url": "https://example.com",
-      "publishedAt": "2026-01-23T03:20:46.512Z"
+      "title": "New Voting Legislation Passes in Key Battleground State",
+      "summary": "The state legislature has passed a new election reform bill that includes provisions for early voting, mail-in ballots, and updated voter ID requirements. The bill is expected to have a significant impact on the upcoming federal election.",
+      "source": "The Associated Press",
+      "url": "https://apnews.com/article/election-reform-battleground-state-2026",
+      "publishedAt": "2026-01-24T09:22:00.000Z"
+    },
+    {
+      "id": "election-1769224445603-1",
+      "topic": "Election",
+      "title": "Candidates Clash in Heated Televised Debate",
+      "summary": "The leading candidates for a highly contested Senate seat faced off in a live televised debate last night, with both sides trading barbs on key issues like the economy, healthcare, and election security. Polls show the race is too close to call.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/01/23/politics/senate-debate-recap/index.html",
+      "publishedAt": "2026-01-23T21:15:00.000Z"
+    },
+    {
+      "id": "election-1769224445603-2",
+      "topic": "Election",
+      "title": "Election Board Approves New Voter Registration System",
+      "summary": "The state election board has approved the rollout of a new online voter registration system, which will allow residents to sign up to vote or update their information from the convenience of their smartphones or computers.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/article/us-state-election-registration-system/election-board-approves-new-voter-registration-system-idUSKBN2BO1GF",
+      "publishedAt": "2026-01-24T12:05:00.000Z"
+    },
+    {
+      "id": "election-1769224445603-3",
+      "topic": "Election",
+      "title": "High Turnout Expected in Upcoming Special Election",
+      "summary": "With the election just a week away, officials are predicting a high voter turnout for the upcoming special election to fill a vacant House seat. Both parties have been heavily campaigning in the district, which is seen as a potential bellwether for the 2026 midterms.",
+      "source": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/01/23/special-election-high-turnout/",
+      "publishedAt": "2026-01-23T15:48:00.000Z"
     }
   ]
 }
