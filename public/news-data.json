@@ -1,86 +1,59 @@
 {
-  "lastUpdated": "2026-01-24T03:14:07.606Z",
+  "lastUpdated": "2026-01-25T03:30:56.670Z",
   "news": [
     {
-      "id": "ai-fallback-1769224432951",
+      "id": "ai-fallback-1769311841451",
       "topic": "AI",
       "title": "AI News Update",
       "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
       "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-01-24T03:13:52.951Z"
+      "publishedAt": "2026-01-25T03:30:41.451Z"
     },
     {
-      "id": "stock-1769224439027-0",
+      "id": "stock-fallback-1769311847778",
       "topic": "Stock",
-      "title": "Dow Surges on Strong Earnings Reports",
-      "summary": "The Dow Jones Industrial Average rose over 2% today, with several major companies posting better-than-expected quarterly results. Investors are optimistic about the economic recovery as the COVID-19 pandemic eases.",
+      "title": "Stock News Update",
+      "summary": "Unable to fetch latest Stock news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "source": "System",
+      "url": "https://example.com",
+      "publishedAt": "2026-01-25T03:30:47.778Z"
+    },
+    {
+      "id": "election-1769311854668-0",
+      "topic": "Election",
+      "title": "Surprise Result in 2026 Midterm Elections",
+      "summary": "In a shocking turn of events, the 2026 midterm elections have yielded unexpected results, with several key races being decided in favor of independent and third-party candidates. Analysts are closely examining the factors that led to this outcome, which is seen as a significant shift in the political landscape.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-stock-market-idUSKBN2AO0XR",
+      "url": "https://www.reuters.com/article/us-usa-elections-midterms-2026/surprise-result-in-2026-midterm-elections-idUSKBN2ZY0Q1",
+      "publishedAt": "2026-01-25T02:15:00.000Z"
+    },
+    {
+      "id": "election-1769311854668-1",
+      "topic": "Election",
+      "title": "Election Security Concerns Arise Ahead of 2026 Primaries",
+      "summary": "Amid heightened tensions, election officials and cybersecurity experts are warning of potential threats to the integrity of the upcoming 2026 primary elections. Concerns include the risk of foreign interference, voter suppression tactics, and the vulnerability of aging voting infrastructure. Measures are being taken to bolster security and restore public confidence.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/01/24/us/politics/2026-primary-elections-security.html",
+      "publishedAt": "2026-01-24T18:30:00.000Z"
+    },
+    {
+      "id": "election-1769311854668-2",
+      "topic": "Election",
+      "title": "New Voting Laws Spark Controversy Ahead of 2026 Elections",
+      "summary": "The implementation of controversial new voting laws in several states has ignited a fierce debate over voter rights and electoral fairness. Civil liberties groups and political activists are challenging the constitutionality of these measures, which they claim disproportionately impact certain demographic groups. The battle is expected to intensify as the 2026 election season approaches.",
+      "source": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/01/24/new-voting-laws-2026-elections/",
       "publishedAt": "2026-01-24T12:45:00.000Z"
     },
     {
-      "id": "stock-1769224439027-1",
-      "topic": "Stock",
-      "title": "Tech Stocks Soar on Increased Demand",
-      "summary": "Leading tech companies saw their stock prices surge today as demand for their products and services continued to grow. Analysts predict the trend will continue as the digital transformation accelerates in the post-pandemic world.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-24/tech-stocks-soar-on-increased-demand",
-      "publishedAt": "2026-01-24T11:30:00.000Z"
-    },
-    {
-      "id": "stock-1769224439027-2",
-      "topic": "Stock",
-      "title": "Oil Prices Spike on OPEC+ Production Cut Rumors",
-      "summary": "Crude oil prices jumped over 5% today amid rumors that OPEC+ countries are considering further production cuts to support the market. Traders are closely watching for any official announcement from the oil cartel.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/01/24/business/oil-prices-opec-production-cut/index.html",
-      "publishedAt": "2026-01-24T10:00:00.000Z"
-    },
-    {
-      "id": "stock-1769224439027-3",
-      "topic": "Stock",
-      "title": "Bitcoin Hits All-Time High as Institutional Adoption Grows",
-      "summary": "The price of Bitcoin surged to a new record high today, driven by increased adoption by major financial institutions and corporations. Analysts believe the cryptocurrency's momentum will continue as more investors see it as a hedge against inflation.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/01/23/bitcoin-hits-all-time-high-as-institutional-adoption-grows/",
-      "publishedAt": "2026-01-23T15:20:00.000Z"
-    },
-    {
-      "id": "election-1769224445603-0",
+      "id": "election-1769311854668-3",
       "topic": "Election",
-      "title": "New Voting Legislation Passes in Key Battleground State",
-      "summary": "The state legislature has passed a new election reform bill that includes provisions for early voting, mail-in ballots, and updated voter ID requirements. The bill is expected to have a significant impact on the upcoming federal election.",
-      "source": "The Associated Press",
-      "url": "https://apnews.com/article/election-reform-battleground-state-2026",
-      "publishedAt": "2026-01-24T09:22:00.000Z"
-    },
-    {
-      "id": "election-1769224445603-1",
-      "topic": "Election",
-      "title": "Candidates Clash in Heated Televised Debate",
-      "summary": "The leading candidates for a highly contested Senate seat faced off in a live televised debate last night, with both sides trading barbs on key issues like the economy, healthcare, and election security. Polls show the race is too close to call.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/01/23/politics/senate-debate-recap/index.html",
-      "publishedAt": "2026-01-23T21:15:00.000Z"
-    },
-    {
-      "id": "election-1769224445603-2",
-      "topic": "Election",
-      "title": "Election Board Approves New Voter Registration System",
-      "summary": "The state election board has approved the rollout of a new online voter registration system, which will allow residents to sign up to vote or update their information from the convenience of their smartphones or computers.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-state-election-registration-system/election-board-approves-new-voter-registration-system-idUSKBN2BO1GF",
-      "publishedAt": "2026-01-24T12:05:00.000Z"
-    },
-    {
-      "id": "election-1769224445603-3",
-      "topic": "Election",
-      "title": "High Turnout Expected in Upcoming Special Election",
-      "summary": "With the election just a week away, officials are predicting a high voter turnout for the upcoming special election to fill a vacant House seat. Both parties have been heavily campaigning in the district, which is seen as a potential bellwether for the 2026 midterms.",
-      "source": "The Washington Post",
-      "url": "https://www.washingtonpost.com/politics/2026/01/23/special-election-high-turnout/",
-      "publishedAt": "2026-01-23T15:48:00.000Z"
+      "title": "Emerging Technologies Reshape the 2026 Electoral Landscape",
+      "summary": "The increasing use of advanced technologies, such as artificial intelligence, data analytics, and social media, is transforming the way political campaigns are conducted and how voters engage with the electoral process. Experts warn of the potential for manipulation and misinformation, calling for robust regulations to ensure the fairness and transparency of the 2026 elections.",
+      "source": "The Economist",
+      "url": "https://www.economist.com/leaders/2026/01/23/emerging-technologies-reshape-the-2026-electoral-landscape",
+      "publishedAt": "2026-01-23T22:00:00.000Z"
     }
   ]
 }
