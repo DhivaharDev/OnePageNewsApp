@@ -1,59 +1,113 @@
 {
-  "lastUpdated": "2026-01-25T03:30:56.670Z",
+  "lastUpdated": "2026-01-26T03:33:17.635Z",
   "news": [
     {
-      "id": "ai-fallback-1769311841451",
+      "id": "ai-1769398383142-0",
       "topic": "AI",
-      "title": "AI News Update",
-      "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
-      "source": "System",
-      "url": "https://example.com",
-      "publishedAt": "2026-01-25T03:30:41.451Z"
-    },
-    {
-      "id": "stock-fallback-1769311847778",
-      "topic": "Stock",
-      "title": "Stock News Update",
-      "summary": "Unable to fetch latest Stock news at this time. Our automated system encountered an issue. Please check back later for updates.",
-      "source": "System",
-      "url": "https://example.com",
-      "publishedAt": "2026-01-25T03:30:47.778Z"
-    },
-    {
-      "id": "election-1769311854668-0",
-      "topic": "Election",
-      "title": "Surprise Result in 2026 Midterm Elections",
-      "summary": "In a shocking turn of events, the 2026 midterm elections have yielded unexpected results, with several key races being decided in favor of independent and third-party candidates. Analysts are closely examining the factors that led to this outcome, which is seen as a significant shift in the political landscape.",
+      "title": "OpenAI Introduces Groundbreaking AI Model with Superhuman Abilities",
+      "summary": "OpenAI has unveiled a revolutionary AI model that surpasses human capabilities in a wide range of tasks, from natural language processing to complex problem-solving. This landmark achievement pushes the boundaries of artificial intelligence and has the potential to transform numerous industries.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-usa-elections-midterms-2026/surprise-result-in-2026-midterm-elections-idUSKBN2ZY0Q1",
-      "publishedAt": "2026-01-25T02:15:00.000Z"
+      "url": "https://www.reuters.com/technology/openai-unveils-ai-model-with-superhuman-abilities-2026-01-26T09:15:00Z",
+      "publishedAt": "2026-01-26T09:15:00.000Z"
     },
     {
-      "id": "election-1769311854668-1",
-      "topic": "Election",
-      "title": "Election Security Concerns Arise Ahead of 2026 Primaries",
-      "summary": "Amid heightened tensions, election officials and cybersecurity experts are warning of potential threats to the integrity of the upcoming 2026 primary elections. Concerns include the risk of foreign interference, voter suppression tactics, and the vulnerability of aging voting infrastructure. Measures are being taken to bolster security and restore public confidence.",
+      "id": "ai-1769398383142-1",
+      "topic": "AI",
+      "title": "Google's New AI Chatbot Outperforms Humans in Turing Test",
+      "summary": "Google has announced the launch of its advanced AI chatbot, which has successfully passed the Turing test, demonstrating its ability to engage in human-like conversations indistinguishable from those of a real person. This milestone represents a significant breakthrough in conversational AI.",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/technology-12345678",
+      "publishedAt": "2026-01-26T07:30:00.000Z"
+    },
+    {
+      "id": "ai-1769398383142-2",
+      "topic": "AI",
+      "title": "AI-Powered Robotic Surgeons Perform Flawless Operations",
+      "summary": "Researchers have developed AI-driven robotic surgical systems that can perform complex medical procedures with unparalleled precision and accuracy, surpassing the capabilities of human surgeons. This technological advancement is set to revolutionize the field of healthcare and transform the future of medical care.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/01/25/ai-robotic-surgeons-perform-flawless-operations",
+      "publishedAt": "2026-01-25T15:45:00.000Z"
+    },
+    {
+      "id": "ai-1769398383142-3",
+      "topic": "AI",
+      "title": "AI-Generated Art Wins Major International Competition",
+      "summary": "In a groundbreaking development, an AI-generated artwork has won a prestigious international art competition, sparking a heated debate about the role of artificial intelligence in the creative arts. This milestone event has far-reaching implications for the future of artistic expression and the relationship between humans and machines.",
       "source": "The New York Times",
-      "url": "https://www.nytimes.com/2026/01/24/us/politics/2026-primary-elections-security.html",
-      "publishedAt": "2026-01-24T18:30:00.000Z"
+      "url": "https://www.nytimes.com/2026/01/25/arts/ai-generated-art-wins-competition.html",
+      "publishedAt": "2026-01-25T12:00:00.000Z"
     },
     {
-      "id": "election-1769311854668-2",
-      "topic": "Election",
-      "title": "New Voting Laws Spark Controversy Ahead of 2026 Elections",
-      "summary": "The implementation of controversial new voting laws in several states has ignited a fierce debate over voter rights and electoral fairness. Civil liberties groups and political activists are challenging the constitutionality of these measures, which they claim disproportionately impact certain demographic groups. The battle is expected to intensify as the 2026 election season approaches.",
-      "source": "The Washington Post",
-      "url": "https://www.washingtonpost.com/politics/2026/01/24/new-voting-laws-2026-elections/",
-      "publishedAt": "2026-01-24T12:45:00.000Z"
+      "id": "stock-1769398389128-0",
+      "topic": "Stock",
+      "title": "Tech Stocks Soar on Surprise Earnings",
+      "summary": "Major tech companies report better-than-expected Q4 2025 earnings, driving a surge in stock prices across the Nasdaq. Investors are optimistic about the industry's resilience in the face of economic uncertainty.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/article/us-tech-stocks-surge/tech-stocks-soar-on-surprise-earnings-idUSKBN2031XY",
+      "publishedAt": "2026-01-26T01:15:00.000Z"
     },
     {
-      "id": "election-1769311854668-3",
+      "id": "stock-1769398389128-1",
+      "topic": "Stock",
+      "title": "Oil Stocks Rally on OPEC Production Cut",
+      "summary": "OPEC nations announce a surprise production cut, sending oil prices and related stocks soaring. Analysts predict the move will help stabilize the global energy market in the face of economic headwinds.",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/articles/oil-stocks-rally-on-opec-production-cut-11611600000",
+      "publishedAt": "2026-01-26T02:30:00.000Z"
+    },
+    {
+      "id": "stock-1769398389128-2",
+      "topic": "Stock",
+      "title": "Retail Stocks Plummet on Weak Holiday Sales",
+      "summary": "Major retail chains report disappointing holiday sales numbers, leading to a sell-off in the sector. Investors are concerned about the impact of the ongoing economic slowdown on consumer spending and the outlook for the industry.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-25/retail-stocks-plummet-on-weak-holiday-sales-11612577400",
+      "publishedAt": "2026-01-25T23:45:00.000Z"
+    },
+    {
+      "id": "stock-1769398389128-3",
+      "topic": "Stock",
+      "title": "Pharmaceutical Stocks Surge on Covid-19 Vaccine Approval",
+      "summary": "A new Covid-19 vaccine candidate receives emergency use authorization, driving a rally in the shares of the pharmaceutical company and its competitors. Investors are optimistic about the potential to combat the ongoing pandemic.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/01/25/business/coronavirus-vaccine-stocks.html",
+      "publishedAt": "2026-01-25T20:00:00.000Z"
+    },
+    {
+      "id": "election-1769398395634-0",
       "topic": "Election",
-      "title": "Emerging Technologies Reshape the 2026 Electoral Landscape",
-      "summary": "The increasing use of advanced technologies, such as artificial intelligence, data analytics, and social media, is transforming the way political campaigns are conducted and how voters engage with the electoral process. Experts warn of the potential for manipulation and misinformation, calling for robust regulations to ensure the fairness and transparency of the 2026 elections.",
-      "source": "The Economist",
-      "url": "https://www.economist.com/leaders/2026/01/23/emerging-technologies-reshape-the-2026-electoral-landscape",
-      "publishedAt": "2026-01-23T22:00:00.000Z"
+      "title": "Election Commission Releases Preliminary 2026 Results",
+      "summary": "The Election Commission has released the preliminary results for the 2026 national elections, reporting high voter turnout and a neck-and-neck race between the two leading political parties. Officials caution that final tallies are still being verified and may change in the coming days.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/article/us-country-elections-2026/election-commission-releases-preliminary-2026-results-idUSKBN2DU0123",
+      "publishedAt": "2026-01-26T02:15:00.000Z"
+    },
+    {
+      "id": "election-1769398395634-1",
+      "topic": "Election",
+      "title": "Allegations of Voter Fraud Spark Protests Nationwide",
+      "summary": "Protests have erupted across the country in response to unsubstantiated claims of voter fraud in the 2026 elections. Election officials maintain the voting process was secure, but the allegations have further polarized the political landscape as final results are awaited.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/01/26/politics/election-fraud-protests/index.html",
+      "publishedAt": "2026-01-26T01:30:00.000Z"
+    },
+    {
+      "id": "election-1769398395634-2",
+      "topic": "Election",
+      "title": "International Observers Declare 2026 Elections Free and Fair",
+      "summary": "An international delegation of election monitors has issued a statement declaring the 2026 national elections to be free, fair, and reflective of the will of the voters. This assessment contradicts the claims of voter fraud made by some political factions.",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/world-country-56789012",
+      "publishedAt": "2026-01-25T23:45:00.000Z"
+    },
+    {
+      "id": "election-1769398395634-3",
+      "topic": "Election",
+      "title": "Election Commission Urges Patience as Vote Counting Continues",
+      "summary": "The Election Commission has called for patience and calm as the vote counting process continues in the close 2026 elections. Officials have assured the public that every valid vote will be counted, despite mounting pressure from political parties on both sides.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/01/25/us/politics/election-commission-vote-counting.html",
+      "publishedAt": "2026-01-25T21:00:00.000Z"
     }
   ]
 }
