@@ -1,59 +1,86 @@
 {
-  "lastUpdated": "2026-01-27T03:25:21.858Z",
+  "lastUpdated": "2026-01-28T03:22:57.840Z",
   "news": [
     {
-      "id": "ai-fallback-1769484306770",
+      "id": "ai-1769570562810-0",
       "topic": "AI",
-      "title": "AI News Update",
-      "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
-      "source": "System",
-      "url": "https://example.com",
-      "publishedAt": "2026-01-27T03:25:06.770Z"
+      "title": "AI-Powered Chatbots Revolutionize Customer Service",
+      "summary": "Major companies are deploying advanced AI chatbots that can understand natural language, provide personalized responses, and handle complex customer queries with minimal human intervention. This has led to faster issue resolution and higher customer satisfaction.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/28/ai-powered-chatbots-revolutionize-customer-service",
+      "publishedAt": "2026-01-28T10:15:00.000Z"
     },
     {
-      "id": "stock-fallback-1769484313273",
+      "id": "ai-1769570562810-1",
+      "topic": "AI",
+      "title": "Autonomous Vehicles Take to the Streets in Major Cities",
+      "summary": "Self-driving car technology has matured, and major cities are now allowing limited deployment of autonomous vehicles on public roads. Early results show improved traffic flow, reduced accidents, and increased accessibility for underserved communities.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/autonomous-vehicles-take-streets-major-cities-2026-01-27",
+      "publishedAt": "2026-01-27T16:30:00.000Z"
+    },
+    {
+      "id": "ai-1769570562811-2",
+      "topic": "AI",
+      "title": "AI Algorithms Help Predict and Prevent Wildfires",
+      "summary": "Researchers have developed AI-powered systems that analyze weather data, satellite imagery, and historical fire patterns to predict the likelihood and spread of wildfires. This information is being used by firefighters and emergency responders to proactively allocate resources and protect vulnerable communities.",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/technology-56789012",
+      "publishedAt": "2026-01-27T12:45:00.000Z"
+    },
+    {
+      "id": "ai-1769570562811-3",
+      "topic": "AI",
+      "title": "AI Detects Early Signs of Alzheimer's Disease",
+      "summary": "A new AI-based diagnostic tool can analyze brain scans and identify subtle changes that may indicate the early stages of Alzheimer's disease. This could lead to earlier interventions and better outcomes for patients, as well as advancements in Alzheimer's research.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/01/28/health/ai-alzheimers-detection/index.html",
+      "publishedAt": "2026-01-28T08:30:00.000Z"
+    },
+    {
+      "id": "stock-fallback-1769570569391",
       "topic": "Stock",
       "title": "Stock News Update",
       "summary": "Unable to fetch latest Stock news at this time. Our automated system encountered an issue. Please check back later for updates.",
       "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-01-27T03:25:13.273Z"
+      "publishedAt": "2026-01-28T03:22:49.391Z"
     },
     {
-      "id": "election-1769484319856-0",
+      "id": "election-1769570575838-0",
       "topic": "Election",
-      "title": "2026 US Presidential Election Heats Up",
-      "summary": "The race for the 2026 US presidential election is in full swing, with the two main candidates engaged in a heated campaign. Polls show a tight race, with key swing states set to play a decisive role. Both candidates are focusing on issues such as the economy, healthcare, and climate change.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-2026-election-idUSKBN1ZQ0U1",
-      "publishedAt": "2026-01-27T02:15:00.000Z"
-    },
-    {
-      "id": "election-1769484319856-1",
-      "topic": "Election",
-      "title": "Voting Security Concerns Ahead of 2026 Election",
-      "summary": "As the 2026 US presidential election approaches, concerns have been raised about the security of the voting process. Experts warn of the potential for cyberattacks and disinformation campaigns that could disrupt the electoral process. Officials are working to address these issues and ensure the integrity of the vote.",
-      "source": "The New York Times",
-      "url": "https://www.nytimes.com/2026/01/26/us/politics/2026-election-security.html",
-      "publishedAt": "2026-01-26T18:45:00.000Z"
-    },
-    {
-      "id": "election-1769484319856-2",
-      "topic": "Election",
-      "title": "Third-Party Candidate Gains Traction in 2026 Race",
-      "summary": "A third-party candidate has emerged as a serious contender in the 2026 US presidential election, shaking up the traditional two-party system. The candidate's platform focuses on political reform and environmental issues, and they have gained significant support from younger voters and independents.",
+      "title": "Swing State Voters Flock to Polls in Tight Race",
+      "summary": "Voters in key swing states turned out in record numbers today for the highly anticipated federal election. Early results show a tight race, with narrow margins in several battleground states that could determine the outcome.",
       "source": "CNN",
-      "url": "https://www.cnn.com/2026/01/26/politics/2026-election-third-party-candidate/index.html",
-      "publishedAt": "2026-01-26T22:30:00.000Z"
+      "url": "https://www.cnn.com/2026/01/28/politics/swing-state-voters-election/index.html",
+      "publishedAt": "2026-01-28T10:15:00.000Z"
     },
     {
-      "id": "election-1769484319856-3",
+      "id": "election-1769570575838-1",
       "topic": "Election",
-      "title": "Candidates Clash Over Economic Policies in Debate",
-      "summary": "The two main candidates for the 2026 US presidential election clashed over their economic policies during a heated debate last night. The candidates offered vastly different visions for the country's economic future, with one emphasizing tax cuts and deregulation, and the other pushing for increased investment in infrastructure and social programs.",
-      "source": "The Washington Post",
-      "url": "https://www.washingtonpost.com/politics/2026/01/26/2026-election-debate-economy/",
-      "publishedAt": "2026-01-27T01:00:00.000Z"
+      "title": "Tech Giants Pledge Transparency Ahead of Election",
+      "summary": "Major tech platforms have announced new measures to combat misinformation and foreign interference, including greater political ad disclosures and enhanced content moderation. Experts say these steps are critical to maintaining election integrity.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/tech-companies-ramp-up-election-security-efforts-2026-01-27/",
+      "publishedAt": "2026-01-27T18:30:00.000Z"
+    },
+    {
+      "id": "election-1769570575838-2",
+      "topic": "Election",
+      "title": "Voter Turnout Surges in Early Voting",
+      "summary": "Voter turnout for early voting has shattered records, with millions of Americans casting their ballots well ahead of Election Day. This high level of engagement underscores the significance of this election cycle for many citizens.",
+      "source": "The Associated Press",
+      "url": "https://apnews.com/article/2026-election-early-voting-turnout-c4e9af3b2f1e4c8c91f4b0a1d5678def",
+      "publishedAt": "2026-01-27T14:20:00.000Z"
+    },
+    {
+      "id": "election-1769570575838-3",
+      "topic": "Election",
+      "title": "Candidates Make Final Push Ahead of Midterms",
+      "summary": "With just days until the election, candidates from both parties are crisscrossing the country, holding rallies and making their closing arguments to voters. The outcome of several key races remains too close to call, setting the stage for a nail-biter finish.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/01/28/us/politics/election-candidates-campaigning.html",
+      "publishedAt": "2026-01-28T07:45:00.000Z"
     }
   ]
 }
