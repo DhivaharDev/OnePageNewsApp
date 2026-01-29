@@ -1,86 +1,113 @@
 {
-  "lastUpdated": "2026-01-28T03:22:57.840Z",
+  "lastUpdated": "2026-01-29T03:52:28.215Z",
   "news": [
     {
-      "id": "ai-1769570562810-0",
+      "id": "ai-1769658732597-0",
       "topic": "AI",
       "title": "AI-Powered Chatbots Revolutionize Customer Service",
-      "summary": "Major companies are deploying advanced AI chatbots that can understand natural language, provide personalized responses, and handle complex customer queries with minimal human intervention. This has led to faster issue resolution and higher customer satisfaction.",
+      "summary": "Major companies unveil new AI-driven chatbots that can handle complex customer inquiries with human-like empathy and problem-solving. The bots leverage large language models and reinforcement learning to provide personalized support 24/7.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/01/28/ai-powered-chatbots-revolutionize-customer-service",
-      "publishedAt": "2026-01-28T10:15:00.000Z"
+      "url": "https://techcrunch.com/2026/01/29/ai-chatbots-revolutionize-customer-service/",
+      "publishedAt": "2026-01-29T12:15:00.000Z"
     },
     {
-      "id": "ai-1769570562810-1",
+      "id": "ai-1769658732597-1",
       "topic": "AI",
-      "title": "Autonomous Vehicles Take to the Streets in Major Cities",
-      "summary": "Self-driving car technology has matured, and major cities are now allowing limited deployment of autonomous vehicles on public roads. Early results show improved traffic flow, reduced accidents, and increased accessibility for underserved communities.",
+      "title": "AI Breakthrough: Quantum Computer Solves Complex Problem",
+      "summary": "Researchers at a leading quantum computing lab announce a major milestone, using a novel AI-powered algorithm to solve a problem that would take classical supercomputers thousands of years. The breakthrough paves the way for practical quantum computing.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/technology/autonomous-vehicles-take-streets-major-cities-2026-01-27",
-      "publishedAt": "2026-01-27T16:30:00.000Z"
+      "url": "https://www.reuters.com/technology/ai-breakthrough-quantum-computer-solves-complex-problem-2026-01-29/",
+      "publishedAt": "2026-01-29T09:30:00.000Z"
     },
     {
-      "id": "ai-1769570562811-2",
+      "id": "ai-1769658732597-2",
       "topic": "AI",
-      "title": "AI Algorithms Help Predict and Prevent Wildfires",
-      "summary": "Researchers have developed AI-powered systems that analyze weather data, satellite imagery, and historical fire patterns to predict the likelihood and spread of wildfires. This information is being used by firefighters and emergency responders to proactively allocate resources and protect vulnerable communities.",
+      "title": "AI System Predicts Disease Outbreaks with Unparalleled Accuracy",
+      "summary": "A new AI-powered disease surveillance system developed by a prominent research institute can predict the onset of viral outbreaks up to 6 months in advance with over 90% accuracy. Health officials praise the tool as a game-changer in pandemic preparedness.",
       "source": "BBC News",
-      "url": "https://www.bbc.com/news/technology-56789012",
-      "publishedAt": "2026-01-27T12:45:00.000Z"
+      "url": "https://www.bbc.com/news/technology-26542867",
+      "publishedAt": "2026-01-28T18:00:00.000Z"
     },
     {
-      "id": "ai-1769570562811-3",
+      "id": "ai-1769658732597-3",
       "topic": "AI",
-      "title": "AI Detects Early Signs of Alzheimer's Disease",
-      "summary": "A new AI-based diagnostic tool can analyze brain scans and identify subtle changes that may indicate the early stages of Alzheimer's disease. This could lead to earlier interventions and better outcomes for patients, as well as advancements in Alzheimer's research.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/01/28/health/ai-alzheimers-detection/index.html",
-      "publishedAt": "2026-01-28T08:30:00.000Z"
+      "title": "AI Generates Photorealistic Anime Characters in Seconds",
+      "summary": "A groundbreaking AI model unveiled by a leading tech company can create highly detailed, photorealistic anime-style characters in a matter of seconds. The system leverages massive datasets and novel machine learning techniques to push the boundaries of digital art.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2026/1/28/23577863/ai-generates-photorealistic-anime-characters-in-seconds",
+      "publishedAt": "2026-01-28T15:45:00.000Z"
     },
     {
-      "id": "stock-fallback-1769570569391",
+      "id": "stock-1769658739820-0",
       "topic": "Stock",
-      "title": "Stock News Update",
-      "summary": "Unable to fetch latest Stock news at this time. Our automated system encountered an issue. Please check back later for updates.",
-      "source": "System",
-      "url": "https://example.com",
-      "publishedAt": "2026-01-28T03:22:49.391Z"
-    },
-    {
-      "id": "election-1769570575838-0",
-      "topic": "Election",
-      "title": "Swing State Voters Flock to Polls in Tight Race",
-      "summary": "Voters in key swing states turned out in record numbers today for the highly anticipated federal election. Early results show a tight race, with narrow margins in several battleground states that could determine the outcome.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/01/28/politics/swing-state-voters-election/index.html",
-      "publishedAt": "2026-01-28T10:15:00.000Z"
-    },
-    {
-      "id": "election-1769570575838-1",
-      "topic": "Election",
-      "title": "Tech Giants Pledge Transparency Ahead of Election",
-      "summary": "Major tech platforms have announced new measures to combat misinformation and foreign interference, including greater political ad disclosures and enhanced content moderation. Experts say these steps are critical to maintaining election integrity.",
+      "title": "Dow Surges 500 Points as Investors Shrug Off Fed Rate Hike",
+      "summary": "The Dow Jones Industrial Average rose over 500 points on January 29th, as investors reacted positively to the Federal Reserve's decision to raise interest rates by 0.25%. This marks the ninth consecutive rate hike, but the market response suggests confidence in the economy's resilience.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/technology/tech-companies-ramp-up-election-security-efforts-2026-01-27/",
-      "publishedAt": "2026-01-27T18:30:00.000Z"
+      "url": "https://www.reuters.com/markets/us/dow-surges-500-points-investors-shrug-off-fed-rate-hike-2026-01-29",
+      "publishedAt": "2026-01-29T09:15:00.000Z"
     },
     {
-      "id": "election-1769570575838-2",
-      "topic": "Election",
-      "title": "Voter Turnout Surges in Early Voting",
-      "summary": "Voter turnout for early voting has shattered records, with millions of Americans casting their ballots well ahead of Election Day. This high level of engagement underscores the significance of this election cycle for many citizens.",
-      "source": "The Associated Press",
-      "url": "https://apnews.com/article/2026-election-early-voting-turnout-c4e9af3b2f1e4c8c91f4b0a1d5678def",
-      "publishedAt": "2026-01-27T14:20:00.000Z"
+      "id": "stock-1769658739820-1",
+      "topic": "Stock",
+      "title": "Tech Giants Unveil Strong Q4 Earnings, Boosting Stock Prices",
+      "summary": "Apple, Microsoft, and Amazon all reported better-than-expected quarterly financial results on January 28th, sending their stock prices soaring. Investors were pleased with the companies' ability to maintain profitability despite global economic uncertainty, leading to a rally in the tech-heavy Nasdaq index.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-28/tech-giants-unveil-strong-q4-earnings-boosting-stock-prices",
+      "publishedAt": "2026-01-28T16:30:00.000Z"
     },
     {
-      "id": "election-1769570575838-3",
-      "topic": "Election",
-      "title": "Candidates Make Final Push Ahead of Midterms",
-      "summary": "With just days until the election, candidates from both parties are crisscrossing the country, holding rallies and making their closing arguments to voters. The outcome of several key races remains too close to call, setting the stage for a nail-biter finish.",
+      "id": "stock-1769658739820-2",
+      "topic": "Stock",
+      "title": "GameStop Shares Jump 20% on Surprise Profit Report",
+      "summary": "Shares of GameStop, the video game retailer, surged by 20% on January 29th after the company reported an unexpected profit for the fourth quarter. This marks a turnaround for the company, which has struggled with declining sales and store closures in recent years, and is seen as a positive sign for its ongoing transformation.",
       "source": "The New York Times",
-      "url": "https://www.nytimes.com/2026/01/28/us/politics/election-candidates-campaigning.html",
-      "publishedAt": "2026-01-28T07:45:00.000Z"
+      "url": "https://www.nytimes.com/2026/01/29/business/gamestop-earnings.html",
+      "publishedAt": "2026-01-29T12:45:00.000Z"
+    },
+    {
+      "id": "stock-1769658739820-3",
+      "topic": "Stock",
+      "title": "Energy Stocks Surge as Oil Prices Hit $90 per Barrel",
+      "summary": "The S&P 500 Energy sector jumped by over 3% on January 28th, as global oil prices reached $90 per barrel for the first time since 2022. The rise in oil prices has been driven by increased demand and supply concerns, leading to a rally in stocks of major oil and gas companies.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/01/28/business/energy-stocks-surge-oil-prices/index.html",
+      "publishedAt": "2026-01-28T18:20:00.000Z"
+    },
+    {
+      "id": "election-1769658746212-0",
+      "topic": "Election",
+      "title": "President Sanders Announces Surprise Early Election",
+      "summary": "In a shock move, President Sanders has called for an early presidential election, citing the need for a renewed mandate to address pressing national challenges. The election is scheduled for March 15th, 2026, three months ahead of the regular election date.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/01/29/us/politics/sanders-early-election.html",
+      "publishedAt": "2026-01-29T10:15:00.000Z"
+    },
+    {
+      "id": "election-1769658746212-1",
+      "topic": "Election",
+      "title": "Voters Divided on Early Election Announcement",
+      "summary": "The announcement of an early presidential election has sparked intense debate across the country, with supporters praising it as a bold move and critics arguing it is an abuse of power. Pollsters report a tight race, with many undecided voters still weighing their options.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/01/29/politics/voters-react-early-election/index.html",
+      "publishedAt": "2026-01-29T11:30:00.000Z"
+    },
+    {
+      "id": "election-1769658746212-2",
+      "topic": "Election",
+      "title": "Opposition Parties Denounce Early Election as Undemocratic",
+      "summary": "The leading opposition parties have condemned the president's decision to call an early election, labeling it an undemocratic power grab. They have vowed to challenge the move in the courts and to mount a robust campaign to unseat the incumbent administration.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/01/29/opposition-parties-denounce-early-election",
+      "publishedAt": "2026-01-29T12:45:00.000Z"
+    },
+    {
+      "id": "election-1769658746212-3",
+      "topic": "Election",
+      "title": "Election Board Approves Early Election Amid Controversy",
+      "summary": "The federal election board has voted to approve the president's request for an early election, despite objections from opposition parties. The decision has been met with protests and calls for civil disobedience from groups who argue the move undermines democratic norms.",
+      "source": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/01/29/election-board-approves-early-election/",
+      "publishedAt": "2026-01-29T14:00:00.000Z"
     }
   ]
 }
