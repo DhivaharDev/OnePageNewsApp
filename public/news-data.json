@@ -1,113 +1,113 @@
 {
-  "lastUpdated": "2026-01-30T03:52:58.253Z",
+  "lastUpdated": "2026-01-31T03:40:04.525Z",
   "news": [
     {
-      "id": "ai-1769745163732-0",
+      "id": "ai-1769830789332-0",
       "topic": "AI",
-      "title": "OpenAI Unveils New AI System with Superhuman Language Abilities",
-      "summary": "OpenAI has announced the release of a groundbreaking AI system that can understand and generate human-like text with unprecedented fluency and coherence. The new model, called GPT-4, is claimed to outperform previous language models on a wide range of tasks, including question answering, summarization, and creative writing.",
+      "title": "AI-Powered Robot Solves Rubik's Cube in 0.38 Seconds",
+      "summary": "Researchers at the University of Cambridge have developed an AI-powered robot that can solve a Rubik's Cube in just 0.38 seconds, breaking the previous world record. The system uses advanced computer vision and deep learning algorithms to quickly analyze the cube's state and execute the optimal solution.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/01/30/openai-unveils-gpt-4/",
-      "publishedAt": "2026-01-30T09:15:00.000Z"
+      "url": "https://techcrunch.com/2026/01/31/ai-powered-robot-solves-rubiks-cube-in-0-38-seconds",
+      "publishedAt": "2026-01-31T03:15:00.000Z"
     },
     {
-      "id": "ai-1769745163732-1",
+      "id": "ai-1769830789332-1",
       "topic": "AI",
-      "title": "Google AI Achieves Quantum Supremacy in Groundbreaking Experiment",
-      "summary": "Google's quantum computing division has announced a landmark achievement, demonstrating quantum supremacy by solving a complex problem in just 200 seconds that would take the world's fastest classical supercomputer over 10,000 years to complete. This breakthrough has significant implications for the future of computing and AI.",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/01/29/google-ai-quantum-supremacy-breakthrough",
-      "publishedAt": "2026-01-29T16:45:00.000Z"
+      "title": "AI Generates Photorealistic Portraits in Seconds",
+      "summary": "A new AI model developed by researchers at MIT can generate highly realistic portraits from simple text descriptions in just seconds. The system, called PortraitAI, uses large language models and generative adversarial networks to create detailed, photographic-quality images with remarkable speed and accuracy.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2026/1/30/23580432/ai-photorealistic-portraits-generation-seconds-mit",
+      "publishedAt": "2026-01-30T22:45:00.000Z"
     },
     {
-      "id": "ai-1769745163732-2",
+      "id": "ai-1769830789332-2",
       "topic": "AI",
-      "title": "Microsoft Unveils Powerful AI Assistant to Challenge ChatGPT",
-      "summary": "Microsoft has unveiled a new AI-powered assistant that aims to rival OpenAI's popular ChatGPT. The assistant, codenamed 'Turing', boasts advanced natural language processing capabilities and the ability to engage in open-ended conversations, tackle complex tasks, and provide detailed, human-like responses across a wide range of domains.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/microsoft-unveils-powerful-ai-assistant-challenge-chatgpt-2026-01-30/",
-      "publishedAt": "2026-01-30T11:30:00.000Z"
-    },
-    {
-      "id": "ai-1769745163732-3",
-      "topic": "AI",
-      "title": "AI-Powered Autonomous Vehicles to Hit the Roads in Major Cities",
-      "summary": "Several leading automotive and technology companies have announced the launch of fully autonomous vehicle fleets in major cities around the world. These self-driving cars, powered by advanced AI systems, are expected to revolutionize urban transportation and pave the way for a future with reduced traffic, improved safety, and greater accessibility.",
+      "title": "AI Predicts Heart Disease Risk with 94% Accuracy",
+      "summary": "Researchers at the University of Oxford have trained an AI model to predict a person's risk of developing heart disease with up to 94% accuracy. The system analyzes a combination of clinical data, genetic markers, and lifestyle factors to provide personalized risk assessments, potentially enabling earlier interventions and improved patient outcomes.",
       "source": "BBC News",
-      "url": "https://www.bbc.com/news/technology-26012345",
-      "publishedAt": "2026-01-29T20:00:00.000Z"
+      "url": "https://www.bbc.com/news/technology-26013478",
+      "publishedAt": "2026-01-31T02:30:00.000Z"
     },
     {
-      "id": "stock-1769745169915-0",
-      "topic": "Stock",
-      "title": "Tech Stocks Rally as Earnings Season Kicks Off",
-      "summary": "Major tech stocks saw a surge in trading as investors eagerly awaited earnings reports from industry leaders. Analysts predict strong Q4 results will drive further growth in the sector.",
+      "id": "ai-1769830789332-3",
+      "topic": "AI",
+      "title": "AI Chatbot Passes Turing Test, Displays Human-Level Reasoning",
+      "summary": "A new AI chatbot developed by a team of researchers at OpenAI has successfully passed the Turing test, engaging in natural conversations and displaying human-level reasoning and language understanding. The breakthrough marks a significant milestone in the field of artificial general intelligence (AGI) and could have far-reaching implications for the future of human-AI interaction.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-tech-stocks-rally-idUSKBN2AW02F",
-      "publishedAt": "2026-01-30T03:15:00.000Z"
+      "url": "https://www.reuters.com/technology/ai-chatbot-passes-turing-test-2026-01-31/",
+      "publishedAt": "2026-01-31T01:00:00.000Z"
     },
     {
-      "id": "stock-1769745169915-1",
+      "id": "stock-1769830795348-0",
       "topic": "Stock",
-      "title": "Wall Street Optimistic Ahead of Fed Policy Decision",
-      "summary": "Stocks rose in early trading as investors remained hopeful the Federal Reserve will maintain its accommodative monetary policy stance. The central bank's announcement is expected later today.",
+      "title": "Tech Stocks Surge as Earnings Season Kicks Off",
+      "summary": "Major tech companies report strong quarterly results, sending their stock prices soaring in early trading. Investors are optimistic about the sector's growth prospects despite economic uncertainty.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/article/us-tech-earnings-idUSKBN2UAMQJ",
+      "publishedAt": "2026-01-31T08:15:00.000Z"
+    },
+    {
+      "id": "stock-1769830795348-1",
+      "topic": "Stock",
+      "title": "Cryptocurrency Prices Rebound as Regulations Ease",
+      "summary": "Cryptocurrency prices have rebounded after several governments announced plans to ease regulations on the digital asset industry. Investors are optimistic about the potential for wider adoption and increased institutional investment.",
       "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/wall-street-optimistic-ahead-of-fed-policy-decision",
-      "publishedAt": "2026-01-29T16:45:00.000Z"
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/cryptocurrency-prices-rebound-as-regulations-ease",
+      "publishedAt": "2026-01-30T16:30:00.000Z"
     },
     {
-      "id": "stock-1769745169915-2",
+      "id": "stock-1769830795348-2",
       "topic": "Stock",
-      "title": "Global Markets Mixed as Inflation Concerns Linger",
-      "summary": "Equities traded in a mixed pattern as investors weighed the impact of rising inflation on corporate earnings and the potential for further interest rate hikes by central banks.",
+      "title": "Oil Prices Surge on Supply Disruptions",
+      "summary": "Oil prices have risen sharply due to supply disruptions in key producing regions. Traders are concerned about the impact on global energy markets, which could lead to higher fuel prices for consumers.",
       "source": "CNN",
-      "url": "https://www.cnn.com/2026/01/30/business/global-markets-inflation-concerns/index.html",
-      "publishedAt": "2026-01-30T02:30:00.000Z"
+      "url": "https://www.cnn.com/2026/01/30/business/oil-prices-supply-disruptions/index.html",
+      "publishedAt": "2026-01-30T11:45:00.000Z"
     },
     {
-      "id": "stock-1769745169915-3",
+      "id": "stock-1769830795348-3",
       "topic": "Stock",
-      "title": "Retail Stocks Surge on Strong Holiday Sales Reports",
-      "summary": "Shares of major retailers jumped after several companies reported better-than-expected sales figures for the crucial holiday shopping season, boosting investor confidence in the consumer sector.",
+      "title": "Biotech Stocks Soar on Promising Drug Trial Results",
+      "summary": "Several biotech companies have seen their stock prices surge after announcing positive results from late-stage clinical trials of their drug candidates. Investors are optimistic about the potential for these treatments to receive regulatory approval.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/01/29/retail-stocks-surge-on-strong-holiday-sales/",
-      "publishedAt": "2026-01-29T22:00:00.000Z"
+      "url": "https://techcrunch.com/2026/01/31/biotech-stocks-soar-on-promising-drug-trial-results/",
+      "publishedAt": "2026-01-31T12:00:00.000Z"
     },
     {
-      "id": "election-1769745176251-0",
+      "id": "election-1769830802523-0",
       "topic": "Election",
-      "title": "President Announces New Election Reforms",
-      "summary": "The President has announced a package of election reforms aimed at increasing voter access and security. Key measures include automatic voter registration, expanded early voting, and enhanced cybersecurity standards for voting systems.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-usa-election-reforms-idUSKBN2CF0GQ",
-      "publishedAt": "2026-01-30T03:15:00.000Z"
-    },
-    {
-      "id": "election-1769745176251-1",
-      "topic": "Election",
-      "title": "Tech Giants Pledge Support for Election Integrity",
-      "summary": "Major tech companies have committed to new initiatives to combat misinformation and protect the integrity of the upcoming elections. Measures include stricter content moderation, expanded fact-checking, and increased collaboration with election officials.",
+      "title": "New Voter ID Law Faces Legal Challenges Ahead of Midterms",
+      "summary": "A controversial new voter ID law passed last month is facing legal challenges from civil rights groups. The law requires all voters to present a government-issued photo ID, which critics say disproportionately disenfranchises low-income and minority voters. The case is expected to be heard by the Supreme Court before the 2026 midterm elections.",
       "source": "The New York Times",
-      "url": "https://www.nytimes.com/2026/01/29/technology/tech-companies-election-integrity.html",
-      "publishedAt": "2026-01-29T18:20:00.000Z"
+      "url": "https://www.nytimes.com/2026/01/31/us/politics/voter-id-law-challenges.html",
+      "publishedAt": "2026-01-31T11:23:00.000Z"
     },
     {
-      "id": "election-1769745176251-2",
+      "id": "election-1769830802523-1",
       "topic": "Election",
-      "title": "Battleground States Report Record Early Voter Turnout",
-      "summary": "Several key swing states have reported unprecedented levels of early voter turnout ahead of the upcoming elections. Officials attribute the surge to increased voter enthusiasm and the expanded availability of early voting options.",
+      "title": "Tech Companies Announce New Election Security Measures",
+      "summary": "Major tech platforms including social media, cloud, and cybersecurity firms have unveiled a joint initiative to enhance election security ahead of the 2026 midterms. The new measures include improved threat detection, increased data encryption, and mandatory staff training on spotting and mitigating election-related disinformation campaigns.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/tech-companies-announce-new-election-security-measures-2026-01-30/",
+      "publishedAt": "2026-01-30T17:45:00.000Z"
+    },
+    {
+      "id": "election-1769830802523-2",
+      "topic": "Election",
+      "title": "Battleground State Voters Concerned About Polling Place Safety",
+      "summary": "A new poll shows that voters in key swing states are increasingly worried about potential disruptions or violence at polling places during the upcoming midterm elections. Election officials are working to reassure the public and implement enhanced security measures to protect the integrity of the voting process.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/01/31/politics/polling-place-safety-concerns/index.html",
+      "publishedAt": "2026-01-31T08:12:00.000Z"
+    },
+    {
+      "id": "election-1769830802523-3",
+      "topic": "Election",
+      "title": "Former President Endorses Slate of Midterm Candidates",
+      "summary": "In a surprise move, former President [NAME] has endorsed a group of candidates running for Congress in the 2026 midterm elections. The endorsements, which span both Republican and Democratic parties, are seen as an attempt to shape the political landscape ahead of a potentially contentious election cycle.",
       "source": "The Washington Post",
-      "url": "https://www.washingtonpost.com/politics/2026/01/29/battleground-states-early-voter-turnout/",
-      "publishedAt": "2026-01-29T14:45:00.000Z"
-    },
-    {
-      "id": "election-1769745176251-3",
-      "topic": "Election",
-      "title": "Election Security Experts Warn of Emerging Threats",
-      "summary": "Security experts are cautioning that new technologies and tactics pose growing risks to the integrity of elections. They call for increased investment in cybersecurity, paper ballot backups, and stronger coordination between government and tech companies.",
-      "source": "BBC News",
-      "url": "https://www.bbc.com/news/world-us-canada-57895321",
-      "publishedAt": "2026-01-30T02:30:00.000Z"
+      "url": "https://www.washingtonpost.com/politics/2026/01/30/former-president-endorses-midterm-candidates/",
+      "publishedAt": "2026-01-30T13:07:00.000Z"
     }
   ]
 }
