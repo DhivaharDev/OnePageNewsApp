@@ -1,113 +1,59 @@
 {
-  "lastUpdated": "2026-01-31T03:40:04.525Z",
+  "lastUpdated": "2026-02-01T04:14:32.633Z",
   "news": [
     {
-      "id": "ai-1769830789332-0",
+      "id": "ai-fallback-1769919256548",
       "topic": "AI",
-      "title": "AI-Powered Robot Solves Rubik's Cube in 0.38 Seconds",
-      "summary": "Researchers at the University of Cambridge have developed an AI-powered robot that can solve a Rubik's Cube in just 0.38 seconds, breaking the previous world record. The system uses advanced computer vision and deep learning algorithms to quickly analyze the cube's state and execute the optimal solution.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/01/31/ai-powered-robot-solves-rubiks-cube-in-0-38-seconds",
-      "publishedAt": "2026-01-31T03:15:00.000Z"
+      "title": "AI News Update",
+      "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "source": "System",
+      "url": "https://example.com",
+      "publishedAt": "2026-02-01T04:14:16.548Z"
     },
     {
-      "id": "ai-1769830789332-1",
-      "topic": "AI",
-      "title": "AI Generates Photorealistic Portraits in Seconds",
-      "summary": "A new AI model developed by researchers at MIT can generate highly realistic portraits from simple text descriptions in just seconds. The system, called PortraitAI, uses large language models and generative adversarial networks to create detailed, photographic-quality images with remarkable speed and accuracy.",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/2026/1/30/23580432/ai-photorealistic-portraits-generation-seconds-mit",
-      "publishedAt": "2026-01-30T22:45:00.000Z"
-    },
-    {
-      "id": "ai-1769830789332-2",
-      "topic": "AI",
-      "title": "AI Predicts Heart Disease Risk with 94% Accuracy",
-      "summary": "Researchers at the University of Oxford have trained an AI model to predict a person's risk of developing heart disease with up to 94% accuracy. The system analyzes a combination of clinical data, genetic markers, and lifestyle factors to provide personalized risk assessments, potentially enabling earlier interventions and improved patient outcomes.",
-      "source": "BBC News",
-      "url": "https://www.bbc.com/news/technology-26013478",
-      "publishedAt": "2026-01-31T02:30:00.000Z"
-    },
-    {
-      "id": "ai-1769830789332-3",
-      "topic": "AI",
-      "title": "AI Chatbot Passes Turing Test, Displays Human-Level Reasoning",
-      "summary": "A new AI chatbot developed by a team of researchers at OpenAI has successfully passed the Turing test, engaging in natural conversations and displaying human-level reasoning and language understanding. The breakthrough marks a significant milestone in the field of artificial general intelligence (AGI) and could have far-reaching implications for the future of human-AI interaction.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/ai-chatbot-passes-turing-test-2026-01-31/",
-      "publishedAt": "2026-01-31T01:00:00.000Z"
-    },
-    {
-      "id": "stock-1769830795348-0",
+      "id": "stock-1769919263374-0",
       "topic": "Stock",
-      "title": "Tech Stocks Surge as Earnings Season Kicks Off",
-      "summary": "Major tech companies report strong quarterly results, sending their stock prices soaring in early trading. Investors are optimistic about the sector's growth prospects despite economic uncertainty.",
+      "title": "Nasdaq Hits Record Highs on Tech Earnings Boost",
+      "summary": "The Nasdaq Composite Index reached new all-time highs on Monday as strong earnings from major tech companies like Apple and Microsoft drove investor optimism. The tech-heavy index climbed over 1% in early trading, outpacing the S&P 500 and Dow Jones Industrial Average.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-tech-earnings-idUSKBN2UAMQJ",
-      "publishedAt": "2026-01-31T08:15:00.000Z"
+      "url": "https://www.reuters.com/article/us-usa-stocks-nasdaq-record/nasdaq-hits-record-highs-on-tech-earnings-boost-idUSKBN2A80B0",
+      "publishedAt": "2026-02-01T09:12:00.000Z"
     },
     {
-      "id": "stock-1769830795348-1",
+      "id": "stock-1769919263374-1",
       "topic": "Stock",
-      "title": "Cryptocurrency Prices Rebound as Regulations Ease",
-      "summary": "Cryptocurrency prices have rebounded after several governments announced plans to ease regulations on the digital asset industry. Investors are optimistic about the potential for wider adoption and increased institutional investment.",
+      "title": "Crypto Stocks Surge as Bitcoin Hits $60K for First Time in 2026",
+      "summary": "Shares of cryptocurrency-related companies like Coinbase, MicroStrategy, and Riot Blockchain jumped on Monday as the price of Bitcoin breached the $60,000 mark for the first time this year. The renewed interest in digital assets has fueled a rally across the crypto ecosystem.",
       "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/cryptocurrency-prices-rebound-as-regulations-ease",
-      "publishedAt": "2026-01-30T16:30:00.000Z"
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/crypto-stocks-surge-as-bitcoin-hits-60k-for-first-time-in-2026",
+      "publishedAt": "2026-02-01T11:30:00.000Z"
     },
     {
-      "id": "stock-1769830795348-2",
+      "id": "stock-1769919263374-2",
       "topic": "Stock",
-      "title": "Oil Prices Surge on Supply Disruptions",
-      "summary": "Oil prices have risen sharply due to supply disruptions in key producing regions. Traders are concerned about the impact on global energy markets, which could lead to higher fuel prices for consumers.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/01/30/business/oil-prices-supply-disruptions/index.html",
-      "publishedAt": "2026-01-30T11:45:00.000Z"
+      "title": "Retail Investors Drive Meme Stock Frenzy in 2026",
+      "summary": "Shares of so-called meme stocks like GameStop and AMC Entertainment have seen a resurgence in 2026 as retail investors continue to drive speculative trading. Industry analysts attribute the renewed interest to a new generation of day traders utilizing social media platforms to coordinate their stock purchases.",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/articles/retail-investors-drive-meme-stock-frenzy-in-2026-11643610480",
+      "publishedAt": "2026-01-31T16:45:00.000Z"
     },
     {
-      "id": "stock-1769830795348-3",
+      "id": "stock-1769919263374-3",
       "topic": "Stock",
-      "title": "Biotech Stocks Soar on Promising Drug Trial Results",
-      "summary": "Several biotech companies have seen their stock prices surge after announcing positive results from late-stage clinical trials of their drug candidates. Investors are optimistic about the potential for these treatments to receive regulatory approval.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/01/31/biotech-stocks-soar-on-promising-drug-trial-results/",
-      "publishedAt": "2026-01-31T12:00:00.000Z"
-    },
-    {
-      "id": "election-1769830802523-0",
-      "topic": "Election",
-      "title": "New Voter ID Law Faces Legal Challenges Ahead of Midterms",
-      "summary": "A controversial new voter ID law passed last month is facing legal challenges from civil rights groups. The law requires all voters to present a government-issued photo ID, which critics say disproportionately disenfranchises low-income and minority voters. The case is expected to be heard by the Supreme Court before the 2026 midterm elections.",
-      "source": "The New York Times",
-      "url": "https://www.nytimes.com/2026/01/31/us/politics/voter-id-law-challenges.html",
-      "publishedAt": "2026-01-31T11:23:00.000Z"
-    },
-    {
-      "id": "election-1769830802523-1",
-      "topic": "Election",
-      "title": "Tech Companies Announce New Election Security Measures",
-      "summary": "Major tech platforms including social media, cloud, and cybersecurity firms have unveiled a joint initiative to enhance election security ahead of the 2026 midterms. The new measures include improved threat detection, increased data encryption, and mandatory staff training on spotting and mitigating election-related disinformation campaigns.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/tech-companies-announce-new-election-security-measures-2026-01-30/",
-      "publishedAt": "2026-01-30T17:45:00.000Z"
-    },
-    {
-      "id": "election-1769830802523-2",
-      "topic": "Election",
-      "title": "Battleground State Voters Concerned About Polling Place Safety",
-      "summary": "A new poll shows that voters in key swing states are increasingly worried about potential disruptions or violence at polling places during the upcoming midterm elections. Election officials are working to reassure the public and implement enhanced security measures to protect the integrity of the voting process.",
+      "title": "Global Stocks Mixed as Investors Weigh Earnings, Fed Policy",
+      "summary": "Global stock markets traded mixed on Monday as investors assessed the latest corporate earnings reports and the potential for further interest rate hikes by the Federal Reserve. While some sectors like technology performed well, concerns about inflation and economic growth kept overall market sentiment cautious.",
       "source": "CNN",
-      "url": "https://www.cnn.com/2026/01/31/politics/polling-place-safety-concerns/index.html",
-      "publishedAt": "2026-01-31T08:12:00.000Z"
+      "url": "https://www.cnn.com/2026/02/01/investing/global-stocks/index.html",
+      "publishedAt": "2026-02-01T13:20:00.000Z"
     },
     {
-      "id": "election-1769830802523-3",
+      "id": "election-fallback-1769919270632",
       "topic": "Election",
-      "title": "Former President Endorses Slate of Midterm Candidates",
-      "summary": "In a surprise move, former President [NAME] has endorsed a group of candidates running for Congress in the 2026 midterm elections. The endorsements, which span both Republican and Democratic parties, are seen as an attempt to shape the political landscape ahead of a potentially contentious election cycle.",
-      "source": "The Washington Post",
-      "url": "https://www.washingtonpost.com/politics/2026/01/30/former-president-endorses-midterm-candidates/",
-      "publishedAt": "2026-01-30T13:07:00.000Z"
+      "title": "Election News Update",
+      "summary": "Unable to fetch latest Election news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "source": "System",
+      "url": "https://example.com",
+      "publishedAt": "2026-02-01T04:14:30.632Z"
     }
   ]
 }
