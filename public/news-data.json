@@ -1,59 +1,86 @@
 {
-  "lastUpdated": "2026-02-01T04:14:32.633Z",
+  "lastUpdated": "2026-02-02T04:06:17.427Z",
   "news": [
     {
-      "id": "ai-fallback-1769919256548",
+      "id": "ai-1770005162395-0",
       "topic": "AI",
-      "title": "AI News Update",
-      "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
-      "source": "System",
-      "url": "https://example.com",
-      "publishedAt": "2026-02-01T04:14:16.548Z"
-    },
-    {
-      "id": "stock-1769919263374-0",
-      "topic": "Stock",
-      "title": "Nasdaq Hits Record Highs on Tech Earnings Boost",
-      "summary": "The Nasdaq Composite Index reached new all-time highs on Monday as strong earnings from major tech companies like Apple and Microsoft drove investor optimism. The tech-heavy index climbed over 1% in early trading, outpacing the S&P 500 and Dow Jones Industrial Average.",
+      "title": "Breakthrough AI Model Cracks Code of Protein Folding",
+      "summary": "Researchers at DeepMind have developed an AI model that can accurately predict the 3D structure of proteins, a major advancement in the field of biology. This could revolutionize drug discovery and disease treatment.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-usa-stocks-nasdaq-record/nasdaq-hits-record-highs-on-tech-earnings-boost-idUSKBN2A80B0",
-      "publishedAt": "2026-02-01T09:12:00.000Z"
+      "url": "https://www.reuters.com/technology/deepmind-ai-cracks-protein-folding-code-2026-02-02",
+      "publishedAt": "2026-02-02T08:12:00.000Z"
     },
     {
-      "id": "stock-1769919263374-1",
-      "topic": "Stock",
-      "title": "Crypto Stocks Surge as Bitcoin Hits $60K for First Time in 2026",
-      "summary": "Shares of cryptocurrency-related companies like Coinbase, MicroStrategy, and Riot Blockchain jumped on Monday as the price of Bitcoin breached the $60,000 mark for the first time this year. The renewed interest in digital assets has fueled a rally across the crypto ecosystem.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-01/crypto-stocks-surge-as-bitcoin-hits-60k-for-first-time-in-2026",
-      "publishedAt": "2026-02-01T11:30:00.000Z"
-    },
-    {
-      "id": "stock-1769919263374-2",
-      "topic": "Stock",
-      "title": "Retail Investors Drive Meme Stock Frenzy in 2026",
-      "summary": "Shares of so-called meme stocks like GameStop and AMC Entertainment have seen a resurgence in 2026 as retail investors continue to drive speculative trading. Industry analysts attribute the renewed interest to a new generation of day traders utilizing social media platforms to coordinate their stock purchases.",
-      "source": "The Wall Street Journal",
-      "url": "https://www.wsj.com/articles/retail-investors-drive-meme-stock-frenzy-in-2026-11643610480",
-      "publishedAt": "2026-01-31T16:45:00.000Z"
-    },
-    {
-      "id": "stock-1769919263374-3",
-      "topic": "Stock",
-      "title": "Global Stocks Mixed as Investors Weigh Earnings, Fed Policy",
-      "summary": "Global stock markets traded mixed on Monday as investors assessed the latest corporate earnings reports and the potential for further interest rate hikes by the Federal Reserve. While some sectors like technology performed well, concerns about inflation and economic growth kept overall market sentiment cautious.",
+      "id": "ai-1770005162395-1",
+      "topic": "AI",
+      "title": "AI Assistants to Become Mandatory in All New Vehicles by 2028",
+      "summary": "The US government has announced that all new vehicles sold in the country must include a voice-activated AI assistant by 2028. The move aims to improve driver safety and accessibility through intelligent in-car technology.",
       "source": "CNN",
-      "url": "https://www.cnn.com/2026/02/01/investing/global-stocks/index.html",
-      "publishedAt": "2026-02-01T13:20:00.000Z"
+      "url": "https://www.cnn.com/2026/02/01/technology/ai-car-assistants-mandate/index.html",
+      "publishedAt": "2026-02-01T15:23:00.000Z"
     },
     {
-      "id": "election-fallback-1769919270632",
-      "topic": "Election",
-      "title": "Election News Update",
-      "summary": "Unable to fetch latest Election news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "id": "ai-1770005162395-2",
+      "topic": "AI",
+      "title": "AI-Powered Surveillance Cameras Detect Potential Crimes in Real-Time",
+      "summary": "A new AI-enabled surveillance system is being rolled out in major cities, using computer vision to identify potential criminal activity and alert authorities. Privacy advocates raise concerns over the technology's implications.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/technology-26010302",
+      "publishedAt": "2026-02-01T10:45:00.000Z"
+    },
+    {
+      "id": "ai-1770005162395-3",
+      "topic": "AI",
+      "title": "AI Chatbots Becoming Indistinguishable from Humans in Conversation",
+      "summary": "The latest generation of AI chatbots has reached a new milestone, with users increasingly unable to tell if they are talking to a human or a highly advanced language model. Experts debate the ethical implications of this technology.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/02/ai-chatbots-human-level-conversation/",
+      "publishedAt": "2026-02-02T12:30:00.000Z"
+    },
+    {
+      "id": "stock-fallback-1770005169021",
+      "topic": "Stock",
+      "title": "Stock News Update",
+      "summary": "Unable to fetch latest Stock news at this time. Our automated system encountered an issue. Please check back later for updates.",
       "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-02-01T04:14:30.632Z"
+      "publishedAt": "2026-02-02T04:06:09.021Z"
+    },
+    {
+      "id": "election-1770005175425-0",
+      "topic": "Election",
+      "title": "Presidential Election Polls Tighten Ahead of Runoff",
+      "summary": "With the presidential election runoff just days away, the latest polls show the two candidates in a dead heat. Voter turnout and key swing states will likely determine the outcome.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/article/us-usa-election-2026-polls-idUSKBN2AD1QX",
+      "publishedAt": "2026-02-02T03:00:00.000Z"
+    },
+    {
+      "id": "election-1770005175425-1",
+      "topic": "Election",
+      "title": "Election Security Measures Ramped Up Nationwide",
+      "summary": "Federal and state officials have implemented new security protocols to protect the integrity of the upcoming presidential election. Enhanced cybersecurity, voter ID laws, and poll monitoring are some of the key initiatives.",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/2026-us-presidential-election-security-updates-e8b5b72f3a5d",
+      "publishedAt": "2026-02-01T22:15:00.000Z"
+    },
+    {
+      "id": "election-1770005175425-2",
+      "topic": "Election",
+      "title": "Candidates Face Off in Final Debate Before Election",
+      "summary": "The two presidential candidates squared off in a heated debate last night, offering their final pitch to voters on the economy, healthcare, and foreign policy issues. Fact-checkers are still reviewing numerous claims made by both sides.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/02/01/politics/presidential-debate-recap/index.html",
+      "publishedAt": "2026-02-01T06:30:00.000Z"
+    },
+    {
+      "id": "election-1770005175425-3",
+      "topic": "Election",
+      "title": "Early Voting Turnout Shatters Records Nationwide",
+      "summary": "With just days until election day, early voting numbers have surpassed all previous presidential election cycles. Election officials cite heightened voter enthusiasm and simplified mail-in ballot procedures as key factors driving the surge.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/02/01/us/politics/early-voting-turnout.html",
+      "publishedAt": "2026-02-01T12:00:00.000Z"
     }
   ]
 }
