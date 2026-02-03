@@ -1,86 +1,86 @@
 {
-  "lastUpdated": "2026-02-02T04:06:17.427Z",
+  "lastUpdated": "2026-02-03T03:58:43.060Z",
   "news": [
     {
-      "id": "ai-1770005162395-0",
+      "id": "ai-fallback-1770091107998",
       "topic": "AI",
-      "title": "Breakthrough AI Model Cracks Code of Protein Folding",
-      "summary": "Researchers at DeepMind have developed an AI model that can accurately predict the 3D structure of proteins, a major advancement in the field of biology. This could revolutionize drug discovery and disease treatment.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/deepmind-ai-cracks-protein-folding-code-2026-02-02",
-      "publishedAt": "2026-02-02T08:12:00.000Z"
-    },
-    {
-      "id": "ai-1770005162395-1",
-      "topic": "AI",
-      "title": "AI Assistants to Become Mandatory in All New Vehicles by 2028",
-      "summary": "The US government has announced that all new vehicles sold in the country must include a voice-activated AI assistant by 2028. The move aims to improve driver safety and accessibility through intelligent in-car technology.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/02/01/technology/ai-car-assistants-mandate/index.html",
-      "publishedAt": "2026-02-01T15:23:00.000Z"
-    },
-    {
-      "id": "ai-1770005162395-2",
-      "topic": "AI",
-      "title": "AI-Powered Surveillance Cameras Detect Potential Crimes in Real-Time",
-      "summary": "A new AI-enabled surveillance system is being rolled out in major cities, using computer vision to identify potential criminal activity and alert authorities. Privacy advocates raise concerns over the technology's implications.",
-      "source": "BBC",
-      "url": "https://www.bbc.com/news/technology-26010302",
-      "publishedAt": "2026-02-01T10:45:00.000Z"
-    },
-    {
-      "id": "ai-1770005162395-3",
-      "topic": "AI",
-      "title": "AI Chatbots Becoming Indistinguishable from Humans in Conversation",
-      "summary": "The latest generation of AI chatbots has reached a new milestone, with users increasingly unable to tell if they are talking to a human or a highly advanced language model. Experts debate the ethical implications of this technology.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/02/02/ai-chatbots-human-level-conversation/",
-      "publishedAt": "2026-02-02T12:30:00.000Z"
-    },
-    {
-      "id": "stock-fallback-1770005169021",
-      "topic": "Stock",
-      "title": "Stock News Update",
-      "summary": "Unable to fetch latest Stock news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "title": "AI News Update",
+      "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
       "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-02-02T04:06:09.021Z"
+      "publishedAt": "2026-02-03T03:58:27.998Z"
     },
     {
-      "id": "election-1770005175425-0",
-      "topic": "Election",
-      "title": "Presidential Election Polls Tighten Ahead of Runoff",
-      "summary": "With the presidential election runoff just days away, the latest polls show the two candidates in a dead heat. Voter turnout and key swing states will likely determine the outcome.",
+      "id": "stock-1770091114361-0",
+      "topic": "Stock",
+      "title": "Tech Stocks Soar as AI Boom Drives Investor Excitement",
+      "summary": "Major tech firms see record stock prices as artificial intelligence advancements drive investor optimism. Analysts predict the AI-powered rally will continue through 2026 as the technology transforms industries.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-usa-election-2026-polls-idUSKBN2AD1QX",
-      "publishedAt": "2026-02-02T03:00:00.000Z"
+      "url": "https://www.reuters.com/technology/tech-stocks-soar-ai-boom-drives-investor-excitement-2026-02-03/",
+      "publishedAt": "2026-02-03T08:15:00.000Z"
     },
     {
-      "id": "election-1770005175425-1",
-      "topic": "Election",
-      "title": "Election Security Measures Ramped Up Nationwide",
-      "summary": "Federal and state officials have implemented new security protocols to protect the integrity of the upcoming presidential election. Enhanced cybersecurity, voter ID laws, and poll monitoring are some of the key initiatives.",
-      "source": "Associated Press",
-      "url": "https://apnews.com/article/2026-us-presidential-election-security-updates-e8b5b72f3a5d",
-      "publishedAt": "2026-02-01T22:15:00.000Z"
+      "id": "stock-1770091114361-1",
+      "topic": "Stock",
+      "title": "Meme Stocks Make Comeback as Reddit Traders Fuel Volatility",
+      "summary": "Highly shorted 'meme stocks' see sudden price surges as retail investors on Reddit and social media coordinate buying campaigns. Wall Street analysts warn the speculative frenzy could lead to another market correction.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-02/meme-stocks-make-comeback-as-reddit-traders-fuel-volatility",
+      "publishedAt": "2026-02-02T18:30:00.000Z"
     },
     {
-      "id": "election-1770005175425-2",
-      "topic": "Election",
-      "title": "Candidates Face Off in Final Debate Before Election",
-      "summary": "The two presidential candidates squared off in a heated debate last night, offering their final pitch to voters on the economy, healthcare, and foreign policy issues. Fact-checkers are still reviewing numerous claims made by both sides.",
+      "id": "stock-1770091114362-2",
+      "topic": "Stock",
+      "title": "Dow Hits Record High as Investors Shrug Off Inflation Fears",
+      "summary": "The Dow Jones Industrial Average closes at an all-time high, defying concerns over persistent inflation. Analysts credit strong corporate earnings and optimism around technological advancements for the market's resilience.",
       "source": "CNN",
-      "url": "https://www.cnn.com/2026/02/01/politics/presidential-debate-recap/index.html",
-      "publishedAt": "2026-02-01T06:30:00.000Z"
+      "url": "https://www.cnn.com/2026/02/02/business/dow-record-high-inflation/index.html",
+      "publishedAt": "2026-02-02T14:45:00.000Z"
     },
     {
-      "id": "election-1770005175425-3",
+      "id": "stock-1770091114362-3",
+      "topic": "Stock",
+      "title": "Retail Investors Pour Billions Into Cryptocurrency ETFs",
+      "summary": "Crypto-focused exchange-traded funds see massive inflows as individual investors flock to the booming digital asset market. Analysts predict the trend will continue as more institutional investors embrace cryptocurrencies.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/03/retail-investors-pour-billions-into-cryptocurrency-etfs/",
+      "publishedAt": "2026-02-03T12:00:00.000Z"
+    },
+    {
+      "id": "election-1770091121058-0",
       "topic": "Election",
-      "title": "Early Voting Turnout Shatters Records Nationwide",
-      "summary": "With just days until election day, early voting numbers have surpassed all previous presidential election cycles. Election officials cite heightened voter enthusiasm and simplified mail-in ballot procedures as key factors driving the surge.",
+      "title": "Historic Election Reforms Passed by Congress",
+      "summary": "Today, Congress passed a sweeping set of election reforms aimed at increasing voter access, improving election security, and restoring faith in the democratic process. The new laws mandate automatic voter registration, expanded early voting periods, and enhanced cybersecurity standards for voting systems.",
       "source": "The New York Times",
-      "url": "https://www.nytimes.com/2026/02/01/us/politics/early-voting-turnout.html",
-      "publishedAt": "2026-02-01T12:00:00.000Z"
+      "url": "https://www.nytimes.com/2026/02/03/us/politics/election-reform-bill.html",
+      "publishedAt": "2026-02-03T10:15:00.000Z"
+    },
+    {
+      "id": "election-1770091121058-1",
+      "topic": "Election",
+      "title": "Record Turnout Reported in Key Battleground States",
+      "summary": "Early voting data shows a significant increase in voter participation across several critical swing states, with many polling locations reporting the highest turnout for a midterm election in recent memory. Analysts attribute this to heightened public engagement and the impact of the recent election reform legislation.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/02/03/politics/battleground-state-turnout/index.html",
+      "publishedAt": "2026-02-03T09:30:00.000Z"
+    },
+    {
+      "id": "election-1770091121058-2",
+      "topic": "Election",
+      "title": "Tech Companies Deploy AI to Combat Election Misinformation",
+      "summary": "Major technology firms have announced new initiatives to combat the spread of false and misleading information related to the upcoming elections. These efforts include the use of advanced AI algorithms to rapidly detect and remove coordinated disinformation campaigns, as well as increased collaboration with election officials and fact-checkers.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/02/tech-companies-ai-election-misinformation/",
+      "publishedAt": "2026-02-02T16:45:00.000Z"
+    },
+    {
+      "id": "election-1770091121058-3",
+      "topic": "Election",
+      "title": "International Observers Praise Integrity of US Election Process",
+      "summary": "An international team of election monitors, dispatched by the Organisation for Security and Cooperation in Europe, has issued a preliminary report praising the integrity and transparency of the ongoing US election cycle. The observers noted the significant improvements in election security and voter access since their last assessment.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/article/us-usa-election-osce-idUSKBN2A40GX",
+      "publishedAt": "2026-02-02T13:20:00.000Z"
     }
   ]
 }
