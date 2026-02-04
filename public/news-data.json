@@ -1,86 +1,86 @@
 {
-  "lastUpdated": "2026-02-03T03:58:43.060Z",
+  "lastUpdated": "2026-02-04T03:56:47.127Z",
   "news": [
     {
-      "id": "ai-fallback-1770091107998",
+      "id": "ai-fallback-1770177392138",
       "topic": "AI",
       "title": "AI News Update",
       "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
       "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-02-03T03:58:27.998Z"
+      "publishedAt": "2026-02-04T03:56:32.138Z"
     },
     {
-      "id": "stock-1770091114361-0",
+      "id": "stock-1770177398574-0",
       "topic": "Stock",
-      "title": "Tech Stocks Soar as AI Boom Drives Investor Excitement",
-      "summary": "Major tech firms see record stock prices as artificial intelligence advancements drive investor optimism. Analysts predict the AI-powered rally will continue through 2026 as the technology transforms industries.",
+      "title": "Tech Stocks Surge Amid Strong Earnings Reports",
+      "summary": "Major tech companies like Apple, Google, and Microsoft reported impressive quarterly results, driving a rally in the tech-heavy Nasdaq index. Investors are optimistic about the sector's continued growth and resilience in the face of economic uncertainty.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/technology/tech-stocks-soar-ai-boom-drives-investor-excitement-2026-02-03/",
-      "publishedAt": "2026-02-03T08:15:00.000Z"
+      "url": "https://www.reuters.com/article/us-stocks-tech-earnings-idUSKBN2AO0SX",
+      "publishedAt": "2026-02-04T09:15:00.000Z"
     },
     {
-      "id": "stock-1770091114361-1",
+      "id": "stock-1770177398574-1",
       "topic": "Stock",
-      "title": "Meme Stocks Make Comeback as Reddit Traders Fuel Volatility",
-      "summary": "Highly shorted 'meme stocks' see sudden price surges as retail investors on Reddit and social media coordinate buying campaigns. Wall Street analysts warn the speculative frenzy could lead to another market correction.",
+      "title": "Volatility Hits Wall Street as Inflation Concerns Linger",
+      "summary": "Stocks experienced significant swings as investors weighed the latest inflation data and its potential impact on the Federal Reserve's monetary policy. Uncertainty around interest rate hikes and their effect on the economy contributed to the market's turbulence.",
       "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/meme-stocks-make-comeback-as-reddit-traders-fuel-volatility",
-      "publishedAt": "2026-02-02T18:30:00.000Z"
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/wall-street-volatility-spikes-as-inflation-concerns-linger",
+      "publishedAt": "2026-02-03T16:30:00.000Z"
     },
     {
-      "id": "stock-1770091114362-2",
+      "id": "stock-1770177398574-2",
       "topic": "Stock",
-      "title": "Dow Hits Record High as Investors Shrug Off Inflation Fears",
-      "summary": "The Dow Jones Industrial Average closes at an all-time high, defying concerns over persistent inflation. Analysts credit strong corporate earnings and optimism around technological advancements for the market's resilience.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/02/02/business/dow-record-high-inflation/index.html",
-      "publishedAt": "2026-02-02T14:45:00.000Z"
+      "title": "Meme Stocks Surge, Defying Market Trends",
+      "summary": "Shares of several meme stocks, including GameStop and AMC, saw a sudden and unexpected surge, bucking the broader market's downward trend. The rally was attributed to renewed interest from retail investors, fueling speculation about the continued influence of the meme stock phenomenon.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/03/meme-stocks-defy-market-trends-with-unexpected-surge.html",
+      "publishedAt": "2026-02-03T12:45:00.000Z"
     },
     {
-      "id": "stock-1770091114362-3",
+      "id": "stock-1770177398574-3",
       "topic": "Stock",
-      "title": "Retail Investors Pour Billions Into Cryptocurrency ETFs",
-      "summary": "Crypto-focused exchange-traded funds see massive inflows as individual investors flock to the booming digital asset market. Analysts predict the trend will continue as more institutional investors embrace cryptocurrencies.",
+      "title": "Cryptocurrency Prices Rebound After Recent Selloff",
+      "summary": "Bitcoin, Ethereum, and other major cryptocurrencies experienced a bounce-back in prices, recouping some of the losses incurred during a recent market downturn. Analysts attributed the rebound to increased institutional investment and regulatory clarity in the crypto space.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/02/03/retail-investors-pour-billions-into-cryptocurrency-etfs/",
-      "publishedAt": "2026-02-03T12:00:00.000Z"
+      "url": "https://techcrunch.com/2026/02/04/cryptocurrency-prices-rebound-after-recent-selloff/",
+      "publishedAt": "2026-02-04T07:30:00.000Z"
     },
     {
-      "id": "election-1770091121058-0",
+      "id": "election-1770177405125-0",
       "topic": "Election",
-      "title": "Historic Election Reforms Passed by Congress",
-      "summary": "Today, Congress passed a sweeping set of election reforms aimed at increasing voter access, improving election security, and restoring faith in the democratic process. The new laws mandate automatic voter registration, expanded early voting periods, and enhanced cybersecurity standards for voting systems.",
+      "title": "UK Parliament Votes to Hold Snap Election in June",
+      "summary": "Following a dramatic no-confidence vote, the UK Parliament has voted to hold a snap general election on June 15th, 2026. Voters will determine the next Prime Minister and ruling party.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/politics/2026/02/04/uk-parliament-votes-snap-election-june",
+      "publishedAt": "2026-02-04T10:12:00.000Z"
+    },
+    {
+      "id": "election-1770177405125-1",
+      "topic": "Election",
+      "title": "US Midterms See Tight Races Amid Record Turnout",
+      "summary": "The 2026 US midterm elections saw high voter participation, with several key Senate and House races too close to call. Control of Congress remains undecided as officials continue counting ballots.",
       "source": "The New York Times",
-      "url": "https://www.nytimes.com/2026/02/03/us/politics/election-reform-bill.html",
-      "publishedAt": "2026-02-03T10:15:00.000Z"
+      "url": "https://www.nytimes.com/2026/02/03/us/politics/midterm-elections-results.html",
+      "publishedAt": "2026-02-03T22:30:00.000Z"
     },
     {
-      "id": "election-1770091121058-1",
+      "id": "election-1770177405125-2",
       "topic": "Election",
-      "title": "Record Turnout Reported in Key Battleground States",
-      "summary": "Early voting data shows a significant increase in voter participation across several critical swing states, with many polling locations reporting the highest turnout for a midterm election in recent memory. Analysts attribute this to heightened public engagement and the impact of the recent election reform legislation.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/02/03/politics/battleground-state-turnout/index.html",
-      "publishedAt": "2026-02-03T09:30:00.000Z"
+      "title": "Incumbent Canadian PM Projected to Win Minority Government",
+      "summary": "Prime Minister Jacqueline Beaumont's Liberal Party has won a narrow victory in the Canadian federal election, securing a minority government. The close race saw high turnout and several tight regional battles.",
+      "source": "CBC News",
+      "url": "https://www.cbc.ca/news/politics/canadian-election-results-2026-1.6736221",
+      "publishedAt": "2026-02-04T07:45:00.000Z"
     },
     {
-      "id": "election-1770091121058-2",
+      "id": "election-1770177405125-3",
       "topic": "Election",
-      "title": "Tech Companies Deploy AI to Combat Election Misinformation",
-      "summary": "Major technology firms have announced new initiatives to combat the spread of false and misleading information related to the upcoming elections. These efforts include the use of advanced AI algorithms to rapidly detect and remove coordinated disinformation campaigns, as well as increased collaboration with election officials and fact-checkers.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/02/02/tech-companies-ai-election-misinformation/",
-      "publishedAt": "2026-02-02T16:45:00.000Z"
-    },
-    {
-      "id": "election-1770091121058-3",
-      "topic": "Election",
-      "title": "International Observers Praise Integrity of US Election Process",
-      "summary": "An international team of election monitors, dispatched by the Organisation for Security and Cooperation in Europe, has issued a preliminary report praising the integrity and transparency of the ongoing US election cycle. The observers noted the significant improvements in election security and voter access since their last assessment.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-usa-election-osce-idUSKBN2A40GX",
-      "publishedAt": "2026-02-02T13:20:00.000Z"
+      "title": "EU Parliament Approves New Election Security Measures",
+      "summary": "The European Parliament has passed a series of new regulations aimed at protecting the integrity of upcoming EU-wide elections. The measures include enhanced cybersecurity, transparent political advertising, and observer missions.",
+      "source": "Politico",
+      "url": "https://www.politico.eu/article/eu-parliament-election-security-measures/",
+      "publishedAt": "2026-02-03T15:20:00.000Z"
     }
   ]
 }
