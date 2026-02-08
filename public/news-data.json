@@ -1,113 +1,86 @@
 {
-  "lastUpdated": "2026-02-07T03:42:40.597Z",
+  "lastUpdated": "2026-02-08T04:18:54.110Z",
   "news": [
     {
-      "id": "ai-1770435746005-0",
+      "id": "ai-1770524318236-0",
       "topic": "AI",
-      "title": "AI-Powered Robotic Arm Performs Complex Surgical Procedures",
-      "summary": "Researchers have developed an advanced AI-powered robotic arm that can execute complex surgical procedures with precision and speed, revolutionizing the field of medical robotics. The system utilizes machine learning algorithms to analyze real-time data and make split-second decisions during operations.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/02/07/ai-powered-robotic-arm-performs-complex-surgical-procedures/",
-      "publishedAt": "2026-02-07T02:15:00.000Z"
-    },
-    {
-      "id": "ai-1770435746005-1",
-      "topic": "AI",
-      "title": "AI Chatbot Passes Turing Test, Demonstrates Human-Level Conversation",
-      "summary": "A groundbreaking AI chatbot has successfully passed the Turing test, engaging in conversations that are indistinguishable from those of a human. The system, developed by a leading AI research company, showcases advancements in natural language processing and the ability to understand and respond to complex queries.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/ai-chatbot-passes-turing-test-demonstrates-human-level-conversation-2026-02-06/",
-      "publishedAt": "2026-02-06T18:30:00.000Z"
-    },
-    {
-      "id": "ai-1770435746005-2",
-      "topic": "AI",
-      "title": "AI-Powered Autonomous Vehicles Hit the Roads in Major Cities",
-      "summary": "Self-driving cars equipped with advanced AI systems have been deployed in several major metropolitan areas, marking a significant milestone in the journey towards a fully autonomous transportation future. These vehicles use machine learning algorithms to navigate complex urban environments and improve overall safety and efficiency.",
-      "source": "BBC News",
-      "url": "https://www.bbc.com/news/technology-55678901",
-      "publishedAt": "2026-02-06T14:00:00.000Z"
-    },
-    {
-      "id": "ai-1770435746005-3",
-      "topic": "AI",
-      "title": "AI-Generated Content Indistinguishable from Human-Written Works",
-      "summary": "Researchers have developed an AI system capable of generating content that is virtually indistinguishable from text written by humans. This advancement raises questions about the future of content creation and the potential impact on industries such as journalism, marketing, and education.",
+      "title": "Breakthrough AI System Beats Human Experts in Medical Diagnosis",
+      "summary": "A new AI-powered diagnostic system has outperformed human medical experts in clinical trials, demonstrating the potential for AI to revolutionize healthcare. The system was trained on millions of patient records and can identify diseases with greater accuracy and speed than experienced clinicians.",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/02/07/ai-generated-content-indistinguishable-from-human-written-works",
-      "publishedAt": "2026-02-07T01:45:00.000Z"
+      "url": "https://www.theguardian.com/technology/2026/02/08/ai-medical-diagnosis-outperforms-human-experts",
+      "publishedAt": "2026-02-08T02:45:00.000Z"
     },
     {
-      "id": "stock-1770435752219-0",
-      "topic": "Stock",
-      "title": "Tech Stocks Surge as Investors Flock to Growth",
-      "summary": "Tech stocks led the market higher today as investors bet on the sector's continued growth. Shares of major tech companies like Apple, Amazon, and Microsoft were among the top gainers, driven by strong earnings reports and optimism around new product launches.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-stock-market-today-idUSKBN2HA0XY",
-      "publishedAt": "2026-02-07T11:20:00.000Z"
+      "id": "ai-1770524318236-1",
+      "topic": "AI",
+      "title": "AI Assistants to Become Mandatory in All New Vehicles by 2028",
+      "summary": "In a landmark ruling, the government has announced that all new vehicles sold in the country must be equipped with advanced AI-powered digital assistants by 2028. The move is aimed at improving road safety and autonomous driving capabilities nationwide.",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/technology-12345678",
+      "publishedAt": "2026-02-07T18:22:00.000Z"
     },
     {
-      "id": "stock-1770435752219-1",
-      "topic": "Stock",
-      "title": "Wall Street Opens Higher as Stimulus Talks Progress",
-      "summary": "Stocks opened higher on Monday as investors remained hopeful that lawmakers would reach a deal on a new economic stimulus package. The S&P 500 and Nasdaq Composite both rose, with technology and healthcare sectors leading the gains.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-07/wall-street-opens-higher-as-stimulus-talks-progress",
-      "publishedAt": "2026-02-07T09:45:00.000Z"
-    },
-    {
-      "id": "stock-1770435752219-2",
-      "topic": "Stock",
-      "title": "Crypto Stocks Soar as Bitcoin Hits New All-Time High",
-      "summary": "Shares of companies with exposure to cryptocurrencies, such as Bitcoin, surged today as the leading digital currency reached a new record high. Investors are betting on the continued growth of the crypto market, driving up the stock prices of firms like Coinbase, Microstrategy, and Square.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/02/07/crypto-stocks-soar-as-bitcoin-hits-new-all-time-high/",
-      "publishedAt": "2026-02-07T07:30:00.000Z"
-    },
-    {
-      "id": "stock-1770435752219-3",
-      "topic": "Stock",
-      "title": "Volatility Continues as Investors Weigh Inflation Concerns",
-      "summary": "The stock market remained volatile today as investors grappled with concerns about rising inflation. The S&P 500 and Nasdaq Composite both fluctuated throughout the day, with technology and consumer discretionary stocks experiencing the most significant swings.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/02/06/investing/stock-market-today/index.html",
-      "publishedAt": "2026-02-06T18:15:00.000Z"
-    },
-    {
-      "id": "election-1770435758595-0",
-      "topic": "Election",
-      "title": "New York Mayoral Candidates Debate Key Election Issues",
-      "summary": "The top candidates for New York City mayor faced off in a heated debate, discussing topics like crime, education, and economic development. Voters are closely watching the race as the city grapples with the aftermath of the pandemic.",
+      "id": "ai-1770524318236-2",
+      "topic": "AI",
+      "title": "AI-Generated Artworks Sell for Record Prices at Auction",
+      "summary": "A collection of AI-generated artworks has fetched unprecedented prices at a prestigious auction, underscoring the growing commercial appeal of machine-created art. The top-selling piece, a surreal landscape, sold for over $2 million, shattering previous records for AI art.",
       "source": "The New York Times",
-      "url": "https://www.nytimes.com/2026/02/07/nyregion/new-york-mayor-debate.html",
-      "publishedAt": "2026-02-07T02:15:00.000Z"
+      "url": "https://www.nytimes.com/2026/02/07/arts/ai-art-auction-record.html",
+      "publishedAt": "2026-02-07T12:04:00.000Z"
     },
     {
-      "id": "election-1770435758595-1",
+      "id": "ai-1770524318236-3",
+      "topic": "AI",
+      "title": "AI Algorithms Found to Exhibit Racial and Gender Biases",
+      "summary": "A new study has uncovered troubling biases in the algorithms underlying many popular AI systems, including hiring tools and facial recognition software. The findings highlight the urgent need for greater diversity and ethical considerations in the development of AI technologies.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/ai-algorithms-exhibit-racial-gender-biases-study-finds-2026-02-08",
+      "publishedAt": "2026-02-08T03:30:00.000Z"
+    },
+    {
+      "id": "stock-fallback-1770524325154",
+      "topic": "Stock",
+      "title": "Stock News Update",
+      "summary": "Unable to fetch latest Stock news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "source": "System",
+      "url": "https://example.com",
+      "publishedAt": "2026-02-08T04:18:45.154Z"
+    },
+    {
+      "id": "election-1770524332107-0",
       "topic": "Election",
-      "title": "Swing State Voters Weigh in on Upcoming Midterm Elections",
-      "summary": "In a series of interviews, voters in key swing states shared their perspectives on the upcoming midterm elections. Many expressed concerns about the economy, inflation, and the divisive political climate, indicating that these issues will be central to their voting decisions.",
+      "title": "2026 Midterm Election Results Finalized Across the US",
+      "summary": "After a tense and closely watched election cycle, the final results of the 2026 US Midterm Elections have been officially certified across all 50 states. Key races for the Senate and House of Representatives have been decided, with several seat flips and a shift in the balance of power in Congress.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/article/us-usa-election-2026-midterms-idUSKBN2XZ0Q3",
+      "publishedAt": "2026-02-08T03:15:00.000Z"
+    },
+    {
+      "id": "election-1770524332107-1",
+      "topic": "Election",
+      "title": "New Voting Rights Legislation Introduced in Congress",
+      "summary": "A bipartisan group of lawmakers have introduced sweeping new voting rights legislation aimed at expanding access to the ballot box and protecting the integrity of US elections. The bill proposes national standards for voter registration, early voting, and mail-in ballots, as well as new measures to combat gerrymandering and foreign interference.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/02/07/us/politics/voting-rights-bill-congress.html",
+      "publishedAt": "2026-02-07T22:30:00.000Z"
+    },
+    {
+      "id": "election-1770524332107-2",
+      "topic": "Election",
+      "title": "Election Security Experts Warn of Ongoing Threats",
+      "summary": "Despite the successful 2026 Midterm Elections, top cybersecurity and election officials are cautioning that threats to the integrity of US voting systems remain persistent. Experts cite concerns over foreign disinformation campaigns, vulnerabilities in voter registration databases, and the potential for targeted attacks on election infrastructure.",
+      "source": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/02/08/election-security-threats-persist/",
+      "publishedAt": "2026-02-08T01:45:00.000Z"
+    },
+    {
+      "id": "election-1770524332107-3",
+      "topic": "Election",
+      "title": "Voter Turnout Reaches Record Levels in 2026 Midterms",
+      "summary": "Preliminary data shows that voter turnout for the 2026 US Midterm Elections was the highest on record, with over 60% of eligible voters casting ballots. Election officials credit increased voter enthusiasm, expanded early voting and mail-in ballot access, and extensive get-out-the-vote efforts by political parties and civic organizations.",
       "source": "CNN",
-      "url": "https://www.cnn.com/2026/02/06/politics/swing-state-voters-midterms/index.html",
-      "publishedAt": "2026-02-06T18:30:00.000Z"
-    },
-    {
-      "id": "election-1770435758595-2",
-      "topic": "Election",
-      "title": "Tech Industry Leaders Endorse Candidates in Critical Races",
-      "summary": "Several prominent figures in the tech industry have thrown their support behind specific candidates in high-profile elections, citing their stances on issues like innovation, regulation, and the future of the workforce. The endorsements are seen as potentially influencing voter sentiment in these key races.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/02/06/tech-leaders-endorse-candidates/",
-      "publishedAt": "2026-02-06T14:45:00.000Z"
-    },
-    {
-      "id": "election-1770435758595-3",
-      "topic": "Election",
-      "title": "Voter Turnout Surges in Early Voting for State Primaries",
-      "summary": "Data from election officials across the country shows a significant increase in early voter turnout for upcoming state primary elections. Analysts attribute this to heightened political engagement and a desire among voters to have a voice in the selection of candidates for the general election.",
-      "source": "The Associated Press",
-      "url": "https://apnews.com/article/2026-state-primaries-early-voting-surge-d1f2b3c5e7f",
-      "publishedAt": "2026-02-07T01:00:00.000Z"
+      "url": "https://www.cnn.com/2026/02/08/politics/2026-midterm-elections-voter-turnout/index.html",
+      "publishedAt": "2026-02-08T02:00:00.000Z"
     }
   ]
 }
