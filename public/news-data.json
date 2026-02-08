@@ -1,86 +1,86 @@
 {
-  "lastUpdated": "2026-02-08T04:18:54.110Z",
+  "lastUpdated": "2026-02-08T12:35:07.094Z",
   "news": [
     {
-      "id": "ai-1770524318236-0",
+      "id": "ai-fallback-1770554087582",
       "topic": "AI",
-      "title": "Breakthrough AI System Beats Human Experts in Medical Diagnosis",
-      "summary": "A new AI-powered diagnostic system has outperformed human medical experts in clinical trials, demonstrating the potential for AI to revolutionize healthcare. The system was trained on millions of patient records and can identify diseases with greater accuracy and speed than experienced clinicians.",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/02/08/ai-medical-diagnosis-outperforms-human-experts",
-      "publishedAt": "2026-02-08T02:45:00.000Z"
-    },
-    {
-      "id": "ai-1770524318236-1",
-      "topic": "AI",
-      "title": "AI Assistants to Become Mandatory in All New Vehicles by 2028",
-      "summary": "In a landmark ruling, the government has announced that all new vehicles sold in the country must be equipped with advanced AI-powered digital assistants by 2028. The move is aimed at improving road safety and autonomous driving capabilities nationwide.",
-      "source": "BBC News",
-      "url": "https://www.bbc.com/news/technology-12345678",
-      "publishedAt": "2026-02-07T18:22:00.000Z"
-    },
-    {
-      "id": "ai-1770524318236-2",
-      "topic": "AI",
-      "title": "AI-Generated Artworks Sell for Record Prices at Auction",
-      "summary": "A collection of AI-generated artworks has fetched unprecedented prices at a prestigious auction, underscoring the growing commercial appeal of machine-created art. The top-selling piece, a surreal landscape, sold for over $2 million, shattering previous records for AI art.",
-      "source": "The New York Times",
-      "url": "https://www.nytimes.com/2026/02/07/arts/ai-art-auction-record.html",
-      "publishedAt": "2026-02-07T12:04:00.000Z"
-    },
-    {
-      "id": "ai-1770524318236-3",
-      "topic": "AI",
-      "title": "AI Algorithms Found to Exhibit Racial and Gender Biases",
-      "summary": "A new study has uncovered troubling biases in the algorithms underlying many popular AI systems, including hiring tools and facial recognition software. The findings highlight the urgent need for greater diversity and ethical considerations in the development of AI technologies.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/ai-algorithms-exhibit-racial-gender-biases-study-finds-2026-02-08",
-      "publishedAt": "2026-02-08T03:30:00.000Z"
-    },
-    {
-      "id": "stock-fallback-1770524325154",
-      "topic": "Stock",
-      "title": "Stock News Update",
-      "summary": "Unable to fetch latest Stock news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "title": "AI News Update",
+      "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
       "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-02-08T04:18:45.154Z"
+      "publishedAt": "2026-02-08T12:34:47.582Z"
     },
     {
-      "id": "election-1770524332107-0",
-      "topic": "Election",
-      "title": "2026 Midterm Election Results Finalized Across the US",
-      "summary": "After a tense and closely watched election cycle, the final results of the 2026 US Midterm Elections have been officially certified across all 50 states. Key races for the Senate and House of Representatives have been decided, with several seat flips and a shift in the balance of power in Congress.",
+      "id": "stock-1770554098111-0",
+      "topic": "Stock",
+      "title": "Tech Stocks Soar on Strong Earnings Reports",
+      "summary": "Major tech companies including Apple, Google, and Microsoft reported better-than-expected quarterly results, sending their stock prices up sharply. Investors are bullish on the tech sector's continued growth and innovation.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-usa-election-2026-midterms-idUSKBN2XZ0Q3",
-      "publishedAt": "2026-02-08T03:15:00.000Z"
+      "url": "https://www.reuters.com/article/us-tech-earnings-idUSKBN2A80JX",
+      "publishedAt": "2026-02-08T10:15:00.000Z"
     },
     {
-      "id": "election-1770524332107-1",
-      "topic": "Election",
-      "title": "New Voting Rights Legislation Introduced in Congress",
-      "summary": "A bipartisan group of lawmakers have introduced sweeping new voting rights legislation aimed at expanding access to the ballot box and protecting the integrity of US elections. The bill proposes national standards for voter registration, early voting, and mail-in ballots, as well as new measures to combat gerrymandering and foreign interference.",
-      "source": "The New York Times",
-      "url": "https://www.nytimes.com/2026/02/07/us/politics/voting-rights-bill-congress.html",
-      "publishedAt": "2026-02-07T22:30:00.000Z"
+      "id": "stock-1770554098111-1",
+      "topic": "Stock",
+      "title": "Retail Stocks Surge on Increased Consumer Spending",
+      "summary": "Retail giants like Walmart, Target, and Amazon saw their stock prices jump after reporting strong sales and earnings growth. Experts cite the post-pandemic economic recovery and pent-up consumer demand as drivers of this rally.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/retail-stocks-surge-on-increased-consumer-spending",
+      "publishedAt": "2026-02-07T16:30:00.000Z"
     },
     {
-      "id": "election-1770524332107-2",
-      "topic": "Election",
-      "title": "Election Security Experts Warn of Ongoing Threats",
-      "summary": "Despite the successful 2026 Midterm Elections, top cybersecurity and election officials are cautioning that threats to the integrity of US voting systems remain persistent. Experts cite concerns over foreign disinformation campaigns, vulnerabilities in voter registration databases, and the potential for targeted attacks on election infrastructure.",
-      "source": "The Washington Post",
-      "url": "https://www.washingtonpost.com/politics/2026/02/08/election-security-threats-persist/",
-      "publishedAt": "2026-02-08T01:45:00.000Z"
-    },
-    {
-      "id": "election-1770524332107-3",
-      "topic": "Election",
-      "title": "Voter Turnout Reaches Record Levels in 2026 Midterms",
-      "summary": "Preliminary data shows that voter turnout for the 2026 US Midterm Elections was the highest on record, with over 60% of eligible voters casting ballots. Election officials credit increased voter enthusiasm, expanded early voting and mail-in ballot access, and extensive get-out-the-vote efforts by political parties and civic organizations.",
+      "id": "stock-1770554098111-2",
+      "topic": "Stock",
+      "title": "Oil Stocks Climb Amid Supply Chain Disruptions",
+      "summary": "Shares of major oil companies like Exxon Mobil and Chevron rose sharply due to ongoing supply chain issues affecting global energy markets. Investors are betting on continued high prices and profits for the industry.",
       "source": "CNN",
-      "url": "https://www.cnn.com/2026/02/08/politics/2026-midterm-elections-voter-turnout/index.html",
-      "publishedAt": "2026-02-08T02:00:00.000Z"
+      "url": "https://www.cnn.com/2026/02/08/business/oil-stocks-climb/index.html",
+      "publishedAt": "2026-02-08T12:00:00.000Z"
+    },
+    {
+      "id": "stock-1770554098111-3",
+      "topic": "Stock",
+      "title": "Cryptocurrency Stocks See Mixed Performance",
+      "summary": "Shares of companies with exposure to cryptocurrencies, such as exchanges and blockchain technology firms, showed a mixed performance. Investors remain cautious amid regulatory uncertainty and volatility in the crypto markets.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/07/cryptocurrency-stocks-mixed-performance/",
+      "publishedAt": "2026-02-07T18:45:00.000Z"
+    },
+    {
+      "id": "election-1770554105092-0",
+      "topic": "Election",
+      "title": "Record Voter Turnout in Key Swing States for 2026 Midterms",
+      "summary": "Voter turnout in several crucial swing states has reached historic highs for the 2026 midterm elections, according to election officials. This could signal a shift in the political landscape as voters seek to make their voices heard.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/article/us-usa-elections-2026-turnout",
+      "publishedAt": "2026-02-08T10:15:00.000Z"
+    },
+    {
+      "id": "election-1770554105092-1",
+      "topic": "Election",
+      "title": "New Voting Technology Debuts in 2026 Midterms, Raising Security Concerns",
+      "summary": "As voters head to the polls, new electronic voting machines are being used in several states for the first time. While touted for their efficiency, cybersecurity experts warn of potential vulnerabilities that could undermine the integrity of the election.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/02/07/us/politics/voting-machines-security.html",
+      "publishedAt": "2026-02-07T17:30:00.000Z"
+    },
+    {
+      "id": "election-1770554105092-2",
+      "topic": "Election",
+      "title": "Heated Debates Continue Over Redistricting Ahead of 2026 Midterms",
+      "summary": "Battles over congressional redistricting have intensified in the lead-up to the 2026 midterm elections, with accusations of gerrymandering and concerns over fair representation. Experts warn that the outcome could have significant implications for the balance of power in Congress.",
+      "source": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/02/08/redistricting-midterms-congress/",
+      "publishedAt": "2026-02-08T12:00:00.000Z"
+    },
+    {
+      "id": "election-1770554105092-3",
+      "topic": "Election",
+      "title": "Grassroots Movements Mobilize for 2026 Midterm Elections",
+      "summary": "Across the country, grassroots organizations are working tirelessly to register new voters and encourage participation in the 2026 midterm elections. These efforts aim to amplify the voices of underrepresented communities and drive meaningful change through the electoral process.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/feb/07/grassroots-movements-2026-midterm-elections",
+      "publishedAt": "2026-02-07T20:45:00.000Z"
     }
   ]
 }
