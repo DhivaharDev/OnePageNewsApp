@@ -20,7 +20,7 @@ async function fetchNewsForTopic(
     const yesterday = new Date(now.getTime() - 24 * 60 * 60 * 1000).toISOString().split('T')[0]
     const twoDaysAgo = new Date(now.getTime() - 48 * 60 * 60 * 1000).toISOString().split('T')[0]
 
-    const prompt = `You are a real-time news aggregator. TODAY'S DATE is ${today}.
+    const prompt = `You are a real-time news aggregator focusing on India and global news. TODAY'S DATE is ${today}.
 
 CRITICAL REQUIREMENTS - READ CAREFULLY:
 1. Find ONLY news published in the LAST 48 HOURS (from ${twoDaysAgo} onwards to ${today})
@@ -28,15 +28,17 @@ CRITICAL REQUIREMENTS - READ CAREFULLY:
 3. DO NOT include any news older than 48 hours (before ${twoDaysAgo})
 4. Prioritize breaking news and stories from TODAY (${today}) over yesterday
 5. Use REAL current events happening NOW, not old historical events
-6. ONLY include news from ENGLISH LANGUAGE sources (US, UK, international English publications)
+6. ONLY include news from ENGLISH LANGUAGE sources (Indian & international English publications)
+7. Focus on India-specific news when relevant (Indian context, Indian companies, Indian politics, Indian tech scene)
+8. CRITICAL: You MUST provide VALID, WORKING URLs to actual news articles - NO placeholder URLs like "example.com"
 
-Find the top ${MAX_NEWS_PER_TOPIC} most recent and important news articles about "${topic}" from the LAST 48 HOURS ONLY from ENGLISH LANGUAGE news sources.
+Find the top ${MAX_NEWS_PER_TOPIC} most recent and important news articles about "${topic}" from the LAST 48 HOURS ONLY from ENGLISH LANGUAGE news sources with Indian/global relevance.
 
 For each news article, provide:
-1. Title (concise, under 100 characters)
-2. Summary (EXACTLY ${MAX_SUMMARY_WORDS} words or less, no exceptions)
-3. Source (publication name - real news outlet)
-4. URL (if available, otherwise use a placeholder)
+1. Title (concise, under 100 characters, highlight India relevance if applicable)
+2. Summary (EXACTLY ${MAX_SUMMARY_WORDS} words or less, mention India context if relevant)
+3. Source (publication name - real Indian/international news outlet like Times of India, Economic Times, Hindu, Reuters, etc.)
+4. URL (MANDATORY - Must be a REAL, VALID, WORKING URL to the actual news article. NO placeholders like "example.com" or "https://example.com". If you don't have a real URL, search for the article and provide the actual link.)
 5. Published date/time (MUST be ${today} or ${yesterday} - use actual article date)
 
 Format your response as a JSON array with this exact structure:
@@ -57,8 +59,11 @@ STRICT VALIDATION RULES:
 - Use actual publication dates from real articles
 - Dates MUST be in ISO 8601 format (YYYY-MM-DDTHH:mm:ssZ)
 - Prioritize breaking news from TODAY over yesterday's news
-- Only credible ENGLISH LANGUAGE news sources (Reuters, AP, Bloomberg, TechCrunch, BBC, CNN, etc.)
+- Only credible ENGLISH LANGUAGE news sources (Times of India, Economic Times, Hindu, Reuters, AP, Bloomberg, TechCrunch, BBC, CNN, NDTV, Indian Express, etc.)
+- Focus on India when relevant: Indian companies (Infosys, TCS, Reliance), Indian politics, Indian economy, Indian tech scene
 - NO non-English language sources or publications
+- URLs MUST be REAL and WORKING - absolutely NO "example.com" or placeholder URLs
+- Every article MUST have a valid URL that points to an actual news article
 - Return valid JSON only, no additional text or explanations
 
 Topic: ${topic}
@@ -106,13 +111,25 @@ Current Time: ${now.toISOString()}`
           return null
         }
 
+        // Validate URL - skip placeholder URLs
+        const url = article.url || ''
+        const isValidUrl = url &&
+                          !url.includes('example.com') &&
+                          (url.startsWith('http://') || url.startsWith('https://')) &&
+                          url.length > 15
+
+        if (!isValidUrl) {
+          console.warn(`⚠️ Skipping article with invalid/placeholder URL: ${article.title} - URL: ${url}`)
+          return null
+        }
+
         const newsItem: NewsItem = {
           id: `${topic.toLowerCase()}-${Date.now()}-${index}`,
           topic: topic as 'AI' | 'Stock' | 'Election',
           title: article.title,
           summary: article.summary,
           source: article.source,
-          url: article.url || 'https://example.com',
+          url: url,
           publishedAt: publishedDate.toISOString(),
         }
         return newsItem

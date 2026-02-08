@@ -4,19 +4,19 @@ export const TOPICS: NewsTopic[] = ['AI', 'Stock', 'Election']
 
 export const TOPIC_COLORS: Record<NewsTopic, TopicColors> = {
   AI: {
-    bg: 'bg-blue-100',
-    text: 'text-blue-700',
-    border: 'border-blue-300',
+    bg: 'bg-blue-600',
+    text: 'text-white',
+    border: 'border-blue-600',
   },
   Stock: {
-    bg: 'bg-green-100',
-    text: 'text-green-700',
-    border: 'border-green-300',
+    bg: 'bg-green-600',
+    text: 'text-white',
+    border: 'border-green-600',
   },
   Election: {
-    bg: 'bg-purple-100',
-    text: 'text-purple-700',
-    border: 'border-purple-300',
+    bg: 'bg-purple-600',
+    text: 'text-white',
+    border: 'border-purple-600',
   },
 }
 
