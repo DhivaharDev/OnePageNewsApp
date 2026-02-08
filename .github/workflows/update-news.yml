@@ -31,9 +31,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Fetch latest news with Claude API
+      - name: Fetch latest news with GNews API
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
         run: npm run fetch-news
 
       - name: Check for changes

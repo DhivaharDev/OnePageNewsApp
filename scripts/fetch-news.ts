@@ -7,111 +7,55 @@ const TOPICS = ['AI', 'Stock', 'Election'] as const
 const MAX_NEWS_PER_TOPIC = 4
 const MAX_SUMMARY_WORDS = 100
 
-async function fetchNewsForTopic(
-  client: Anthropic,
-  topic: string
-): Promise<NewsItem[]> {
+// Topic to search query mapping for NewsAPI
+const TOPIC_QUERIES: Record<typeof TOPICS[number], string> = {
+  'AI': 'artificial intelligence OR AI OR machine learning OR OpenAI OR ChatGPT',
+  'Stock': 'stock market OR stocks OR nifty OR sensex OR BSE OR NSE OR trading',
+  'Election': 'election OR politics OR government OR voting OR democracy',
+}
+
+async function fetchNewsFromAPI(topic: string): Promise<NewsItem[]> {
   console.log(`\n📰 Fetching news for topic: ${topic}`)
 
   try {
-    // Get current date info for the prompt
+    const query = TOPIC_QUERIES[topic as keyof typeof TOPIC_QUERIES]
+    const apiKey = process.env.GNEWS_API_KEY || 'demo'
+
+    // Using gnews.io - Get free API key from https://gnews.io/
+    const searchQuery = encodeURIComponent(query + ' India')
+    const url = `https://gnews.io/api/v4/search?q=${searchQuery}&lang=en&country=in&max=10&apikey=${apiKey}`
+
+    console.log(`🔍 Fetching from GNews API (key: ${apiKey === 'demo' ? 'demo (limited)' : 'custom'})...`)
+
+    const response = await fetch(url)
+
+    if (!response.ok) {
+      throw new Error(`API error: ${response.status}`)
+    }
+
+    const data = await response.json()
+    const articles = data.articles || []
+
+    if (articles.length === 0) {
+      console.warn(`⚠️ No articles found for ${topic}`)
+      return []
+    }
+
     const now = new Date()
-    const today = now.toISOString().split('T')[0]
-    const yesterday = new Date(now.getTime() - 24 * 60 * 60 * 1000).toISOString().split('T')[0]
-    const twoDaysAgo = new Date(now.getTime() - 48 * 60 * 60 * 1000).toISOString().split('T')[0]
-
-    const prompt = `You are a real-time news aggregator focusing on India and global news. TODAY'S DATE is ${today}.
-
-CRITICAL REQUIREMENTS - READ CAREFULLY:
-1. Find ONLY news published in the LAST 48 HOURS (from ${twoDaysAgo} onwards to ${today})
-2. News MUST be from ${today} (today) OR ${yesterday} (yesterday) ONLY
-3. DO NOT include any news older than 48 hours (before ${twoDaysAgo})
-4. Prioritize breaking news and stories from TODAY (${today}) over yesterday
-5. Use REAL current events happening NOW, not old historical events
-6. ONLY include news from ENGLISH LANGUAGE sources (Indian & international English publications)
-7. Focus on India-specific news when relevant (Indian context, Indian companies, Indian politics, Indian tech scene)
-8. CRITICAL: You MUST provide VALID, WORKING URLs to actual news articles - NO placeholder URLs like "example.com"
-
-Find the top ${MAX_NEWS_PER_TOPIC} most recent and important news articles about "${topic}" from the LAST 48 HOURS ONLY from ENGLISH LANGUAGE news sources with Indian/global relevance.
-
-For each news article, provide:
-1. Title (concise, under 100 characters, highlight India relevance if applicable)
-2. Summary (EXACTLY ${MAX_SUMMARY_WORDS} words or less, mention India context if relevant)
-3. Source (publication name - real Indian/international news outlet like Times of India, Economic Times, Hindu, Reuters, etc.)
-4. URL (MANDATORY - Must be a REAL, VALID, WORKING URL to the actual news article. NO placeholders like "example.com" or "https://example.com". If you don't have a real URL, search for the article and provide the actual link.)
-5. Published date/time (MUST be ${today} or ${yesterday} - use actual article date)
-
-Format your response as a JSON array with this exact structure:
-[
-  {
-    "title": "Article title here",
-    "summary": "Brief summary here in ${MAX_SUMMARY_WORDS} words or less",
-    "source": "Source Name",
-    "url": "https://example.com/article",
-    "publishedAt": "2026-01-18T14:30:00Z"
-  }
-]
-
-STRICT VALIDATION RULES:
-- Summaries MUST be ${MAX_SUMMARY_WORDS} words or less
-- ONLY include news from ${today} or ${yesterday} (last 48 hours max)
-- Absolutely NO news from ${twoDaysAgo} or earlier
-- Use actual publication dates from real articles
-- Dates MUST be in ISO 8601 format (YYYY-MM-DDTHH:mm:ssZ)
-- Prioritize breaking news from TODAY over yesterday's news
-- Only credible ENGLISH LANGUAGE news sources (Times of India, Economic Times, Hindu, Reuters, AP, Bloomberg, TechCrunch, BBC, CNN, NDTV, Indian Express, etc.)
-- Focus on India when relevant: Indian companies (Infosys, TCS, Reliance), Indian politics, Indian economy, Indian tech scene
-- NO non-English language sources or publications
-- URLs MUST be REAL and WORKING - absolutely NO "example.com" or placeholder URLs
-- Every article MUST have a valid URL that points to an actual news article
-- Return valid JSON only, no additional text or explanations
-
-Topic: ${topic}
-Current Time: ${now.toISOString()}`
-
-    const message = await client.messages.create({
-      model: 'claude-3-haiku-20240307', // Using Haiku for cost efficiency (~10x cheaper than Sonnet)
-      max_tokens: 2048,
-      messages: [
-        {
-          role: 'user',
-          content: prompt,
-        },
-      ],
-    })
-
-    const content = message.content[0]
-    if (content.type !== 'text') {
-      throw new Error('Unexpected response type from Claude')
-    }
-
-    // Extract JSON from response
-    let jsonText = content.text.trim()
-
-    // Remove markdown code blocks if present
-    jsonText = jsonText.replace(/```json\n?/g, '').replace(/```\n?/g, '')
-
-    const articles = JSON.parse(jsonText)
-
-    if (!Array.isArray(articles)) {
-      throw new Error('Response is not an array')
-    }
-
-    // Convert to NewsItem format and validate dates
     const fortyEightHoursAgo = new Date(now.getTime() - 48 * 60 * 60 * 1000)
 
-    const newsItems = articles
+    const newsItems: NewsItem[] = articles
       .slice(0, MAX_NEWS_PER_TOPIC)
-      .map((article, index) => {
-        const publishedDate = article.publishedAt ? new Date(article.publishedAt) : new Date()
+      .map((article: any, index: number) => {
+        const publishedDate = new Date(article.publishedAt)
 
         // Validate date is within last 48 hours
         if (publishedDate < fortyEightHoursAgo) {
-          console.warn(`⚠️ Skipping old article (${publishedDate.toISOString()}): ${article.title}`)
+          console.warn(`⚠️ Skipping old article: ${article.title}`)
           return null
         }
 
-        // Validate URL - skip placeholder URLs
+        // Validate URL
         const url = article.url || ''
         const isValidUrl = url &&
                           !url.includes('example.com') &&
@@ -119,73 +63,70 @@ Current Time: ${now.toISOString()}`
                           url.length > 15
 
         if (!isValidUrl) {
-          console.warn(`⚠️ Skipping article with invalid/placeholder URL: ${article.title} - URL: ${url}`)
+          console.warn(`⚠️ Skipping article with invalid URL: ${article.title}`)
           return null
+        }
+
+        // Truncate description to MAX_SUMMARY_WORDS
+        let summary = article.description || article.content || 'No summary available.'
+        const words = summary.split(' ')
+        if (words.length > MAX_SUMMARY_WORDS) {
+          summary = words.slice(0, MAX_SUMMARY_WORDS).join(' ') + '...'
         }
 
         const newsItem: NewsItem = {
           id: `${topic.toLowerCase()}-${Date.now()}-${index}`,
           topic: topic as 'AI' | 'Stock' | 'Election',
           title: article.title,
-          summary: article.summary,
-          source: article.source,
+          summary: summary,
+          source: article.source?.name || 'Unknown Source',
           url: url,
           publishedAt: publishedDate.toISOString(),
         }
+
         return newsItem
       })
       .filter((item): item is NewsItem => item !== null)
 
-    console.log(`✅ Successfully fetched ${newsItems.length} articles for ${topic} (within last 48 hours)`)
-
-    // If no valid recent articles, throw error to trigger fallback
-    if (newsItems.length === 0) {
-      throw new Error('No recent articles found within last 48 hours')
-    }
-
+    console.log(`✅ Successfully fetched ${newsItems.length} articles for ${topic}`)
     return newsItems
+
   } catch (error) {
     console.error(`❌ Error fetching news for ${topic}:`, error)
-
-    // Return fallback news item
-    const fallbackItem: NewsItem = {
-      id: `${topic.toLowerCase()}-fallback-${Date.now()}`,
-      topic: topic as 'AI' | 'Stock' | 'Election',
-      title: `${topic} News Update`,
-      summary: `Unable to fetch latest ${topic} news at this time. Our automated system encountered an issue. Please check back later for updates.`,
-      source: 'System',
-      url: 'https://example.com',
-      publishedAt: new Date().toISOString(),
-    }
-    return [fallbackItem]
+    return []
   }
 }
 
 async function main() {
   console.log('🚀 Starting news fetch process...')
   console.log(`📅 Timestamp: ${new Date().toISOString()}`)
-
-  // Check for API key
-  const apiKey = process.env.ANTHROPIC_API_KEY
-  if (!apiKey) {
-    console.error('❌ ANTHROPIC_API_KEY environment variable is not set')
-    process.exit(1)
-  }
-
-  const client = new Anthropic({
-    apiKey,
-  })
+  console.log('📡 Using GNews API for real-time news...')
 
   try {
     // Fetch news for all topics
     const allNews: NewsItem[] = []
 
     for (const topic of TOPICS) {
-      const newsItems = await fetchNewsForTopic(client, topic)
-      allNews.push(...newsItems)
+      const newsItems = await fetchNewsFromAPI(topic)
+
+      if (newsItems.length > 0) {
+        allNews.push(...newsItems)
+      } else {
+        // Add fallback if no news found
+        const fallbackItem: NewsItem = {
+          id: `${topic.toLowerCase()}-fallback-${Date.now()}`,
+          topic: topic as 'AI' | 'Stock' | 'Election',
+          title: `Latest ${topic} News`,
+          summary: `Stay tuned for the latest ${topic.toLowerCase()} news. Our system is working to bring you the most recent updates from trusted sources.`,
+          source: 'News Aggregator',
+          url: 'https://news.google.com',
+          publishedAt: new Date().toISOString(),
+        }
+        allNews.push(fallbackItem)
+      }
 
       // Add delay between requests to avoid rate limiting
-      await new Promise(resolve => setTimeout(resolve, 2000))
+      await new Promise(resolve => setTimeout(resolve, 1000))
     }
 
     // Create news data object

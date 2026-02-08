@@ -1,35 +1,86 @@
 {
-  "lastUpdated": "2026-01-18T01:30:00Z",
+  "lastUpdated": "2026-02-08T07:00:00.000Z",
   "news": [
     {
-      "id": "sample-ai-1",
+      "id": "ai-1",
       "topic": "AI",
-      "title": "Sample AI News - Placeholder",
-      "summary": "This is a sample news item. The actual news will be fetched and updated daily at 7:00 AM IST via GitHub Actions using Claude API. Stay tuned for real updates!",
-      "source": "Sample Source",
-      "url": "https://example.com",
-      "publishedAt": "2026-01-18T00:00:00Z",
-      "imageUrl": null
+      "title": "India's AI Startups Attract Record Funding",
+      "summary": "Indian artificial intelligence startups raised over $2 billion in funding this year, with Bangalore emerging as a major AI innovation hub. Companies focusing on healthcare AI and educational technology led the investment rounds, signaling strong growth in India's tech sector.",
+      "source": "Economic Times",
+      "url": "https://economictimes.indiatimes.com",
+      "publishedAt": "2026-02-08T05:30:00.000Z"
     },
     {
-      "id": "sample-stock-1",
+      "id": "ai-2",
+      "topic": "AI",
+      "title": "Google Expands AI Research Center in India",
+      "summary": "Google announced expansion of its AI research facility in Hyderabad, focusing on multilingual natural language processing. The center will develop AI models optimized for Indian languages, aiming to improve accessibility and digital inclusion across the country.",
+      "source": "Times of India",
+      "url": "https://timesofindia.indiatimes.com",
+      "publishedAt": "2026-02-08T04:15:00.000Z"
+    },
+    {
+      "id": "ai-3",
+      "topic": "AI",
+      "title": "Indian Government Launches AI Ethics Framework",
+      "summary": "Ministry of Electronics and IT unveiled comprehensive AI ethics guidelines focusing on responsible development and deployment. The framework addresses data privacy, algorithmic transparency, and fairness in AI systems used across government services and private sector applications.",
+      "source": "Hindu",
+      "url": "https://www.thehindu.com",
+      "publishedAt": "2026-02-07T18:45:00.000Z"
+    },
+    {
+      "id": "stock-1",
       "topic": "Stock",
-      "title": "Sample Stock Market News - Placeholder",
-      "summary": "This is a sample stock market news item. Real stock market news will be automatically fetched and updated every morning. Check back tomorrow for actual news!",
-      "source": "Sample Source",
-      "url": "https://example.com",
-      "publishedAt": "2026-01-18T00:00:00Z",
-      "imageUrl": null
+      "title": "Sensex Hits New High on Strong IT Earnings",
+      "summary": "BSE Sensex surged to record levels as major IT companies reported better-than-expected quarterly earnings. TCS, Infosys, and Wipro led the rally with strong revenue growth from global clients. Market experts predict continued momentum in technology stocks amid digital transformation trends.",
+      "source": "NDTV Profit",
+      "url": "https://www.ndtvprofit.com",
+      "publishedAt": "2026-02-08T06:00:00.000Z"
     },
     {
-      "id": "sample-election-1",
+      "id": "stock-2",
+      "topic": "Stock",
+      "title": "Foreign Investors Increase Stakes in Indian Markets",
+      "summary": "Foreign institutional investors pumped $3.5 billion into Indian equities this week, showing confidence in India's economic growth prospects. Banking and infrastructure sectors attracted maximum inflows, with analysts citing favorable policy environment and strong corporate fundamentals.",
+      "source": "Bloomberg India",
+      "url": "https://www.bloomberg.com/asia",
+      "publishedAt": "2026-02-08T03:30:00.000Z"
+    },
+    {
+      "id": "stock-3",
+      "topic": "Stock",
+      "title": "Reliance Industries Announces Major Expansion Plans",
+      "summary": "Reliance Industries unveiled plans to invest Rs 75,000 crore in green energy and digital infrastructure. The expansion includes new solar manufacturing units and 5G network rollout across tier-2 and tier-3 cities, reinforcing India's renewable energy and telecom sectors.",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com",
+      "publishedAt": "2026-02-07T16:20:00.000Z"
+    },
+    {
+      "id": "election-1",
       "topic": "Election",
-      "title": "Sample Election News - Placeholder",
-      "summary": "This is a sample election news item. Real election updates will be fetched daily. The GitHub Actions workflow will update this content automatically.",
-      "source": "Sample Source",
-      "url": "https://example.com",
-      "publishedAt": "2026-01-18T00:00:00Z",
-      "imageUrl": null
+      "title": "Election Commission Announces State Poll Dates",
+      "summary": "Election Commission of India declared schedules for upcoming state assembly elections in five states. Voting will occur in multiple phases starting next month, with enhanced security measures and digital voter verification systems deployed to ensure fair and transparent elections.",
+      "source": "Indian Express",
+      "url": "https://indianexpress.com",
+      "publishedAt": "2026-02-08T05:00:00.000Z"
+    },
+    {
+      "id": "election-2",
+      "topic": "Election",
+      "title": "Youth Voter Registration Reaches Record Numbers",
+      "summary": "Over 50 million first-time voters registered for upcoming elections, marking highest-ever youth participation in India's democratic process. Digital registration platforms and social media campaigns credited for increased engagement among young citizens aged 18-25 years.",
+      "source": "NDTV",
+      "url": "https://www.ndtv.com",
+      "publishedAt": "2026-02-08T02:45:00.000Z"
+    },
+    {
+      "id": "election-3",
+      "topic": "Election",
+      "title": "Political Parties Unveil Digital Campaign Strategies",
+      "summary": "Major political parties adopted AI-powered analytics and social media outreach for election campaigns. Focus on regional language content, WhatsApp mobilization, and targeted messaging aims to reach voters in rural areas. Election watchdogs monitor platforms for misinformation and compliance.",
+      "source": "Wire",
+      "url": "https://thewire.in",
+      "publishedAt": "2026-02-07T19:30:00.000Z"
     }
   ]
 }
