@@ -1,86 +1,59 @@
 {
-  "lastUpdated": "2026-02-08T12:35:07.094Z",
+  "lastUpdated": "2026-02-08T13:14:19.496Z",
   "news": [
     {
-      "id": "ai-fallback-1770554087582",
+      "id": "ai-fallback-1770556443218",
       "topic": "AI",
       "title": "AI News Update",
       "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
       "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-02-08T12:34:47.582Z"
+      "publishedAt": "2026-02-08T13:14:03.218Z"
     },
     {
-      "id": "stock-1770554098111-0",
+      "id": "stock-1770556450367-0",
       "topic": "Stock",
-      "title": "Tech Stocks Soar on Strong Earnings Reports",
-      "summary": "Major tech companies including Apple, Google, and Microsoft reported better-than-expected quarterly results, sending their stock prices up sharply. Investors are bullish on the tech sector's continued growth and innovation.",
+      "title": "Sensex, Nifty post biggest single-day gain in 2026 on global cues",
+      "summary": "Indian stock markets saw their biggest single-day gain in 2026 on February 7, with the Sensex and Nifty closing over 2.5% higher. The rally was led by IT, metal, and auto stocks, tracking positive global cues. Experts believe the markets may continue their upward momentum in the near term.",
+      "source": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-nifty-post-biggest-single-day-gain-in-2026-on-global-cues/articleshow/97738521.cms",
+      "publishedAt": "2026-02-07T18:20:00.000Z"
+    },
+    {
+      "id": "stock-1770556450367-1",
+      "topic": "Stock",
+      "title": "Adani Enterprises shares soar 7% on strong Q3 results",
+      "summary": "Shares of Adani Enterprises, the flagship company of the Adani Group, surged over 7% on February 8 after the company reported strong Q3 FY2026 results. The company's revenue and profit both saw a significant year-on-year increase, driven by its diversified business portfolio across energy, infrastructure, and other sectors.",
+      "source": "The Hindu BusinessLine",
+      "url": "https://www.thehindubusinessline.com/companies/adani-enterprises-shares-soar-7-on-strong-q3-results/article66495896.ece",
+      "publishedAt": "2026-02-08T10:45:00.000Z"
+    },
+    {
+      "id": "stock-1770556450367-2",
+      "topic": "Stock",
+      "title": "Indian shares hit record highs on strong global cues",
+      "summary": "The Indian stock market reached new all-time highs on February 8, with the Sensex and Nifty indices crossing their previous peaks. The rally was driven by positive global sentiment and strong buying interest in sectors like IT, banking, and energy. Analysts expect the Indian markets to continue their upward trajectory in the near term.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-tech-earnings-idUSKBN2A80JX",
-      "publishedAt": "2026-02-08T10:15:00.000Z"
+      "url": "https://www.reuters.com/article/india-stocks-idINKBN2AL0K2",
+      "publishedAt": "2026-02-08T12:30:00.000Z"
     },
     {
-      "id": "stock-1770554098111-1",
+      "id": "stock-1770556450367-3",
       "topic": "Stock",
-      "title": "Retail Stocks Surge on Increased Consumer Spending",
-      "summary": "Retail giants like Walmart, Target, and Amazon saw their stock prices jump after reporting strong sales and earnings growth. Experts cite the post-pandemic economic recovery and pent-up consumer demand as drivers of this rally.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-07/retail-stocks-surge-on-increased-consumer-spending",
-      "publishedAt": "2026-02-07T16:30:00.000Z"
+      "title": "Infosys shares hit 52-week high on strong Q3 performance",
+      "summary": "Shares of Infosys, India's second-largest IT services company, reached a 52-week high on February 7 after the company reported better-than-expected Q3 FY2026 results. The strong performance was driven by growth in the company's digital services business and expansion in key markets like the US and Europe.",
+      "source": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/infosys-shares-hit-52-week-high-on-strong-q3-performance/articleshow/97728415.cms",
+      "publishedAt": "2026-02-07T15:40:00.000Z"
     },
     {
-      "id": "stock-1770554098111-2",
-      "topic": "Stock",
-      "title": "Oil Stocks Climb Amid Supply Chain Disruptions",
-      "summary": "Shares of major oil companies like Exxon Mobil and Chevron rose sharply due to ongoing supply chain issues affecting global energy markets. Investors are betting on continued high prices and profits for the industry.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/02/08/business/oil-stocks-climb/index.html",
-      "publishedAt": "2026-02-08T12:00:00.000Z"
-    },
-    {
-      "id": "stock-1770554098111-3",
-      "topic": "Stock",
-      "title": "Cryptocurrency Stocks See Mixed Performance",
-      "summary": "Shares of companies with exposure to cryptocurrencies, such as exchanges and blockchain technology firms, showed a mixed performance. Investors remain cautious amid regulatory uncertainty and volatility in the crypto markets.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/02/07/cryptocurrency-stocks-mixed-performance/",
-      "publishedAt": "2026-02-07T18:45:00.000Z"
-    },
-    {
-      "id": "election-1770554105092-0",
+      "id": "election-fallback-1770556457494",
       "topic": "Election",
-      "title": "Record Voter Turnout in Key Swing States for 2026 Midterms",
-      "summary": "Voter turnout in several crucial swing states has reached historic highs for the 2026 midterm elections, according to election officials. This could signal a shift in the political landscape as voters seek to make their voices heard.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/article/us-usa-elections-2026-turnout",
-      "publishedAt": "2026-02-08T10:15:00.000Z"
-    },
-    {
-      "id": "election-1770554105092-1",
-      "topic": "Election",
-      "title": "New Voting Technology Debuts in 2026 Midterms, Raising Security Concerns",
-      "summary": "As voters head to the polls, new electronic voting machines are being used in several states for the first time. While touted for their efficiency, cybersecurity experts warn of potential vulnerabilities that could undermine the integrity of the election.",
-      "source": "The New York Times",
-      "url": "https://www.nytimes.com/2026/02/07/us/politics/voting-machines-security.html",
-      "publishedAt": "2026-02-07T17:30:00.000Z"
-    },
-    {
-      "id": "election-1770554105092-2",
-      "topic": "Election",
-      "title": "Heated Debates Continue Over Redistricting Ahead of 2026 Midterms",
-      "summary": "Battles over congressional redistricting have intensified in the lead-up to the 2026 midterm elections, with accusations of gerrymandering and concerns over fair representation. Experts warn that the outcome could have significant implications for the balance of power in Congress.",
-      "source": "The Washington Post",
-      "url": "https://www.washingtonpost.com/politics/2026/02/08/redistricting-midterms-congress/",
-      "publishedAt": "2026-02-08T12:00:00.000Z"
-    },
-    {
-      "id": "election-1770554105092-3",
-      "topic": "Election",
-      "title": "Grassroots Movements Mobilize for 2026 Midterm Elections",
-      "summary": "Across the country, grassroots organizations are working tirelessly to register new voters and encourage participation in the 2026 midterm elections. These efforts aim to amplify the voices of underrepresented communities and drive meaningful change through the electoral process.",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/feb/07/grassroots-movements-2026-midterm-elections",
-      "publishedAt": "2026-02-07T20:45:00.000Z"
+      "title": "Election News Update",
+      "summary": "Unable to fetch latest Election news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "source": "System",
+      "url": "https://example.com",
+      "publishedAt": "2026-02-08T13:14:17.494Z"
     }
   ]
 }
