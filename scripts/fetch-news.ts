@@ -86,7 +86,7 @@ async function fetchNewsFromAPI(topic: string): Promise<NewsItem[]> {
 
         return newsItem
       })
-      .filter((item): item is NewsItem => item !== null)
+      .filter((item: NewsItem | null): item is NewsItem => item !== null)
 
     console.log(`✅ Successfully fetched ${newsItems.length} articles for ${topic}`)
     return newsItems
