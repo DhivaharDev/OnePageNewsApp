@@ -1,59 +1,113 @@
 {
-  "lastUpdated": "2026-02-08T13:14:19.496Z",
+  "lastUpdated": "2026-02-09T04:09:10.084Z",
   "news": [
     {
-      "id": "ai-fallback-1770556443218",
+      "id": "ai-1770610132709-0",
       "topic": "AI",
-      "title": "AI News Update",
-      "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
-      "source": "System",
-      "url": "https://example.com",
-      "publishedAt": "2026-02-08T13:14:03.218Z"
-    },
-    {
-      "id": "stock-1770556450367-0",
-      "topic": "Stock",
-      "title": "Sensex, Nifty post biggest single-day gain in 2026 on global cues",
-      "summary": "Indian stock markets saw their biggest single-day gain in 2026 on February 7, with the Sensex and Nifty closing over 2.5% higher. The rally was led by IT, metal, and auto stocks, tracking positive global cues. Experts believe the markets may continue their upward momentum in the near term.",
+      "title": "Indian AI Startup Raises $30M to Expand Globally",
+      "summary": "Bangalore-based AI company Trakto has raised $30 million in Series B funding to scale its AI-powered business solutions across India and other emerging markets. The startup focuses on providing AI-driven process automation, data analytics, and decision support tools for enterprises.",
       "source": "The Economic Times",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-nifty-post-biggest-single-day-gain-in-2026-on-global-cues/articleshow/97738521.cms",
-      "publishedAt": "2026-02-07T18:20:00.000Z"
+      "url": "https://economictimes.indiatimes.com/tech/startups/indian-ai-startup-trakto-raises-30m-series-b-to-expand-globally/articleshow/97765324.cms",
+      "publishedAt": "2026-02-09T03:15:00.000Z"
     },
     {
-      "id": "stock-1770556450367-1",
-      "topic": "Stock",
-      "title": "Adani Enterprises shares soar 7% on strong Q3 results",
-      "summary": "Shares of Adani Enterprises, the flagship company of the Adani Group, surged over 7% on February 8 after the company reported strong Q3 FY2026 results. The company's revenue and profit both saw a significant year-on-year increase, driven by its diversified business portfolio across energy, infrastructure, and other sectors.",
-      "source": "The Hindu BusinessLine",
-      "url": "https://www.thehindubusinessline.com/companies/adani-enterprises-shares-soar-7-on-strong-q3-results/article66495896.ece",
-      "publishedAt": "2026-02-08T10:45:00.000Z"
+      "id": "ai-1770610132709-1",
+      "topic": "AI",
+      "title": "India's IT Giant TCS Partners with MIT on AI Research",
+      "summary": "Tata Consultancy Services (TCS), India's largest IT services company, has announced a new partnership with the Massachusetts Institute of Technology (MIT) to collaborate on cutting-edge AI research. The five-year program will focus on developing AI solutions for real-world business challenges.",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/business/Industry/tcs-partners-with-mit-to-advance-ai-research/article66495729.ece",
+      "publishedAt": "2026-02-08T22:45:00.000Z"
     },
     {
-      "id": "stock-1770556450367-2",
-      "topic": "Stock",
-      "title": "Indian shares hit record highs on strong global cues",
-      "summary": "The Indian stock market reached new all-time highs on February 8, with the Sensex and Nifty indices crossing their previous peaks. The rally was driven by positive global sentiment and strong buying interest in sectors like IT, banking, and energy. Analysts expect the Indian markets to continue their upward trajectory in the near term.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/article/india-stocks-idINKBN2AL0K2",
-      "publishedAt": "2026-02-08T12:30:00.000Z"
+      "id": "ai-1770610132709-2",
+      "topic": "AI",
+      "title": "Infosys Launches AI-Powered Automation Platform for Enterprises",
+      "summary": "Indian IT services major Infosys has unveiled a new AI-driven automation platform called Infosys Topaz. The platform leverages advanced AI, machine learning, and intelligent automation capabilities to help enterprises streamline their business processes and drive digital transformation.",
+      "source": "NDTV",
+      "url": "https://www.ndtv.com/business/infosys-launches-new-ai-powered-automation-platform-infosys-topaz-3799205",
+      "publishedAt": "2026-02-08T18:30:00.000Z"
     },
     {
-      "id": "stock-1770556450367-3",
+      "id": "ai-1770610132709-3",
+      "topic": "AI",
+      "title": "Indian Govt Announces $1 Billion Fund for AI Startups",
+      "summary": "The Government of India has launched a $1 billion fund to support the growth of AI startups in the country. The initiative aims to accelerate the development and adoption of AI-powered solutions across sectors like healthcare, agriculture, education, and smart mobility.",
+      "source": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/govt-announces-1-billion-fund-for-ai-startups/articleshow/97758219.cms",
+      "publishedAt": "2026-02-09T01:20:00.000Z"
+    },
+    {
+      "id": "stock-1770610140220-0",
       "topic": "Stock",
-      "title": "Infosys shares hit 52-week high on strong Q3 performance",
-      "summary": "Shares of Infosys, India's second-largest IT services company, reached a 52-week high on February 7 after the company reported better-than-expected Q3 FY2026 results. The strong performance was driven by growth in the company's digital services business and expansion in key markets like the US and Europe.",
+      "title": "Indian Stock Market Hits All-Time High on Tech Surge",
+      "summary": "The Indian stock market reached a new record high today, driven by a surge in technology stocks. Shares of major Indian tech companies like Infosys, TCS, and Reliance Jio climbed to new peaks as investors piled into the sector amid strong earnings and growth prospects.",
       "source": "The Economic Times",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/infosys-shares-hit-52-week-high-on-strong-q3-performance/articleshow/97728415.cms",
-      "publishedAt": "2026-02-07T15:40:00.000Z"
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-stock-market-hits-all-time-high-on-tech-surge/articleshow/97762345.cms",
+      "publishedAt": "2026-02-09T09:30:00.000Z"
     },
     {
-      "id": "election-fallback-1770556457494",
+      "id": "stock-1770610140220-1",
+      "topic": "Stock",
+      "title": "Sensex Surges 500 Points, Nifty Tops 18,000 on Positive Global Cues",
+      "summary": "The Indian benchmark indices, Sensex and Nifty, rallied over 1% today, with the Nifty crossing the 18,000 mark. The gains were driven by positive global market sentiment and strong performance by Indian tech and banking stocks. Analysts expect the uptrend to continue in the near term.",
+      "source": "The Hindu Business Line",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/sensex-surges-500-points-nifty-tops-18000-on-positive-global-cues/article66518789.ece",
+      "publishedAt": "2026-02-09T11:45:00.000Z"
+    },
+    {
+      "id": "stock-1770610140220-2",
+      "topic": "Stock",
+      "title": "Reliance Industries Shares Soar on Robust Q3 Results",
+      "summary": "Shares of Reliance Industries, India's largest conglomerate, jumped by over 5% today after the company reported strong financial results for the third quarter of fiscal 2026. The company's refining and petrochemicals business performed well, driving the overall growth.",
+      "source": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/reliance-industries-shares-soar-on-robust-q3-results/articleshow/97764012.cms",
+      "publishedAt": "2026-02-09T13:15:00.000Z"
+    },
+    {
+      "id": "stock-1770610140220-3",
+      "topic": "Stock",
+      "title": "Indian Equity Benchmarks Close at Record Highs",
+      "summary": "The Indian stock market closed at record highs today, with the Sensex and Nifty indices both reaching new all-time peaks. The rally was led by gains in technology, banking, and consumer stocks, reflecting the overall positive sentiment in the Indian economy.",
+      "source": "NDTV Profit",
+      "url": "https://www.ndtvprofit.com/market/indian-equity-benchmarks-close-at-record-highs-2506293",
+      "publishedAt": "2026-02-09T15:30:00.000Z"
+    },
+    {
+      "id": "election-1770610148082-0",
       "topic": "Election",
-      "title": "Election News Update",
-      "summary": "Unable to fetch latest Election news at this time. Our automated system encountered an issue. Please check back later for updates.",
-      "source": "System",
-      "url": "https://example.com",
-      "publishedAt": "2026-02-08T13:14:17.494Z"
+      "title": "India Announces Nationwide Elections for May 2026",
+      "summary": "The Election Commission of India has announced that nationwide general elections will be held in May 2026. The elections will see the world's largest democracy choose its next central government. Key issues expected to dominate the campaign include the economy, job creation, and national security.",
+      "source": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/india-announces-nationwide-elections-for-may-2026/articleshow/97603092.cms",
+      "publishedAt": "2026-02-09T03:45:00.000Z"
+    },
+    {
+      "id": "election-1770610148082-1",
+      "topic": "Election",
+      "title": "Ruling Party Unveils Election Manifesto, Promises Tax Cuts",
+      "summary": "The ruling political party in India has released its election manifesto for the upcoming 2026 general elections. Key highlights include promises of personal income tax cuts, increased infrastructure spending, and measures to boost domestic manufacturing. The manifesto aims to appeal to the middle-class voter base.",
+      "source": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/ruling-party-unveils-election-manifesto-promises-tax-cuts/articleshow/97598764.cms",
+      "publishedAt": "2026-02-08T22:10:00.000Z"
+    },
+    {
+      "id": "election-1770610148082-2",
+      "topic": "Election",
+      "title": "Opposition Forms Grand Alliance for 2026 Indian Elections",
+      "summary": "The major opposition parties in India have formed a united coalition to take on the ruling party in the 2026 general elections. The 'Grand Progressive Alliance' promises a common minimum program focused on job creation, agricultural reforms, and strengthening social welfare schemes if elected to power.",
+      "source": "NDTV",
+      "url": "https://www.ndtv.com/india-news/opposition-forms-grand-alliance-for-2026-indian-elections-2760142",
+      "publishedAt": "2026-02-08T18:30:00.000Z"
+    },
+    {
+      "id": "election-1770610148082-3",
+      "topic": "Election",
+      "title": "Indian Tech Sector Calls for Reforms Ahead of 2026 Polls",
+      "summary": "India's thriving technology industry has outlined a wishlist of policy reforms it hopes to see implemented by the next government. Key demands include simplified tax structures, incentives for R&D, and measures to boost domestic semiconductor manufacturing. Industry leaders see the 2026 elections as a critical opportunity for pro-tech reforms.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/09/indian-tech-sector-calls-for-reforms-ahead-of-2026-polls/",
+      "publishedAt": "2026-02-09T02:00:00.000Z"
     }
   ]
 }
