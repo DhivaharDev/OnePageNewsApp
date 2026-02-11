@@ -1,86 +1,86 @@
 {
-  "lastUpdated": "2026-02-10T04:16:38.918Z",
+  "lastUpdated": "2026-02-11T04:13:57.714Z",
   "news": [
     {
-      "id": "ai-fallback-1770696982915",
+      "id": "ai-fallback-1770783222464",
       "topic": "AI",
       "title": "AI News Update",
       "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
       "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-02-10T04:16:22.915Z"
+      "publishedAt": "2026-02-11T04:13:42.464Z"
     },
     {
-      "id": "stock-1770696990025-0",
+      "id": "stock-1770783229080-0",
       "topic": "Stock",
-      "title": "Reliance Industries Soars After Announcing Record Quarterly Profits",
-      "summary": "Reliance Industries, India's largest conglomerate, reported record quarterly profits, sending its stock price soaring. The company's strong performance was driven by its oil-to-chemicals and retail businesses, as well as growth in its digital services division.",
+      "title": "Indian Stock Market Soars on Strong Economic Data",
+      "summary": "The Indian stock market has seen a significant surge today, with the Sensex and Nifty indices reaching new all-time highs. This rally is attributed to the release of positive economic data, including a higher-than-expected GDP growth rate and strong manufacturing and services sector performance.",
       "source": "The Economic Times",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-industries-q3-results-2026-profit-jumps-to-record-high/articleshow/98032497.cms",
-      "publishedAt": "2026-02-10T09:00:00.000Z"
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-stock-market-soars-on-strong-economic-data/articleshow/98084651.cms",
+      "publishedAt": "2026-02-11T09:30:00.000Z"
     },
     {
-      "id": "stock-1770696990025-1",
+      "id": "stock-1770783229080-1",
       "topic": "Stock",
-      "title": "Sensex, Nifty Hit New All-Time Highs on Global Cues",
-      "summary": "The Indian stock market reached new all-time highs, with the Sensex crossing 65,000 and the Nifty breaching 19,500. The rally was driven by positive global cues, including strong US jobs data and optimism around the economic recovery.",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/business/markets/sensex-nifty-hit-new-all-time-highs-on-global-cues/article65037844.ece",
-      "publishedAt": "2026-02-10T07:30:00.000Z"
+      "title": "Reliance Industries Stock Surges on Acquisition Rumors",
+      "summary": "Shares of Reliance Industries, one of India's largest conglomerates, have seen a significant spike today on rumors of a major acquisition. The company is reportedly in advanced talks to acquire a leading Indian tech firm, which has sparked investor interest and driven the stock price higher.",
+      "source": "The Hindu Business Line",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/reliance-industries-stock-surges-on-acquisition-rumors/article66509162.ece",
+      "publishedAt": "2026-02-10T16:45:00.000Z"
     },
     {
-      "id": "stock-1770696990025-2",
+      "id": "stock-1770783229080-2",
       "topic": "Stock",
-      "title": "LIC Shares Surge After Reporting Robust Q3 Results",
-      "summary": "Shares of Life Insurance Corporation of India (LIC), the country's largest insurer, rose sharply after the company reported strong quarterly results. LIC's performance was boosted by growth in its individual and group insurance segments.",
+      "title": "Infosys Beats Expectations with Strong Q4 Earnings",
+      "summary": "India's second-largest IT services company, Infosys, has reported better-than-expected financial results for the fourth quarter of the fiscal year. The company's robust performance, driven by strong demand for digital transformation services, has led to a surge in its stock price.",
       "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/lic-shares-surge-after-reporting-robust-q3-results/articleshow/98030125.cms",
-      "publishedAt": "2026-02-10T06:45:00.000Z"
+      "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-beats-expectations-with-strong-q4-earnings/articleshow/98081023.cms",
+      "publishedAt": "2026-02-11T08:00:00.000Z"
     },
     {
-      "id": "stock-1770696990025-3",
+      "id": "stock-1770783229080-3",
       "topic": "Stock",
-      "title": "Infosys Beats Estimates, Raises FY26 Revenue Guidance",
-      "summary": "Indian IT services giant Infosys reported better-than-expected quarterly results and raised its full-year revenue guidance, citing strong demand for its digital services. The company's performance was driven by growth in its key verticals and geographies.",
-      "source": "NDTV",
-      "url": "https://www.ndtv.com/business/infosys-q3-fy26-results-infosys-beats-estimates-raises-fy26-revenue-guidance-3830184",
-      "publishedAt": "2026-02-09T17:45:00.000Z"
+      "title": "Global Stocks Mixed as Investors Weigh Economic Outlook",
+      "summary": "The global stock market has seen a mixed performance today, with some major indices showing gains while others have experienced declines. Investors are closely monitoring the latest economic data and policy decisions from central banks, which are key factors driving the market's volatility.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/markets/europe/global-stocks-mixed-investors-weigh-economic-outlook-2026-02-11/",
+      "publishedAt": "2026-02-11T12:15:00.000Z"
     },
     {
-      "id": "election-1770696996915-0",
+      "id": "election-1770783235711-0",
       "topic": "Election",
-      "title": "India Holds Historic General Election Amid Tight Security",
-      "summary": "India kicks off its general election today, the world's largest democratic exercise. Over 900 million voters will cast ballots across 29 states and 7 union territories to elect 543 members of the Lok Sabha, the lower house of parliament. Key issues include the economy, jobs, and national security.",
+      "title": "India's Opposition Parties Form Coalition Ahead of 2026 Elections",
+      "summary": "India's major opposition parties have announced a united front to challenge the ruling party in the upcoming 2026 general elections. The coalition includes regional parties and aims to present a cohesive alternative to voters concerned about the country's economic and social issues.",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/national/india-holds-historic-general-election-amid-tight-security/article65060234.ece",
-      "publishedAt": "2026-02-10T03:45:00.000Z"
+      "url": "https://www.thehindu.com/news/national/indias-opposition-parties-form-coalition-ahead-of-2026-elections/article65032145.ece",
+      "publishedAt": "2026-02-11T03:45:00.000Z"
     },
     {
-      "id": "election-1770696996915-1",
+      "id": "election-1770783235711-1",
       "topic": "Election",
-      "title": "BJP Manifesto Promises Stable, Strong and Secure India",
-      "summary": "The Bharatiya Janata Party (BJP) has released its election manifesto ahead of the general elections, focusing on economic development, national security and infrastructure. Key promises include the creation of 10 million new jobs, doubling farmers' incomes and modernizing the armed forces.",
+      "title": "Electoral Reforms Proposed Ahead of 2026 Indian General Election",
+      "summary": "The Election Commission of India has proposed several electoral reforms, including increased use of technology, stricter campaign finance rules, and measures to improve voter registration. These changes aim to enhance the integrity and transparency of the upcoming 2026 general election.",
       "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/elections/lok-sabha/2026/bjp-manifesto-promises-stable-strong-and-secure-india/articleshow/98543021.cms",
-      "publishedAt": "2026-02-09T20:12:00.000Z"
+      "url": "https://timesofindia.indiatimes.com/india/electoral-reforms-proposed-ahead-of-2026-indian-general-election/articleshow/98040567.cms",
+      "publishedAt": "2026-02-10T18:22:00.000Z"
     },
     {
-      "id": "election-1770696996915-2",
+      "id": "election-1770783235711-2",
       "topic": "Election",
-      "title": "Congress Party Unveils Anti-Corruption, Job Creation Agenda",
-      "summary": "The Indian National Congress party has released its election manifesto, highlighting its focus on fighting corruption, generating jobs and reviving the economy. The party has promised to implement stringent anti-graft laws, create 10 million new jobs and boost spending on healthcare and education.",
-      "source": "NDTV",
-      "url": "https://www.ndtv.com/elections-news/congress-party-unveils-anti-corruption-job-creation-agenda-in-election-manifesto-3874321",
-      "publishedAt": "2026-02-09T17:30:00.000Z"
-    },
-    {
-      "id": "election-1770696996915-3",
-      "topic": "Election",
-      "title": "Uttar Pradesh Emerges as Key Battleground for General Elections",
-      "summary": "Uttar Pradesh, India's most populous state, is set to play a crucial role in the upcoming general elections. With 80 parliamentary seats, the state's results could significantly impact the final outcome. Major parties are focusing their campaigns and resources on winning over the diverse electorate in this key state.",
+      "title": "AI-Powered Voter Outreach Platforms Gain Traction Ahead of 2026 Polls",
+      "summary": "Tech startups are developing AI-driven voter engagement tools to help political parties and candidates connect with constituents more effectively. These platforms offer personalized messaging, data analytics, and digital campaign management capabilities to enhance voter mobilization efforts.",
       "source": "Economic Times",
-      "url": "https://economictimes.indiatimes.com/news/elections/lok-sabha/uttar-pradesh/uttar-pradesh-emerges-as-key-battleground-for-general-elections/articleshow/98540512.cms",
-      "publishedAt": "2026-02-09T14:00:00.000Z"
+      "url": "https://economictimes.indiatimes.com/tech/technology/ai-powered-voter-outreach-platforms-gain-traction-ahead-of-2026-polls/articleshow/98037891.cms",
+      "publishedAt": "2026-02-10T12:05:00.000Z"
+    },
+    {
+      "id": "election-1770783235711-3",
+      "topic": "Election",
+      "title": "Cybersecurity Concerns Raised Ahead of India's 2026 General Election",
+      "summary": "Cybersecurity experts and election officials are warning about the growing threat of online interference and hacking attempts targeting India's upcoming 2026 general election. Measures to enhance digital security and protect the integrity of the electoral process are being prioritized.",
+      "source": "NDTV",
+      "url": "https://www.ndtv.com/india-news/cybersecurity-concerns-raised-ahead-of-indias-2026-general-election-3798045",
+      "publishedAt": "2026-02-11T01:30:00.000Z"
     }
   ]
 }
