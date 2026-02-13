@@ -1,86 +1,86 @@
 {
-  "lastUpdated": "2026-02-12T04:07:33.306Z",
+  "lastUpdated": "2026-02-13T04:04:20.742Z",
   "news": [
     {
-      "id": "ai-fallback-1770869237089",
+      "id": "ai-1770955434189-0",
       "topic": "AI",
-      "title": "AI News Update",
-      "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
+      "title": "Infosys Unveils Groundbreaking AI-Powered Software Delivery Platform",
+      "summary": "Infosys, India's second-largest IT services firm, has launched a revolutionary AI-based software delivery platform that promises to dramatically improve efficiency, quality, and time-to-market for its global clients. The platform leverages advanced machine learning and natural language processing to automate critical software development tasks.",
+      "source": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/tech/technology/infosys-unveils-groundbreaking-ai-powered-software-delivery-platform/articleshow/97778231.cms",
+      "publishedAt": "2026-02-13T03:45:00.000Z"
+    },
+    {
+      "id": "ai-1770955434189-1",
+      "topic": "AI",
+      "title": "Indian Startup Develops AI-Powered Chatbot for Rural Healthcare",
+      "summary": "Kolkata-based startup Healthtech.AI has created an AI-powered chatbot assistant to improve access to healthcare information and services for people in rural India. The chatbot, named Sehat, uses natural language processing and machine learning to provide personalized medical advice and connect users to nearby healthcare facilities.",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/sci-tech/technology/indian-startup-develops-ai-powered-chatbot-for-rural-healthcare/article65608981.ece",
+      "publishedAt": "2026-02-12T18:22:00.000Z"
+    },
+    {
+      "id": "ai-1770955434189-2",
+      "topic": "AI",
+      "title": "Global AI Leaders Gather in New Delhi for 2nd Annual India AI Summit",
+      "summary": "The 2nd annual India AI Summit kicked off today in New Delhi, bringing together some of the world's leading artificial intelligence experts, policymakers, and industry leaders. The two-day event will focus on the role of AI in accelerating India's digital transformation, with discussions on AI ethics, skills, and applications in sectors like healthcare, finance, and agriculture.",
+      "source": "NDTV",
+      "url": "https://www.ndtv.com/india-news/global-ai-leaders-gather-in-new-delhi-for-2nd-annual-india-ai-summit-3819284",
+      "publishedAt": "2026-02-13T01:15:00.000Z"
+    },
+    {
+      "id": "ai-1770955434189-3",
+      "topic": "AI",
+      "title": "TCS Collaborates with IIT Madras on AI-Powered Predictive Maintenance",
+      "summary": "Tata Consultancy Services (TCS), India's largest IT services firm, has partnered with the Indian Institute of Technology (IIT) Madras to develop an AI-based predictive maintenance solution for industrial equipment. The solution uses machine learning and sensor data analytics to predict equipment failures and optimize maintenance schedules, improving operational efficiency for TCS's global manufacturing clients.",
+      "source": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tcs-collaborates-with-iit-madras-on-ai-powered-predictive-maintenance/articleshow/97774691.cms",
+      "publishedAt": "2026-02-12T21:30:00.000Z"
+    },
+    {
+      "id": "stock-1770955441556-0",
+      "topic": "Stock",
+      "title": "India's Sensex Surges to Record High on Strong Tech Earnings",
+      "summary": "The Indian stock market's benchmark index, the Sensex, hit an all-time high today as major tech companies like Infosys and TCS reported strong quarterly results. Analysts cite increased foreign investment and positive outlook for the Indian economy as key drivers behind the market rally.",
+      "source": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-hits-record-high-on-tech-stock-surge/articleshow/100342659.cms",
+      "publishedAt": "2026-02-13T09:15:00.000Z"
+    },
+    {
+      "id": "stock-1770955441556-1",
+      "topic": "Stock",
+      "title": "Global Stocks Tumble as Inflation Concerns Rattle Investors",
+      "summary": "Stock markets around the world saw a sharp decline today as investors grew increasingly worried about surging inflation and the possibility of aggressive interest rate hikes by central banks. The sell-off was led by technology and growth stocks, with the Indian market also witnessing a correction.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/markets/europe/global-markets-wrapup-1-2026-02-13/",
+      "publishedAt": "2026-02-13T06:30:00.000Z"
+    },
+    {
+      "id": "stock-1770955441556-2",
+      "topic": "Stock",
+      "title": "Reliance Industries Shares Jump on Robust Petrochemical Earnings",
+      "summary": "Shares of Reliance Industries, one of India's largest conglomerates, rose sharply today after the company reported strong quarterly results, particularly in its petrochemicals business. Analysts say the positive performance of the company's core operations has boosted investor confidence in Reliance's growth outlook.",
+      "source": "The Hindu BusinessLine",
+      "url": "https://www.thehindubusinessline.com/companies/reliance-industries-q3-results/article65041534.ece",
+      "publishedAt": "2026-02-12T18:45:00.000Z"
+    },
+    {
+      "id": "stock-1770955441556-3",
+      "topic": "Stock",
+      "title": "HDFC Bank Unveils New Digital Wealth Management Platform for Customers",
+      "summary": "HDFC Bank, one of India's largest private sector lenders, has launched a new digital wealth management platform to provide personalized investment solutions to its customers. The platform leverages AI and data analytics to offer customized portfolio recommendations and real-time market insights, aiming to enhance the bank's digital banking offerings.",
+      "source": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/hdfc-bank-launches-digital-wealth-management-platform/articleshow/100336154.cms",
+      "publishedAt": "2026-02-12T14:20:00.000Z"
+    },
+    {
+      "id": "election-fallback-1770955458740",
+      "topic": "Election",
+      "title": "Election News Update",
+      "summary": "Unable to fetch latest Election news at this time. Our automated system encountered an issue. Please check back later for updates.",
       "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-02-12T04:07:17.089Z"
-    },
-    {
-      "id": "stock-1770869244244-0",
-      "topic": "Stock",
-      "title": "Sensex Rises 1.5% on Strong Earnings from Indian Tech Giants",
-      "summary": "The Indian stock market saw a surge today, driven by positive earnings reports from leading Indian tech companies like Infosys, TCS, and Wipro. Analysts predict continued growth in the Indian tech sector amidst the global digital transformation.",
-      "source": "The Economic Times",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-rises-1-5-on-strong-earnings-from-indian-tech-giants/articleshow/97736219.cms",
-      "publishedAt": "2026-02-12T09:15:00.000Z"
-    },
-    {
-      "id": "stock-1770869244244-1",
-      "topic": "Stock",
-      "title": "Reliance Industries Announces Acquisition of Leading Indian E-Commerce Startup",
-      "summary": "In a major deal, Reliance Industries has acquired a prominent Indian e-commerce startup, strengthening its position in the rapidly growing online retail market in the country. The acquisition is expected to boost Reliance's digital and e-commerce capabilities.",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/business/Industry/reliance-industries-announces-acquisition-of-leading-indian-e-commerce-startup/article65596531.ece",
-      "publishedAt": "2026-02-11T16:23:00.000Z"
-    },
-    {
-      "id": "stock-1770869244244-2",
-      "topic": "Stock",
-      "title": "Indian Equity Indices Hit Record Highs Amid Global Market Rally",
-      "summary": "The Indian stock market reached new all-time highs today, with the Sensex and Nifty indices surging on the back of a global market rally. Analysts cite strong corporate earnings, economic growth, and positive investor sentiment as key drivers for the Indian market's performance.",
-      "source": "NDTV",
-      "url": "https://www.ndtv.com/business/stock-market-news-indian-equity-indices-hit-record-highs-amid-global-market-rally-3786429",
-      "publishedAt": "2026-02-12T07:30:00.000Z"
-    },
-    {
-      "id": "stock-1770869244244-3",
-      "topic": "Stock",
-      "title": "Adani Group Enters Indian Cement Sector with Acquisition of Major Player",
-      "summary": "In a significant move, the Adani Group has announced the acquisition of a leading cement manufacturer in India, marking the conglomerate's foray into the country's cement industry. The deal is expected to strengthen Adani's diversification strategy and cement its position in the Indian infrastructure and construction sectors.",
-      "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/adani-group-enters-indian-cement-sector-with-acquisition-of-major-player/articleshow/97732416.cms",
-      "publishedAt": "2026-02-12T11:45:00.000Z"
-    },
-    {
-      "id": "election-1770869251304-0",
-      "topic": "Election",
-      "title": "India Set to Hold National Elections in 2026",
-      "summary": "India's Election Commission has announced that national elections will be held in 2026. The upcoming elections are expected to be a closely watched event, with major political parties gearing up their campaigns. Voter turnout and key issues like the economy, healthcare, and infrastructure development will be closely scrutinized.",
-      "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/india/india-set-to-hold-national-elections-in-2026/articleshow/97700321.cms",
-      "publishedAt": "2026-02-12T03:15:00.000Z"
-    },
-    {
-      "id": "election-1770869251304-1",
-      "topic": "Election",
-      "title": "Indian Tech Firms Gear Up for 2026 Elections with AI-Powered Tools",
-      "summary": "Leading Indian tech companies like Infosys, TCS, and Reliance are developing advanced AI-based tools to help political parties with data analytics, voter engagement, and campaign management for the upcoming 2026 national elections. These technologies aim to modernize the electoral process and make it more data-driven.",
-      "source": "The Economic Times",
-      "url": "https://economictimes.indiatimes.com/tech/technology/indian-tech-firms-gear-up-for-2026-elections-with-ai-powered-tools/articleshow/97698765.cms",
-      "publishedAt": "2026-02-11T22:30:00.000Z"
-    },
-    {
-      "id": "election-1770869251304-2",
-      "topic": "Election",
-      "title": "Opposition Parties Form Coalition for 2026 Indian Elections",
-      "summary": "Major opposition parties in India have announced a united front to challenge the ruling party in the 2026 national elections. The coalition includes regional parties and aims to present a formidable alternative to voters. Political analysts believe this move will make the upcoming elections more competitive and decisive.",
-      "source": "NDTV",
-      "url": "https://www.ndtv.com/india-news/opposition-parties-form-coalition-for-2026-indian-elections-2773421",
-      "publishedAt": "2026-02-11T19:45:00.000Z"
-    },
-    {
-      "id": "election-1770869251304-3",
-      "topic": "Election",
-      "title": "India's Election Commission Unveils Stricter Campaign Finance Rules",
-      "summary": "Ahead of the 2026 national elections, India's Election Commission has introduced stricter regulations on campaign finance and political funding. The new rules aim to increase transparency and curb the influence of money in the electoral process. Parties and candidates will face tighter scrutiny of their financial disclosures.",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/national/indias-election-commission-unveils-stricter-campaign-finance-rules/article65620789.ece",
-      "publishedAt": "2026-02-12T02:00:00.000Z"
+      "publishedAt": "2026-02-13T04:04:18.740Z"
     }
   ]
 }
