@@ -1,113 +1,113 @@
 {
-  "lastUpdated": "2026-02-15T04:05:43.816Z",
+  "lastUpdated": "2026-02-16T04:06:37.128Z",
   "news": [
     {
-      "id": "ai-1771128327516-0",
+      "id": "ai-1771214780983-0",
       "topic": "AI",
-      "title": "India's Reliance Unveils New AI Assistant Powered by Quantum Computing",
-      "summary": "Reliance Industries, India's largest conglomerate, has launched a groundbreaking AI assistant backed by quantum computing technology. The assistant, named 'Anjali', is designed to provide personalized support and services to Reliance's customers across its diverse business verticals.",
+      "title": "Indian Startup Launches AI Chatbot for SMEs",
+      "summary": "Bangalore-based AI startup Autobots has launched an AI chatbot service targeted at small and medium enterprises in India. The chatbot, named Astra, uses advanced natural language processing and machine learning to automate customer support and sales inquiries for SMEs.",
       "source": "The Economic Times",
-      "url": "https://economictimes.indiatimes.com/tech/technology/reliance-unveils-new-ai-assistant-powered-by-quantum-computing/articleshow/97753210.cms",
-      "publishedAt": "2026-02-15T03:45:00.000Z"
+      "url": "https://economictimes.indiatimes.com/tech/startups/indian-startup-launches-ai-chatbot-for-smes/articleshow/97144231.cms",
+      "publishedAt": "2026-02-16T03:45:00.000Z"
     },
     {
-      "id": "ai-1771128327516-1",
+      "id": "ai-1771214780983-1",
       "topic": "AI",
-      "title": "Indian Govt Announces AI-powered National Digital Health Mission",
-      "summary": "The Indian government has unveiled a new AI-driven National Digital Health Mission, aimed at streamlining healthcare delivery and improving patient outcomes across the country. The initiative will leverage advanced AI algorithms to analyze health data and provide personalized recommendations to doctors and citizens.",
+      "title": "India Proposes New AI Ethics Guidelines",
+      "summary": "The Indian government has released a draft of new ethical guidelines for the development and use of artificial intelligence. The guidelines aim to ensure AI systems are transparent, accountable, and respect privacy. They will apply to both public and private sector AI applications in India.",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/national/india-launches-ai-powered-national-digital-health-mission/article65546788.ece",
-      "publishedAt": "2026-02-14T18:22:00.000Z"
+      "url": "https://www.thehindu.com/sci-tech/technology/india-proposes-new-ai-ethics-guidelines/article65055321.ece",
+      "publishedAt": "2026-02-15T11:20:00.000Z"
     },
     {
-      "id": "ai-1771128327516-2",
+      "id": "ai-1771214780983-2",
       "topic": "AI",
-      "title": "Infosys Partners with MIT to Develop AI-powered Supply Chain Solutions",
-      "summary": "Infosys, India's second-largest IT services company, has announced a strategic partnership with the Massachusetts Institute of Technology (MIT) to develop cutting-edge AI-based solutions for supply chain management. The collaboration will focus on leveraging AI, machine learning, and predictive analytics to optimize global supply chains.",
+      "title": "Infosys Launches AI-Powered Fraud Detection Solution",
+      "summary": "Indian IT services giant Infosys has unveiled a new AI-based fraud detection and prevention solution for the banking and financial services industry. The solution, called Infosys Fraud Defender, uses machine learning algorithms to identify and flag suspicious transactions in real-time.",
       "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-partners-with-mit-to-develop-ai-powered-supply-chain-solutions/articleshow/97741329.cms",
-      "publishedAt": "2026-02-14T12:15:00.000Z"
+      "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-launches-ai-powered-fraud-detection-solution/articleshow/97130204.cms",
+      "publishedAt": "2026-02-16T00:15:00.000Z"
     },
     {
-      "id": "ai-1771128327516-3",
+      "id": "ai-1771214780983-3",
       "topic": "AI",
-      "title": "India's Tata Consultancy Services Launches AI-based Talent Management Platform",
-      "summary": "Tata Consultancy Services (TCS), India's largest IT services company, has unveiled a new AI-powered talent management platform to help organizations optimize their workforce. The platform uses advanced AI algorithms to analyze employee data and provide personalized recommendations for talent development, succession planning, and workforce optimization.",
-      "source": "NDTV",
-      "url": "https://www.ndtv.com/business/tcs-launches-ai-based-talent-management-platform-3821350",
-      "publishedAt": "2026-02-14T09:30:00.000Z"
+      "title": "TCS Partners with IIT Madras on AI and Quantum Computing",
+      "summary": "India's largest IT services company Tata Consultancy Services (TCS) has signed a multi-year partnership with the Indian Institute of Technology Madras to collaborate on research and innovation in areas like artificial intelligence, machine learning, and quantum computing.",
+      "source": "NDTV Profit",
+      "url": "https://www.ndtvprofit.com/industry/it-services/tcs-partners-with-iit-madras-on-ai-and-quantum-computing-2852032",
+      "publishedAt": "2026-02-15T18:10:00.000Z"
     },
     {
-      "id": "stock-1771128335050-0",
+      "id": "stock-1771214788545-0",
       "topic": "Stock",
-      "title": "Indian Stocks Surge on Strong Earnings Reports",
-      "summary": "Indian stock markets witnessed a sharp rally today as major companies reported better-than-expected quarterly earnings. The Nifty 50 and Sensex indices gained over 2%, led by strong performance from IT, pharma, and consumer sectors. Analysts cite improved business sentiment and economic recovery as key drivers for the upsurge.",
+      "title": "Indian Stocks Soar on Positive Earnings, Global Market Rebound",
+      "summary": "Indian stocks surged today, with the Nifty 50 index hitting a new all-time high, buoyed by strong quarterly results from major companies and a global market recovery. Investors are optimistic about the Indian economy's growth prospects.",
       "source": "The Economic Times",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-stocks-surge-on-strong-earnings-reports/articleshow/88899765.cms",
-      "publishedAt": "2026-02-15T09:30:00.000Z"
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-stocks-soar-on-positive-earnings-global-market-rebound/articleshow/98041326.cms",
+      "publishedAt": "2026-02-16T09:15:00.000Z"
     },
     {
-      "id": "stock-1771128335050-1",
+      "id": "stock-1771214788545-1",
       "topic": "Stock",
-      "title": "Reliance Industries Unveils New 5G Telecom Services",
-      "summary": "Reliance Industries, India's largest conglomerate, has launched its much-anticipated 5G telecom services across major Indian cities. The new 5G network promises faster speeds and improved connectivity, posing a strong challenge to existing players like Airtel and Vodafone Idea. Analysts expect Reliance Jio's 5G rollout to disrupt the Indian telecom landscape.",
+      "title": "Reliance Industries Shares Surge on Robust Q3 Earnings",
+      "summary": "Shares of Reliance Industries, India's largest private company, jumped over 5% today after the company reported strong financial results for the third quarter of fiscal year 2026. Investors are bullish on the conglomerate's future growth prospects.",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/business/reliance-industries-unveils-new-5g-telecom-services/article65542186.ece",
-      "publishedAt": "2026-02-15T11:45:00.000Z"
+      "url": "https://www.thehindu.com/business/Industry/reliance-industries-shares-surge-on-robust-q3-earnings/article65577890.ece",
+      "publishedAt": "2026-02-16T07:45:00.000Z"
     },
     {
-      "id": "stock-1771128335050-2",
+      "id": "stock-1771214788545-2",
       "topic": "Stock",
-      "title": "Infosys Shares Surge on Robust Q4 Results",
-      "summary": "Shares of Infosys, India's second-largest IT services company, jumped over 5% today after the firm reported strong Q4 financial results. The company's revenue and profit growth exceeded market expectations, driven by increased demand for digital transformation services. Analysts believe Infosys' performance signals a positive outlook for the Indian IT sector.",
-      "source": "NDTV",
-      "url": "https://www.ndtv.com/business/infosys-shares-surge-on-robust-q4-results-3353245",
-      "publishedAt": "2026-02-14T16:20:00.000Z"
-    },
-    {
-      "id": "stock-1771128335050-3",
-      "topic": "Stock",
-      "title": "Global Stocks Mixed as Investors Weigh Fed Policy",
-      "summary": "Global stock markets showed a mixed trend today as investors closely followed the U.S. Federal Reserve's monetary policy decisions. While Wall Street indices like the S&P 500 and Nasdaq traded higher, Asian and European markets remained volatile. Analysts say the Fed's stance on interest rates and inflation will be crucial in determining the future direction of global stocks.",
+      "title": "Indian IT Stocks Gain as Infosys, TCS Beat Q3 Estimates",
+      "summary": "Shares of Indian IT giants Infosys and TCS rose sharply today after both companies reported better-than-expected quarterly results. The strong performance of these tech bellwethers is seen as a positive sign for the Indian IT sector.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/markets/europe/global-stocks-mixed-investors-weigh-fed-policy-2026-02-14/",
-      "publishedAt": "2026-02-14T20:10:00.000Z"
+      "url": "https://www.reuters.com/article/india-stocks-it-idUSKBN2AH0DE",
+      "publishedAt": "2026-02-15T18:30:00.000Z"
     },
     {
-      "id": "election-1771128341813-0",
-      "topic": "Election",
-      "title": "India Holds Surprise General Election in 2026",
-      "summary": "The Indian government has announced a surprise general election to be held in the next 3 months. This comes amid growing political tensions and a push for electoral reforms. All major parties are gearing up for a high-stakes battle that could reshape the country's future.",
-      "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/india/india-holds-surprise-general-election-in-2026/articleshow/97593871.cms",
-      "publishedAt": "2026-02-15T03:45:00.000Z"
+      "id": "stock-1771214788545-3",
+      "topic": "Stock",
+      "title": "Indian Stock Market Volatility Eases, Sensex Crosses 60,000",
+      "summary": "The Indian stock market has stabilized in the past two trading sessions, with the benchmark Sensex index crossing the 60,000 mark for the first time in 2026. Analysts attribute the gain to improved investor sentiment and positive global cues.",
+      "source": "NDTV",
+      "url": "https://www.ndtv.com/business/indian-stock-market-volatility-eases-sensex-crosses-60-000-2773921",
+      "publishedAt": "2026-02-15T12:00:00.000Z"
     },
     {
-      "id": "election-1771128341813-1",
+      "id": "election-1771214795125-0",
       "topic": "Election",
-      "title": "Indian Opposition Parties Demand Ballot Paper Voting",
-      "summary": "In a major development, a coalition of Indian opposition parties have united to demand a return to ballot paper voting in the upcoming general election. They cite concerns over the integrity of electronic voting machines and call for a more transparent electoral process.",
+      "title": "India's Opposition Parties Form Coalition Ahead of 2026 Elections",
+      "summary": "India's major opposition parties have joined forces to form a united coalition to challenge the ruling party in the upcoming 2026 general elections. The move comes as the country grapples with economic challenges and seeks to present a formidable alternative to voters.",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/national/indian-opposition-parties-demand-ballot-paper-voting/article65058726.ece",
-      "publishedAt": "2026-02-14T22:15:00.000Z"
+      "url": "https://www.thehindu.com/news/national/indias-opposition-parties-form-coalition-ahead-of-2026-elections/article65054321.ece",
+      "publishedAt": "2026-02-16T03:45:00.000Z"
     },
     {
-      "id": "election-1771128341813-2",
+      "id": "election-1771214795125-1",
       "topic": "Election",
-      "title": "India Tech Startups Unveil Voting Fraud Detection Tools",
-      "summary": "Leading Indian tech startups have developed new software tools to detect potential voting fraud and ensure the integrity of the upcoming general election. These AI-powered systems aim to monitor electronic voting machines and identify any irregularities in real-time.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/02/14/india-tech-startups-unveil-voting-fraud-detection-tools/",
-      "publishedAt": "2026-02-14T18:30:00.000Z"
-    },
-    {
-      "id": "election-1771128341813-3",
-      "topic": "Election",
-      "title": "Indian Central Bank Warns of Election-Driven Volatility",
-      "summary": "The Reserve Bank of India has cautioned investors about potential market volatility in the run-up to the surprise general election. The central bank cites concerns over policy uncertainty and the impact of election-related spending on the economy.",
+      "title": "India's Ruling Party Launches Digital Campaign for 2026 Elections",
+      "summary": "India's ruling party has unveiled a comprehensive digital campaign strategy for the 2026 general elections, leveraging emerging technologies and social media platforms to reach out to a younger, tech-savvy electorate. The party aims to showcase its achievements and connect with voters across the country.",
       "source": "The Economic Times",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/rbi-warns-of-election-driven-volatility-in-indian-markets/articleshow/97589264.cms",
-      "publishedAt": "2026-02-14T15:00:00.000Z"
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/indias-ruling-party-launches-digital-campaign-for-2026-elections/articleshow/97532876.cms",
+      "publishedAt": "2026-02-16T02:30:00.000Z"
+    },
+    {
+      "id": "election-1771214795125-2",
+      "topic": "Election",
+      "title": "Indian State Holds Early Elections Amid Political Turmoil",
+      "summary": "The Indian state of Uttar Pradesh has called for early elections, a year ahead of the scheduled 2026 general elections. The move is seen as a bid to capitalize on the current political climate and consolidate the ruling party's position in the crucial state.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/india/indian-state-holds-early-elections-amid-political-turmoil-2026-02-15/",
+      "publishedAt": "2026-02-15T23:15:00.000Z"
+    },
+    {
+      "id": "election-1771214795125-3",
+      "topic": "Election",
+      "title": "India's Election Commission Rolls Out New Voter Verification Tech",
+      "summary": "India's Election Commission has introduced a new biometric voter verification system to enhance the integrity and security of the electoral process. The technology, which includes facial recognition and fingerprint scanning, is being tested in select constituencies ahead of the 2026 general elections.",
+      "source": "NDTV",
+      "url": "https://www.ndtv.com/india-news/indias-election-commission-rolls-out-new-voter-verification-tech-2760321",
+      "publishedAt": "2026-02-15T19:00:00.000Z"
     }
   ]
 }
