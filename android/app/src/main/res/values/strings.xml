@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuietWhisper</string>
+    <string name="prompt_question">Why are you opening your phone?</string>
+    <string name="reason_browsing">Just browsing / bored</string>
+    <string name="reason_music">Music</string>
+    <string name="reason_work">Work / study</string>
+    <string name="reason_call">Phone call</string>
+    <string name="reason_message">Message someone</string>
+    <string name="reason_other">Other</string>
+    <string name="suggestion_put_down">Put the phone down.</string>
+    <string name="suggestion_try">Try one of these instead:</string>
+    <string name="suggestion_meditate">2-min meditation</string>
+    <string name="suggestion_pushups">3 pushups</string>
+    <string name="suggestion_breathe">Deep breathing</string>
+    <string name="focus_timer_label">25-min focus timer</string>
+    <string name="strict_mode_label">Strict Mode (Music only)</string>
+    <string name="stats_title">Your Unlock Stats</string>
+    <string name="unlocks_today">Unlocks today</string>
+</resources>
