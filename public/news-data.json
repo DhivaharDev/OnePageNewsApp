@@ -1,32 +1,32 @@
 {
-  "lastUpdated": "2026-05-16T04:55:34.304Z",
+  "lastUpdated": "2026-05-17T05:13:33.110Z",
   "news": [
     {
-      "id": "ai-fallback-1778907327999",
+      "id": "ai-fallback-1778994806864",
       "topic": "AI",
       "title": "AI News Update",
       "summary": "Unable to fetch latest AI news at this time. Our automated system encountered an issue. Please check back later for updates.",
       "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-05-16T04:55:27.999Z"
+      "publishedAt": "2026-05-17T05:13:26.864Z"
     },
     {
-      "id": "stock-fallback-1778907330113",
+      "id": "stock-fallback-1778994808966",
       "topic": "Stock",
       "title": "Stock News Update",
       "summary": "Unable to fetch latest Stock news at this time. Our automated system encountered an issue. Please check back later for updates.",
       "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-05-16T04:55:30.113Z"
+      "publishedAt": "2026-05-17T05:13:28.966Z"
     },
     {
-      "id": "election-fallback-1778907332305",
+      "id": "election-fallback-1778994811110",
       "topic": "Election",
       "title": "Election News Update",
       "summary": "Unable to fetch latest Election news at this time. Our automated system encountered an issue. Please check back later for updates.",
       "source": "System",
       "url": "https://example.com",
-      "publishedAt": "2026-05-16T04:55:32.305Z"
+      "publishedAt": "2026-05-17T05:13:31.110Z"
     }
   ]
 }
