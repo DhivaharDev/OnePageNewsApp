@@ -1,6 +1,5 @@
 package com.quietwhisper.ui
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -22,35 +21,45 @@ class PromptActivity : ComponentActivity() {
 
             when (val s = screen) {
                 Screen.Prompt -> PromptScreen { reason ->
-                    CoroutineScope(Dispatchers.IO).launch {
-                        store.recordReason(reason)
-                    }
+                    CoroutineScope(Dispatchers.IO).launch { store.recordReason(reason) }
                     screen = when (reason) {
-                        UnlockReason.BROWSING -> Screen.Suggestion
-                        UnlockReason.MUSIC -> { finish(); Screen.Prompt }
-                        UnlockReason.WORK -> Screen.FocusTimer
-                        UnlockReason.CALL -> { finish(); Screen.Prompt }
-                        UnlockReason.MESSAGE -> { finish(); Screen.Prompt }
+                        // Social → show mindfulness suggestions first, then offer app grid
+                        UnlockReason.SOCIAL -> Screen.Suggestion
+
+                        // These go straight to the relevant app grid
+                        UnlockReason.PAY,
+                        UnlockReason.OFFICE,
+                        UnlockReason.MUSIC,
+                        UnlockReason.MESSAGE -> Screen.AppGrid(reason)
+
+                        // These need no grid — just allow immediately
+                        UnlockReason.CALL,
                         UnlockReason.OTHER -> { finish(); Screen.Prompt }
                     }
                 }
+
                 Screen.Suggestion -> SuggestionScreen(
                     onDismiss = { finish() },
                     onSaved = {
-                        CoroutineScope(Dispatchers.IO).launch {
-                            store.incrementSavedSessions()
-                        }
+                        CoroutineScope(Dispatchers.IO).launch { store.incrementSavedSessions() }
                         finish()
-                    }
+                    },
+                    // "Open an app instead" → go to Social apps grid
+                    onOpenApps = { screen = Screen.AppGrid(UnlockReason.SOCIAL) }
                 )
-                Screen.FocusTimer -> FocusTimerScreen(onDone = { finish() })
+
+                is Screen.AppGrid -> AppGridScreen(
+                    reason = s.reason,
+                    onDone  = { finish() },
+                    onBack  = { screen = Screen.Prompt }
+                )
             }
         }
     }
 
     sealed class Screen {
-        data object Prompt : Screen()
+        data object Prompt     : Screen()
         data object Suggestion : Screen()
-        data object FocusTimer : Screen()
+        data class  AppGrid(val reason: UnlockReason) : Screen()
     }
 }

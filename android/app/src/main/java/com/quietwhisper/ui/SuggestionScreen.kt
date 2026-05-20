@@ -4,9 +4,9 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Air
 import androidx.compose.material.icons.filled.FitnessCenter
 import androidx.compose.material.icons.filled.SelfImprovement
-import androidx.compose.material.icons.filled.Air
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -20,7 +20,11 @@ import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.delay
 
 @Composable
-fun SuggestionScreen(onDismiss: () -> Unit, onSaved: () -> Unit) {
+fun SuggestionScreen(
+    onDismiss: () -> Unit,
+    onSaved: () -> Unit,
+    onOpenApps: () -> Unit
+) {
     var timerSeconds by remember { mutableIntStateOf(0) }
     var timerRunning by remember { mutableStateOf(false) }
 
@@ -47,30 +51,30 @@ fun SuggestionScreen(onDismiss: () -> Unit, onSaved: () -> Unit) {
     ) {
         Text(
             text = "Put the phone down.",
-            fontSize = 28.sp,
+            fontSize = 26.sp,
             fontWeight = FontWeight.Bold,
             color = Color.White,
             textAlign = TextAlign.Center
         )
 
-        Spacer(modifier = Modifier.height(8.dp))
+        Spacer(Modifier.height(6.dp))
 
         Text(
             text = "Try one of these instead:",
-            fontSize = 16.sp,
+            fontSize = 15.sp,
             color = Color(0xFFB0BEC5),
             textAlign = TextAlign.Center
         )
 
-        Spacer(modifier = Modifier.height(32.dp))
+        Spacer(Modifier.height(24.dp))
 
         SuggestionItem(icon = Icons.Default.SelfImprovement, text = "2-min meditation")
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(Modifier.height(12.dp))
         SuggestionItem(icon = Icons.Default.FitnessCenter, text = "3 pushups")
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(Modifier.height(12.dp))
         SuggestionItem(icon = Icons.Default.Air, text = "Deep breathing")
 
-        Spacer(modifier = Modifier.height(40.dp))
+        Spacer(Modifier.height(28.dp))
 
         if (!timerRunning && timerSeconds == 0) {
             Button(
@@ -83,11 +87,11 @@ fun SuggestionScreen(onDismiss: () -> Unit, onSaved: () -> Unit) {
             val remaining = 120 - timerSeconds
             Text(
                 text = "${remaining / 60}:${(remaining % 60).toString().padStart(2, '0')}",
-                fontSize = 48.sp,
+                fontSize = 44.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.White
             )
-            Spacer(modifier = Modifier.height(8.dp))
+            Spacer(Modifier.height(8.dp))
             LinearProgressIndicator(
                 progress = { timerSeconds / 120f },
                 modifier = Modifier.fillMaxWidth(),
@@ -95,7 +99,17 @@ fun SuggestionScreen(onDismiss: () -> Unit, onSaved: () -> Unit) {
             )
         }
 
-        Spacer(modifier = Modifier.height(32.dp))
+        Spacer(Modifier.height(20.dp))
+
+        // Allow them to still open the app
+        OutlinedButton(
+            onClick = onOpenApps,
+            colors = ButtonDefaults.outlinedButtonColors(contentColor = Color(0xFF90CAF9))
+        ) {
+            Text("Open an app instead →")
+        }
+
+        Spacer(Modifier.height(8.dp))
 
         TextButton(onClick = onDismiss) {
             Text("I'll use the phone anyway", color = Color(0xFF78909C))
@@ -111,12 +125,12 @@ private fun SuggestionItem(icon: ImageVector, text: String) {
         color = Color(0xFF16213E)
     ) {
         Row(
-            modifier = Modifier.padding(16.dp),
+            modifier = Modifier.padding(14.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Icon(imageVector = icon, contentDescription = null, tint = Color(0xFF533483))
-            Spacer(modifier = Modifier.width(16.dp))
-            Text(text = text, fontSize = 16.sp, color = Color.White)
+            Spacer(Modifier.width(14.dp))
+            Text(text = text, fontSize = 15.sp, color = Color.White)
         }
     }
 }

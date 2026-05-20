@@ -1,0 +1,76 @@
+package com.quietwhisper.data
+
+object AppCategory {
+
+    data class KnownApp(val pkg: String, val name: String)
+
+    val apps: Map<UnlockReason, List<KnownApp>> = mapOf(
+        UnlockReason.PAY to listOf(
+            KnownApp("com.google.android.apps.nbu.paisa.user", "Google Pay"),
+            KnownApp("com.csam.icici.bank.imobile",           "iMobile Pay"),
+            KnownApp("com.snapwork.hdfc",                      "HDFC Bank"),
+            KnownApp("net.one97.paytm",                        "Paytm"),
+            KnownApp("com.phonepe.app",                        "PhonePe"),
+            KnownApp("com.dreamplug.androidapp",               "CRED"),
+            KnownApp("in.amazon.mShop.android.shopping",       "Amazon Pay"),
+            KnownApp("com.mobikwik_new",                       "MobiKwik"),
+            KnownApp("com.freecharge.android",                 "FreeCharge"),
+            KnownApp("com.axis.mobile",                        "Axis Mobile"),
+            KnownApp("com.sbi.SBIFreedomPlus",                 "SBI YONO"),
+            KnownApp("com.upi.sbi_pay",                        "BHIM SBI Pay"),
+            KnownApp("in.org.npci.upiapp",                     "BHIM"),
+        ),
+        UnlockReason.SOCIAL to listOf(
+            KnownApp("com.android.chrome",          "Chrome"),
+            KnownApp("com.instagram.android",       "Instagram"),
+            KnownApp("com.facebook.katana",         "Facebook"),
+            KnownApp("com.twitter.android",         "X (Twitter)"),
+            KnownApp("com.snapchat.android",        "Snapchat"),
+            KnownApp("com.reddit.frontpage",        "Reddit"),
+            KnownApp("org.mozilla.firefox",         "Firefox"),
+            KnownApp("com.brave.browser",           "Brave"),
+            KnownApp("com.ss.android.ugc.trill",    "TikTok"),
+            KnownApp("com.linkedin.android",        "LinkedIn"),
+            KnownApp("com.pinterest",               "Pinterest"),
+            KnownApp("com.google.android.youtube",  "YouTube"),
+            KnownApp("com.zhiliaoapp.musically",    "TikTok"),
+        ),
+        UnlockReason.OFFICE to listOf(
+            KnownApp("com.microsoft.teams",              "Teams"),
+            KnownApp("com.microsoft.office.outlook",     "Outlook"),
+            KnownApp("com.azure.authenticator",          "Authenticator"),
+            KnownApp("com.microsoft.emmx",               "Edge"),
+            KnownApp("com.google.android.gm",            "Gmail"),
+            KnownApp("com.google.android.apps.docs",     "Google Docs"),
+            KnownApp("com.slack",                        "Slack"),
+            KnownApp("us.zoom.videomeetings",            "Zoom"),
+            KnownApp("com.google.android.apps.meetings", "Google Meet"),
+            KnownApp("com.microsoft.office.word",        "Word"),
+            KnownApp("com.microsoft.office.excel",       "Excel"),
+            KnownApp("com.microsoft.office.powerpoint",  "PowerPoint"),
+            KnownApp("com.google.android.apps.sheets",   "Sheets"),
+            KnownApp("com.google.android.apps.slides",   "Slides"),
+            KnownApp("com.notion.id",                    "Notion"),
+        ),
+        UnlockReason.MUSIC to listOf(
+            KnownApp("com.spotify.music",                       "Spotify"),
+            KnownApp("com.google.android.apps.youtube.music",   "YouTube Music"),
+            KnownApp("com.apple.android.music",                 "Apple Music"),
+            KnownApp("in.jio.jiosaavn",                         "JioSaavn"),
+            KnownApp("com.gaana",                               "Gaana"),
+            KnownApp("com.amazon.mp3",                          "Amazon Music"),
+            KnownApp("com.soundcloud.android",                  "SoundCloud"),
+            KnownApp("com.wynk.music",                          "Wynk Music"),
+        ),
+        UnlockReason.MESSAGE to listOf(
+            KnownApp("com.whatsapp",                        "WhatsApp"),
+            KnownApp("org.telegram.messenger",              "Telegram"),
+            KnownApp("com.facebook.orca",                   "Messenger"),
+            KnownApp("com.google.android.apps.messaging",   "Messages"),
+            KnownApp("com.discord",                         "Discord"),
+            KnownApp("com.signal.android",                  "Signal"),
+            KnownApp("com.microsoft.teams",                 "Teams"),
+            KnownApp("com.snapchat.android",                "Snapchat"),
+        ),
+    )
+}
